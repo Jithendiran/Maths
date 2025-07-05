@@ -1,0 +1,34 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Real Numbers Title -->
+  <text x="50" y="50" font-family="Arial" font-size="30" fill="darkblue">Real Numbers</text>
+
+  <!-- Irrational Numbers -->
+  <ellipse cx="450" cy="80" rx="80" ry="40" fill="red" stroke="red" stroke-width="2"/>
+  <text x="415" y="70" font-family="Arial" font-size="20" fill="white">Irrational</text>
+  <text x="430" y="100" font-family="Arial" font-size="18" fill="white">π, e, √2</text>
+
+  <!-- Rational Numbers (Outer Ellipse) -->
+  <ellipse cx="280" cy="250" rx="250" ry="120" fill="lightblue" stroke="black" stroke-width="2"/>
+  <text x="100" y="190" font-family="Arial" font-size="20" fill="black">Rational</text>
+  <text x="70" y="220" font-family="Arial" font-size="18" fill="black">1/2</text>
+  <text x="70" y="250" font-family="Arial" font-size="18" fill="black">2/3</text>
+  <text x="70" y="280" font-family="Arial" font-size="18" fill="black">3/4</text>
+  <text x="100" y="310" font-family="Arial" font-size="18" fill="black">-2/3</text>
+  <text x="100" y="160" font-family="Arial" font-size="18" fill="black">-1/2</text>
+
+  <!-- Integers -->
+  <ellipse cx="280" cy="250" rx="180" ry="90" fill="lightgreen" stroke="black" stroke-width="2"/>
+  <text x="220" y="220" font-family="Arial" font-size="20" fill="black">Integers</text>
+  <text x="210" y="250" font-family="Arial" font-size="18" fill="black">-3</text>
+<text x="210" y="250" font-family="Arial" font-size="18" fill="black">-2</text>
+
+  <!-- Whole Numbers -->
+  <ellipse cx="280" cy="250" rx="120" ry="60" fill="orange" stroke="black" stroke-width="2"/>
+  <text x="260" y="230" font-family="Arial" font-size="20" fill="black">Whole</text>
+  <text x="275" y="260" font-family="Arial" font-size="18" fill="black">0</text>
+
+  <!-- Natural Numbers (Innermost Ellipse) -->
+  <ellipse cx="280" cy="250" rx="70" ry="40" fill="red" stroke="black" stroke-width="2"/>
+  <text x="250" y="240" font-family="Arial" font-size="20" fill="white">Natural</text>
+  <text x="240" y="270" font-family="Arial" font-size="18" fill="white">1,2,3...</text>
+</svg>
