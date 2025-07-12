@@ -339,28 +339,159 @@ new Denominator = 12
    10 /12 - 3 / 12 = 7 / 12
 
 ### Multiplication
-1/2 * 1/3 = 1/6
+In general multiplication means we are repeating or scaling
+But in fraction multiplying fractions, we’re no longer just repeating — we’re scaling or taking a part of a part.
 
-Say you have half of a chocolate bar. (1/2)
-Now you want to eat one-third of that half. (1/3)
-So, take that half, divide it into 3 parts, and pick 1 → you’ve eaten 1 out of 6 parts of the full bar.
+#### Whole number with fraction
+5 x (1/2) = 5/2 
+1/2 + 1/2 + 1/2 + 1/2 + 1/2 = 5/2
 
-2/3 * 4/5
+5/2 is improper fraction
 
-Multiply top (numerators): 2 × 4 = 8
-Multiply bottom (denominators): 3 × 5 = 15
-Result: 8/15
+10 x (2/3) = 20/3
+20/3 is is improper fraction
 
-When to Multiply Fractions
-Scaling: e.g., I want 3/4 of a pizza and I eat only 1/2 → how much did I eat in whole pizza? 3 / 8
-How? i have 3 piece, in that i want to eat half, so i will split each piece into 2, so total pizza have 8 pieces, in that i own 6, and i eat half that is 3, so 3/8
+2 x 1/3 = 1/3 + 1/3 = 2/3
+2/3 is proper fraction
 
-#### Multiplying with Whole Numbers
-3/4 * 2 = (3 * 2)/4 = 6 / 4 = 1 1/2
+#### fraction number with fraction
+2/3 x 4/5
+In a shop, a cake is split into 3 equal pieces.
+You bought 2 of them, so you own 2/3 of the cake.
+Now you want to eat only 4/5 of what you own.
 
-You eat 3/4 of a cake per day. 🍰
-How much will you eat in 2 days?
+To calculate this:
+1. Split each of the 3 big pieces into 5 smaller parts  3 × 5 = 15 total parts
+2. You originally had 2 pieces, now each of those 2 is split into 5 smaller parts 2 × 5 = 10 parts owned
+3. You want to eat 4/5 of the 10 pieces  10 × 4/5 = 40/5 = 8 pieces eaten
 
-So in 2 days, you eat 1 and a half cakes.
+So:
+You eat 8/15 of the full cake now
+You have 2/15 of your share left for later
+
+
+2/3 x 4/5 (take only 4/5 of 2/3)
+3 is the old scale, 5 is the new scale. Multiple the new scale size with old values (3 x 5 = 15) is the total values
+To know the part we own un new scale multiply new scale with the part we own (2 x 5 = 10)
+To know the the 4/5th part from we own multiply the our part with 4/5 => 10x (4/5) = 8
+
+----------------
+Simple form
+
+a/b x c/d = a x c / b x d
+2/3 x 4/5 = 2 x 4 / 3 x 5 = 8 / 15
+Multiply the scale size with old scale size to know the current scale
+Multiply the part we own with the part we take of, to know the part take off from the whole new scale
+
+2/3 x 6/5 
+Multiplication with improper fraction, result will be greater that part we own
+
+Usual method
+
+    10/15 is what we own
+    10 x 6/5 is what we want 60/5 = 12
+    12/15
+
+Simple method
+    2/3 x 6/5 = 2 x 6 / 3 x 5 = 12 /15
+
+#### Reciprocal
+>[!TIP]   
+> Dividing by a number is the same as multiplying by its reciprocal.
+
+number x 1/2 == num / 2
+Reciprocal of 2 is 1/2
+Reciprocal of 3 is 1/3
+Reciprocal of 5/2 is 2/5
+Reciprocal of 7 is 1/7
+
+    ⚙️ Explanation with logic:
+    Think of dividing like asking:
+    “How many 2s fit into 10?”
+
+    That's what:
+    10 ÷ 2 means. There are 5 twos in 10.
+
+    Now:
+    10 × 1 / 2 means: take half of 10, which is also 5.
+    So both expressions give the same result.
+    That’s a rule in arithmetic — it works for whole numbers, fractions, decimals, etc.
 
 ### Division
+Division gerenally means grouping. 
+
+Division asks:
+    "How many times does this go into that?"
+
+Example:
+
+    1/2 % 1/4
+
+This asks
+
+    "How many one fourth of full object are in one-half?"
+
+Answer : 2
+Because:  One-fourth + one-fourth = one-half, So there are 2 parts of 1/4 inside 1/2
+
+Rule for Dividing Fractions:
+    a/b % c/d = a/b x d/c
+    flip the second part and do the multiplication
+
+2/3 % 1/6
+
+How many 1/6 can fit into 2/3
+You have 2/3 of pizza, if a pizza is splitted into 6 pieces, how many 1 pieces you may have
+
+Existing pizza is cutted into 3 piece, new size is 6. To get 6 pieces from 3
+6 (new)/3 (old) = 2 cuts required
+we have 2 pieces x 2 cuts = 4 pieces 
+so we have 4 pieces  
+
+meaning
+2(we have)/3 (old size) % 1 (new split group size) / 6(new size)
+
+new size / old size  => gives you no.of new pieces in each old group
+we have x no.of. new pieces  => how many new piece can fit into old one
+
+how many new piece can fit into old one / new split group size => to find no.of groups it have
+
+example:
+    3/4 % 1/2 = 3/2 = 1 1/2
+
+    2/4 = 1/2
+    3 * 1/2 = 3/2 
+    3/2 % 1 = 3/2
+
+Visual: Pizza Example
+You have 3/4 of a pizza. Each person needs 1/2 pizza to be full. How many people can you feed?
+
+3/4 % 1/2 = 3/4 x 2/1 = 6/4 = 1 1/2
+
+--------------------
+1/2 % 1/3
+how many 1/3 can fit into 1/2
+
+1(we have)/2 (old size) % 1(new group size) / 3 (new size)
+
+3(new size)/2 (old size) = 1 1/2 (one and half is consider as one obj)
+1 (our part) * 1 1/2 = 1 1/2 (no.of new object we have)
+1 1/2 % 1 = 1 1/2 group we have
+
+------------------
+
+1/3 % 1/2
+how many 1/2 can fit into 1/3
+
+2/3 => 2 is not divisibe by 3
+
+meaning 1/3 is smaller than 1/2, so one whole 1/2 cannot fit into 1/3. Find the size where 2 and 3 can fit in (by LCM 6)
+1/2 has 3 obj out of 6 (6 % 2 = 3)
+1/3 has 2 obj out of 6 (6 % 3 = 2)
+2(how many in old)/3(how many in new) of 1/2 is fit into 1/3
+
+
+# Todo
+1. negative in fractions
+2. structure
+2. decimals
