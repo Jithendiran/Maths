@@ -395,6 +395,8 @@ Usual method
 Simple method
     2/3 x 6/5 = 2 x 6 / 3 x 5 = 12 /15
 
+----------------------
+
 #### Reciprocal
 >[!TIP]   
 > Dividing by a number is the same as multiplying by its reciprocal.
@@ -418,80 +420,211 @@ Reciprocal of 7 is 1/7
     That’s a rule in arithmetic — it works for whole numbers, fractions, decimals, etc.
 
 ### Division
-Division gerenally means grouping. 
 
-Division asks:
-    "How many times does this go into that?"
+general rule
+1. a/b % c/d 
+flip second part c/d -> d/c and multiply with the first part
+axd / bxc
 
-Example:
+Whole object % form a group => (a/b)
+we own % (new group / each object split size) => a / (b/c)
+(we own / our object split size) % (required group / required group size) => (a/b) / (c/d)
+(we own / our object split size) % whole object => (a/b) / c
 
-    1/2 % 1/4
+#### Whole Number ÷ Fraction
+1. 5 % (2/7)
 
-This asks
+whole object % (group/each whole object split size)
+How many 2/7 can fit into 5? or in that 5 cake if we split it by 2/7 pieces, how many people we can feed?
 
-    "How many one fourth of full object are in one-half?"
+We have 5 whole cake, some one asks for how many 2/7 are in 5 cakes
+- /7 mean divide cake into 7 pieces, we have 5 cake so 5 x 7 = 35 pieces
+- Now see how many group of 2 can make 35 pieces, so 35/2 = 17 full group and 1 left over (17 x 2 = 34 and 35 - 35 = 1)
+so 5 % (2/7) = 35 / 2 = 17 1/2
 
-Answer : 2
-Because:  One-fourth + one-fourth = one-half, So there are 2 parts of 1/4 inside 1/2
+2. 5 % (10/8)
+same method as above
+- 5 cakes splitted into 8 pieces, so 5 x 8 = 40 pieces
+- Form a group of 10 pieces 40/10 = 4
 
-Rule for Dividing Fractions:
-    a/b % c/d = a/b x d/c
-    flip the second part and do the multiplication
+Understand method
+10/8 is more than 1 (improper), each object is more than 1 cake, like 8 (whole cake) + 2
+convert improper to mixed form 
+- 10/8 
+- 1 (10-8)/8 
+- 1 2/8
+- 1 1/4 (each person share)
+Now how many 1 1/4 can fit into 5
+5 % 1 1/4
+- /4 mean each cake is splitted into 4 pieces so 5 x 4 = 20, 5 is writted as 20/4
+- 1 1/4 is written as 5/4
+- 20/4 % 5/4 = 4
 
-2/3 % 1/6
+#### Fraction ÷ Whole Number
 
-How many 1/6 can fit into 2/3
-You have 2/3 of pizza, if a pizza is splitted into 6 pieces, how many 1 pieces you may have
+1. (2/7) ÷ 5
+What it means:
+You have 2/7 of a cake. You want to divide that equally among 5 people.
+Total cake is (7/7) if we want to split between 5 people, split each piece into 5 pieces (7x5 = 35) so 35/35 is whole cake 
+we own 2 part 2x5 = 10 pieces 
+10/5 = 2, so each person will have 2/35 cake
 
-Existing pizza is cutted into 3 piece, new size is 6. To get 6 pieces from 3
-6 (new)/3 (old) = 2 cuts required
-we have 2 pieces x 2 cuts = 4 pieces 
-so we have 4 pieces  
+- 7 x 5 = 35 (whole cake)
+- 2 x 5 = 10 (we own)
+- 10 / 5 = 2 / 35 (new split), why /35 because now cake is splitted into 35 pieces
 
-meaning
-2(we have)/3 (old size) % 1 (new split group size) / 6(new size)
 
-new size / old size  => gives you no.of new pieces in each old group
-we have x no.of. new pieces  => how many new piece can fit into old one
+2. (10/8) ÷ 5
+you have 10 pieces out of 8 (whole cake is splitted into 8, you have more than 1 cake), now we have to split that 10 pieces to 5 members
+10/5 = 2, each person will have 2 pieces
 
-how many new piece can fit into old one / new split group size => to find no.of groups it have
+what is the quantity of each person have in whole cake?
+- 8 x 5 = 40
+- 10 x 5 = 50
+- 50 / 5 = 10 / 40 = 1/4 each 
 
-example:
-    3/4 % 1/2 = 3/2 = 1 1/2
+#### Fractions with Same Denominator
 
-    2/4 = 1/2
-    3 * 1/2 = 3/2 
-    3/2 % 1 = 3/2
+1. 2/5 % 4/5
 
-Visual: Pizza Example
-You have 3/4 of a pizza. Each person needs 1/2 pizza to be full. How many people can you feed?
+How many 4/5 sized slices fit into 2/5?
+You only have 2/5. One group of 4/5 doesn’t fit. You can only fit half of 4/5 into 2/5.
+2/4 = 1/2
 
-3/4 % 1/2 = 3/4 x 2/1 = 6/4 = 1 1/2
+2. 4/5 ÷ 2/5
+How many 2/5 can fit into 4/5
+Now you have more cake so
+4/2 = 2, so 2 group of 2/5 can fit into 4/5
 
---------------------
-1/2 % 1/3
-how many 1/3 can fit into 1/2
+3. 7/5 % 4/5
+You have 7/5 cake, how many 4/5 are in it?
+7/4 = 1 3/4
 
-1(we have)/2 (old size) % 1(new group size) / 3 (new size)
+4. 4/5 % 7/5
+you have 4/5, so how many 7/5 can fit into 4/5. It don't fit
+4/7 
 
-3(new size)/2 (old size) = 1 1/2 (one and half is consider as one obj)
-1 (our part) * 1 1/2 = 1 1/2 (no.of new object we have)
-1 1/2 % 1 = 1 1/2 group we have
+5. 10 / 2 % 5 / 2
+How many 5/2 are in 10/2?
+10/5 = 2 
 
-------------------
+6. 5/2 % 10 / 2
+How many 10/2 are in 5/2?
+5/10 = 1/2
 
-1/3 % 1/2
-how many 1/2 can fit into 1/3
+#### Fractions with Different Denominators
+1. 2/3 % 4/5
+We have 2/3 cake, so how many 4/5 are in 2/3 cake
 
-2/3 => 2 is not divisibe by 3
+Split each pieces into new size 3 x 5 = 15. When a cake is splitted into 15 pieces, we can split into 3 or 5
+we own (2x5 = 10)
+(2 x 5) / (3 x 5) = 10 / 15
+(4 x 3) / (5 x 3) = 12 / 15
+10 / 12 = 5 / 6
 
-meaning 1/3 is smaller than 1/2, so one whole 1/2 cannot fit into 1/3. Find the size where 2 and 3 can fit in (by LCM 6)
-1/2 has 3 obj out of 6 (6 % 2 = 3)
-1/3 has 2 obj out of 6 (6 % 3 = 2)
-2(how many in old)/3(how many in new) of 1/2 is fit into 1/3
+2. 4 / 5 % 2 / 3
+(4 x 3) / (5 x 3) = 12 / 15
+(2 x 5) / (3 x 5) = 10 / 15
+12 / 10 = 6 / 5 = 1 1/5
+
+3. 7/5 ÷ 2/6
+We have 7/5 cake, how many 2/6 can fit into
+(7 x 6) / (5 x 6) = 42 / 30
+(2 x 5) / (6 x 5) = 10 / 30
+42 / 10 = 21 / 5 = 4 1/5 
+
+4. 2/5 % 10/6
+How many 10/6 can fit into 2/5
+2x6 / 5x6 = 12/30
+10x5 / 6x5 = 50/30
+12/50 = 6/25
+
+5. 12/3 % 4/2
+How many 4/2 in 12/3?
+12/3 is a 4 full objecy
+4/2 is a 2 full object
+4/2 = 2
+
+LCM method
+12x2/3x2 = 24/6
+4x3/2x3 = 12/6
+24/12 = 2
+
+6. 4/2 % 12/3
+How many 12/3 in 4/2?
+2/4 = 1/2
+
+LCM method
+4x3/2x3 = 12/6
+12x2/3x2 = 24/6
+12/24 = 1/2
+
+##### Zero Cases
+1. Fraction ÷ 0 → ❌ Not defined
+2. 0 ÷ Fraction → ✅ Always 0
+
+##### 1 and Identity 
+1. a ÷ 1 = a
+    Example: (5/8) ÷ 1 = 5/8
+2. 1 ÷ a = reciprocal of a
+    Example: 1 ÷ (2/3) = 3/2
+
+##### Same Number (Fraction ÷ Itself)
+Any fraction ÷ itself = 1
+    (2/5) ÷ (2/5) = 1
+
+## Negative fractions
+    A negative fraction means the value is less than zero.
+    –2/3 means: you owe or lost 2 parts out of 3.
+    A negative can appear in: (-2)/3 , 2/-3, -(2/3) all means the same
+
+### Addition
+#### Same denominator
+Example: (–1/4) + (2/4)
+You owe 1 part, then gain 2 parts. What’s your total?
+–1/4 + 2/4 = (–1 + 2)/4 = 1/4
+Just like numbers: –1 + 2 = +1 → so 1 part out of 4.
+
+#### Different denominators
+Example: (–1/2) + (1/3)
+Find common denominator
+1/2 = –3/6
+1/3 = 2/6
+–3/6 + 2/6 = –1/6
+
+### Subract
+#### Negative – Positive
+(–3/5) – (1/5)
+You owe 3 parts of a cake (–3/5), and now you’re asked to give away 1 more part.
+You were already in debt by 3 parts, and now you lose 1 more.
+–3/5 – 1/5 = –4/5
+
+
+#### Positive – Negative
+This is like removing debt → you gain!
+3/5 – (–1/5) = 3/5 + 1/5 = 4/5
+
+### Multiplication
+1. (–2/3) × (4/5)
+(–2 × 4) / (3 × 5) = –8/15
+
+2. (–2/3) × (–4/5)
+= (+8)/15 = 8/15
+
+### Division 
+Use the flip rule:
+a/b ÷ c/d = a/b × d/c
+
+1. (–2/3) ÷ (4/5)
+ (–2/3) × (5/4)
+ = –10/12
+ = -5/6
+
+2. (–2/3) ÷ (–4/5)
+= (–2/3) × (–5/4) = +10/12 = 5/6
 
 
 # Todo
-1. negative in fractions
-2. structure
-2. decimals
+2. structure (What is this, where it is used[real life example]), without short cuts, short cuts
+3. shortcuts, LCM, GCD, HCM, any thing missed
+4. decimals
