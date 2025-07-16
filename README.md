@@ -1,9 +1,9 @@
-# 📚 Math Foundation: A Beginner-Friendly Learning Guide
+# Math Foundation: A Beginner-Friendly Learning Guide
 
 This is a complete step-by-step guide to build your understanding of math — from the ground up. Whether you're a student, parent, or self-learner, this guide is designed for all ages with **real-world examples**, **intuitive visuals**, and **child-level logic**.
 
 
-## 🚀 Goal
+## Goal
 > This material is designed to make math accessible, understandable, and useful for everyone from elementary students to adults who want to refresh their understanding.  
 > Learn **how math actually works**, not just how to solve fast.
 
@@ -12,17 +12,18 @@ This is a complete step-by-step guide to build your understanding of math — fr
 * Each concept explains the "why" before the "how"
 
 
-## 🧭 Table of Contents
+## Table of Contents
 
-### 1. Number System
-- 1.1 What is a Number?
-- 1.2 Counting and Natural Numbers
-- 1.3 Adding Zero - Whole Numbers
-- 1.4 Going Below Zero - Integers
-- 1.5 Parts of Numbers - Rational Numbers 
-- 1.6 Numbers We Can't Write Simply - Irrational Numbers
-- 1.7 The Complete Picture - Real Numbers
-- 1.8 How We Write Numbers - Place Value System
+### 1. [Number System](./Number_system/README.md#chapter-1-understanding-numbers-)
+- 1.0 [Introduction](./Number_system/README.md#introduction)
+- 1.1 [What is a number system](./Number_system/README.md#what-is-number-system)
+- 1.2 [Counting and Natural Numbers](./Number_system/README.md#counting-and-natural-numbers)
+- 1.3 [Adding Zero - Whole Numbers](./Number_system/README.md#adding-zero---whole-numbers)
+- 1.4 [Going Below Zero - Integers](./Number_system/README.md#going-below-zero---integers)
+- 1.5 [Parts of Numbers - Rational Numbers](./Number_system/README.md#parts-of-numbers---rational-numbers) 
+- 1.6 [Numbers We Can't Write Simply - Irrational Numbers](./Number_system/README.md#numbers-we-cant-write-simply---irrational-numbers)
+- 1.7 [The Complete Picture - Real Numbers](./Number_system/README.md#the-complete-picture---real-numbers)
+- 1.8 [How We Write Numbers - Place Value System](./Number_system/README.md#how-we-write-numbers---place-value-system)
 
 
 ### 2. Arithmetic (Basic Operations)
@@ -72,7 +73,7 @@ This is a complete step-by-step guide to build your understanding of math — fr
 
 
 ### 8. Visual & Object-Based Explanations
-- Using cakes 🍰, chocolates 🍫, coins 🪙, blocks 🧱, etc.
+- Using cakes , chocolates , coins , blocks , etc.
 
 
 ### 9. Shortcut Techniques (Only After Understanding)
@@ -82,4 +83,10 @@ This is a complete step-by-step guide to build your understanding of math — fr
 
 
 Reference:
-Myself, chatgpt free vesion and claude.ai free version
+Myself, ChatGPT (Free Version) and claude.ai free version
+
+Standards
+# Chapter1
+## 1.1
+### subtopic
+**headings**
