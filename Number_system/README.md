@@ -20,8 +20,6 @@ You want to share pizza with friends. How would you divide it fairly without kno
 
 **This is exactly the world our ancestors lived in thousands of years ago!**
 
-
-
 ### The Birth of Numbers: A Human Story
 
 **Step 1: The Counting Problem**  
