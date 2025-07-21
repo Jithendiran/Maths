@@ -26,16 +26,19 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 1.8 [How We Write Numbers - Place Value System](./Number_system/README.md#how-we-write-numbers---place-value-system)
 
 
-### 2. Arithmetic (Basic Operations)
-> Each operation will explain:  
-> *What it is*, *How it works*, *Real-world examples*, *Negative numbers*, and *Shortcuts*
+### 2. [Arithmetic (Basic Operations)](./Airthmetic/README.md#chapter-2-arithmetic)
+- 2.1 [Addition](./Airthmetic/README.md#addition)
+- 2.2 [Subtraction](./Airthmetic/README.md#subtraction)
+- 2.3 [Multiplication](./Airthmetic/README.md#multiplication)
+- 2.4 [Division](./Airthmetic/README.md#division)
 
-- 2.1 Addition
-- 2.2 Subtraction
-- 2.3 Multiplication
-- 2.4 Division
-- 2.5 Identity, Zero & Special Cases
-- 2.6 Order of Operations (PEMDAS/BODMAS)
+### 3. Mathematical Properties
+- 3.1 Introduction
+- 3.2 Commutative
+- 3.3 Associative 
+- 3.4 Identity
+- 3.5 Zero & Special Cases
+- 3.6 Order of Operations (PEMDAS/BODMAS)
 
 
 ### 3. Fractions

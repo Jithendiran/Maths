@@ -173,5 +173,4 @@ End / step direction = facing direction
 | `−6` (I owe ₹6)             | `−2` (Cancel ₹2 per step)     | `− ÷ −` → Cancel debt groups | `+3`            | `−6 ÷ −2 = +3` | I owed ₹6, canceled ₹2 per time → 3 cancels = fully cleared          |
 
 
-
 **Memory trick**: Same signs = Positive, Different signs = Negative
