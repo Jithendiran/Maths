@@ -223,6 +223,8 @@ Any terminating or repeating decimal is a rational number.
 * 0.75 = 3/4 (terminating)
 * 0.333… = 1/3 (repeating)
 
+Every integer, finite decimal, or repeating decimal is rational.
+
 ## Numbers We Can't Write Simply - Irrational Numbers
 
 ### What If a Number Never Ends and Never Repeats?

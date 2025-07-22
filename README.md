@@ -32,13 +32,13 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 2.3 [Multiplication](./Airthmetic/README.md#multiplication)
 - 2.4 [Division](./Airthmetic/README.md#division)
 
-### 3. Mathematical Properties
-- 3.1 Introduction
-- 3.2 Commutative
-- 3.3 Associative 
-- 3.4 Identity
-- 3.5 Zero & Special Cases
-- 3.6 Order of Operations (PEMDAS/BODMAS)
+### 3.[ Mathematical Properties](./properties/README.md#chapter-3-mathematical-properties)
+- 3.1 [Introduction](./properties/README.md#introduction)
+- 3.2 [Commutative](./properties/README.md#commutative-property)
+- 3.3 [Associative ](./properties/README.md#associative-property)
+- 3.4 [Identity](./properties/README.md#identity-property)
+- 3.5 [Zero & Special Cases](./properties/README.md#zero--special-cases)
+- 3.6 [Order of Operations (PEMDAS/BODMAS)](./properties/README.md#order-of-operations-pemdasbodmas)
 
 
 ### 3. Fractions
