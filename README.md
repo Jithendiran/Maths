@@ -41,26 +41,26 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 3.6 [Order of Operations (PEMDAS/BODMAS)](./properties/README.md#order-of-operations-pemdasbodmas)
 
 
-### 3. Fractions
+### 4. Fractions
 > Understand fractions fully:  
 > *What they are*, *How to compare*, *Add, Subtract, Multiply, Divide*, *Real-world cake examples*, *Negative fractions*
 
-- 3.1 What is a Fraction?
-- 3.2 Types of Fractions
+- 4.1 What is a Fraction?
+- 4.2 Types of Fractions
   - Proper, Improper, Mixed
-- 3.3 Fraction vs Whole Number
-- 3.4 Visualizing Fractions
-- 3.5 Equivalent Fractions
-- 3.6 Addition of Fractions
+- 4.3 Fraction vs Whole Number
+- 4.4 Visualizing Fractions
+- 4.5 Equivalent Fractions
+- 4.6 Addition of Fractions
   - Same denominator
   - Different denominator
-- 3.7 Subtraction of Fractions
-- 3.8 Multiplication of Fractions
-- 3.9 Division of Fractions
+- 4.7 Subtraction of Fractions
+- 4.8 Multiplication of Fractions
+- 4.9 Division of Fractions
   - All combinations
-- 3.10 Shortcuts (LCM, reciprocal, etc.)
-- 3.11 Negative Fractions
-- 3.12 Special Cases (Zero, Identity, Same Number)
+- 4.10 Shortcuts (LCM, reciprocal, etc.)
+- 4.11 Negative Fractions
+- 4.12 Special Cases (Zero, Identity, Same Number)
 
 
 ### 4. Decimals (Coming Soon)
