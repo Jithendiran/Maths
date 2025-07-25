@@ -49,18 +49,16 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 4.2 Types of Fractions
   - Proper, Improper, Mixed
 - 4.3 Fraction vs Whole Number
-- 4.4 Visualizing Fractions
-- 4.5 Equivalent Fractions
-- 4.6 Addition of Fractions
+- 4.4 Addition of Fractions
   - Same denominator
   - Different denominator
-- 4.7 Subtraction of Fractions
-- 4.8 Multiplication of Fractions
-- 4.9 Division of Fractions
+- 4.5 Subtraction of Fractions
+- 4.6 Multiplication of Fractions
+- 4.7 Division of Fractions
   - All combinations
-- 4.10 Shortcuts (LCM, reciprocal, etc.)
-- 4.11 Negative Fractions
-- 4.12 Special Cases (Zero, Identity, Same Number)
+- 4.8 Shortcuts (LCM, reciprocal, etc.)
+- 4.9 Negative Fractions
+- 4.10 Special Cases (Zero, Identity, Same Number)
 
 
 ### 4. Decimals (Coming Soon)
