@@ -51,7 +51,7 @@ So:
 | $\frac{2}{3}$ | two-thirds     | 2 parts out of 3           |
 | $\frac{4}{5}$ | four-fifths    | 4 parts out of 5           |
 
->[!WARNING] Important Note  
+>[!WARNING] 
 >
 >Fractions only make sense when the pieces are **equal** in size.  
 >If they are **not equal**, it is **not a valid fraction**.
@@ -97,12 +97,12 @@ $$
 
 This means: 
 $$
- 1\frac{3}{4} = 1 + \frac{3}{4} = \frac{7}{4} 
+1\frac{3}{4} = 1 + \frac{3}{4} = \frac{7}{4} 
 $$
 1 in the above means $\frac{4}{4}$ so you have $\frac{4}{4} + \frac{3}{4}$
 
 $$
- 2\frac{1}{2} = 2 + \frac{1}{2} = \frac{5}{2}
+2\frac{1}{2} = 2 + \frac{1}{2} = \frac{5}{2}
 $$
 2 in the above means $\frac{2}{2} + \frac{2}{2}$ and $\frac{1}{2}$
 
@@ -218,7 +218,7 @@ Now both cakes are cut into 6 equal pieces, so we can compare and add them.
 Red cake we have $\frac{1}{2}$, we own 1 out of 2 pieces, To get 6 pieces, cut each pieces into 3 times.  
 so $(\frac{1 * 3}{2 * 3}) = \frac{3}{6}$, if Red cake is splitted into 6 we own 3.  
 
-Blue cake we have $ \frac{1}{3}$, we own 1 out of 3 pieces, To get 6 pieces, cut each pieces into 2 times.  
+Blue cake we have $\frac{1}{3}$, we own 1 out of 3 pieces, To get 6 pieces, cut each pieces into 2 times.  
 so  $(\frac{1 * 2}{3 * 2}) = \frac{2}{6}$, if Blue cake is splitted into 6 we own 2 pieces
 
 Above we found the common smallest divisible values of both number to get equal share
