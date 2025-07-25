@@ -37,7 +37,7 @@ Imagine 1 chocolate bar cut into 5 equal blocks:
 - 1 cake is cut into 4 equal slices  
 - You take 3 slices
 
-Then:$\frac{3}{4}$
+Then: $\frac{3}{4}$
 
 So:
 - **Numerator = 3** (slices taken)
@@ -95,7 +95,7 @@ $$
 1\frac{3}{4}, \quad 2\frac{1}{2}
 $$
 
-This means:
+This means: 
 $$
  1\frac{3}{4} = 1 + \frac{3}{4} = \frac{7}{4} 
 $$
