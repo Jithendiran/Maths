@@ -96,14 +96,17 @@ $$
 $$
 
 This means: 
+
 $$
 1\frac{3}{4} = 1 + \frac{3}{4} = \frac{7}{4} 
 $$
+
 1 in the above means $\frac{4}{4}$ so you have $\frac{4}{4} + \frac{3}{4}$
 
 $$
 2\frac{1}{2} = 2 + \frac{1}{2} = \frac{5}{2}
 $$
+
 2 in the above means $\frac{2}{2} + \frac{2}{2}$ and $\frac{1}{2}$
 
 ### Why use Mixed Fractions?
