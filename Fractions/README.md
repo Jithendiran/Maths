@@ -326,9 +326,10 @@ $$10 * \frac{4}{5} = \frac{40}{5} = 8$$
 3. Since the whole cake is splitted into 3 big equal size, each big pieces are equalent to 5 smaller pieces, so the whole cake is 3 x 5 = 15 small pieces, so we are going to eat $\frac{8}{15}$ in whole cake
 
 ##### Shortcut for fraction multiplication
-$$\frac{a}{b} * \frac{c}{d} = \frac{(a * c)}{(b*d)}$$ 
 
-$$\frac{2}{3} * \frac{4}{5} = \frac{2*4}{3*5} = \frac{8}{15}$$
+$$\frac{a}{b} * \frac{c}{d} = \frac{(a * c)}{(b * d)}$$ 
+
+$$\frac{2}{3} * \frac{4}{5} = \frac{(2 * 4)}{(3 * 5)} = \frac{8}{15}$$
 
 ## Division
 
