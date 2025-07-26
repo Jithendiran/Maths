@@ -309,9 +309,13 @@ Now you want to eat only 4/5 of what you own.
 To calculate the $\frac{4}{5}$ of $\frac{2}{3}$
 
 1. In $\frac{4}{5}$ the denominator 5 indicate that each pieces of cake should split into 5 pieces. so 
+
 $$We\ own\ = (Pieces\ we\ own)\ *\ (new\ split\ size)$$
+
 $$We\ Own\ =2 * 5 = 10$$
+
 $$Total\ pieces\ = 3* 5 = 15$$
+
 $$so\ \frac{2}{3}\ is\ equaltent\ to\ \frac{10}{15}$$
 
 2. We have 10 smaller pieces, in that 10 piece we would like to eat only $\frac{4}{5}$. So in that 10 pieces how much is $\frac{4}{5}$, It is not 10 - 4 = 6.  
