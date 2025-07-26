@@ -8,7 +8,7 @@ Addition means putting things together. It answers the question: "How many in to
 ### How it works?
 Let's say you have 2 sticks. Each stick is represented as: `| |`  
 Now you found one more stick: `|`  
-Put them all together: `||` + `|` =`|`  
+Put them all together: `||` + `|` =`|||`  
 
 In number way: `2+1 = 3`
 
@@ -130,6 +130,8 @@ A box can hold max of 2 sticks, how many pair it makes?
 `[||], [||], [||], [|]`  
 3 box is full and 1 box is half, so 3.5  
 so: `7 / 2 = 3.5 or 3 1/2`  
+
+$$\frac{Total\ object}{Group\ size} = No.of.groups $$
 
 ### Read worl example        
 * Sharing 12 pizzas among 4 people, each gets 3 pizzas     

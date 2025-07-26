@@ -56,7 +56,8 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 4.6 Multiplication of Fractions
 - 4.7 Division of Fractions
   - All combinations
-- 4.8 Shortcuts (LCM, reciprocal, etc.)
+- 4.8 Shortcuts 
+  - [LCM](./Fractions/README.md#lcm-least-common-multiple)
 - 4.9 Negative Fractions
 - 4.10 Special Cases (Zero, Identity, Same Number)
 

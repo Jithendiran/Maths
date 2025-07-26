@@ -426,9 +426,9 @@ general rule
 flip second part c/d -> d/c and multiply with the first part
 axd / bxc
 
-Whole object % form a group => (a/b)
-we own % (new group / each object split size) => a / (b/c)
-(we own / our object split size) % (required group / required group size) => (a/b) / (c/d)
+Whole object % form a group => (a/b)  
+we own % (new group / each object split size) => a / (b/c)  
+(we own / our object split size) % (required group / required group size) => (a/b) / (c/d)  
 (we own / our object split size) % whole object => (a/b) / c
 
 #### Whole Number ÷ Fraction
