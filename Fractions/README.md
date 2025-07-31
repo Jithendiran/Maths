@@ -583,3 +583,29 @@ That is: $\frac{2}{4} = \frac{1}{2}$
 - Now divide:  
 
 $$\frac{12}{6} \div \frac{24}{6} = \frac{12}{24} = \frac{1}{2}$$
+
+##### Shortcut for fraction division
+
+
+Use the flip rule and Multiply:
+
+$$\frac{a}{b} \div \frac{c}{d} = \frac{a}{b} * \frac{d}{c}$$
+
+1. 
+$$\frac{-2}{3} \div \frac{4}{5} =\ ?$$
+
+- $\frac{-2}{3} * \frac{5}{4}$
+
+- $=\frac{-10}{12}$
+
+- $=-5/6$
+
+
+2. 
+$$\frac{-2}{3} \div \frac{-4}{5} =\ ?$$
+
+- $\frac{-2}{3} * \frac{-5}{4}$
+
+- $=\frac{10}{12}$
+
+- $=-5/6$

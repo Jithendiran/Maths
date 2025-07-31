@@ -41,32 +41,45 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 3.6 [Order of Operations (PEMDAS/BODMAS)](./properties/README.md#order-of-operations-pemdasbodmas)
 
 
-### 4. Fractions
-> Understand fractions fully:  
-> *What they are*, *How to compare*, *Add, Subtract, Multiply, Divide*, *Real-world cake examples*, *Negative fractions*
-
-- 4.1 What is a Fraction?
-- 4.2 Types of Fractions
-  - Proper, Improper, Mixed
-- 4.3 Fraction vs Whole Number
-- 4.4 Addition of Fractions
-  - Same denominator
-  - Different denominator
-- 4.5 Subtraction of Fractions
-- 4.6 Multiplication of Fractions
-- 4.7 Division of Fractions
-  - All combinations
-- 4.8 Shortcuts 
+### 4. [Fractions](./Fractions/README.md#chapter-4-fractions)
+- 4.1 [What is a Fraction?](./Fractions/README.md#what-is-a-fraction)
+- 4.2 [Types of Fractions](./Fractions/README.md#types-of-fractions)
+- 4.3 [Addition of Fractions](./Fractions/README.md#addition)
+- 4.4 [Subtraction of Fractions](./Fractions/README.md#subtraction)
+- 4.5 [Multiplication of Fractions](./Fractions/README.md#multiplication)
+- 4.6 [Division of Fractions](./Fractions/README.md#division)
+- 4.7 Shortcuts
   - [LCM](./Fractions/README.md#lcm-least-common-multiple)
-- 4.9 Negative Fractions
-- 4.10 Special Cases (Zero, Identity, Same Number)
 
 
 ### 4. Decimals (Coming Soon)
+- 4.1 What is decimals?
+- 4.2 Why use Decimals?
+- 4.3 Place values in decimal
+- 4.4 Decimals vs Fractions
+- 4.5 Comparing and Ordering Decimals
+- 4.6 Addition
+- 4.7 Subtraction
+- 4.8 Multiplication
+- 4.9 Division
+- 4.10 Repeating and Terminating Decimals
 
 
 ### 5. Percentages (Coming Soon)
-
+- 5.1 What is Percentage?
+- 5.2 Why Use Percentages?
+- 5.3 Percent vs Fractions vs Decimals
+- 5.4 Converting:
+   - Fraction -> Percent
+   - Decimal -> Percent
+   - Percent -> Fraction
+   - Percent -> Decimal
+- 5.5 Finding Percent of a Number
+- 5.6 Addition
+- 5.7 Subtrcation
+- 5.8 Multiplication 
+- 5.9 Division
+- 5.10 Real-life Applications
 
 ### 6. Ratios & Proportions (Coming Soon)
 
@@ -92,3 +105,10 @@ Standards
 ## 1.1
 ### subtopic
 **headings**
+
+## Todo
+* Algebraic expressions
+* Equations and inequalities
+* Geometry
+* Statics and probability
+* Calcus
