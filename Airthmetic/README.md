@@ -26,6 +26,85 @@ Operation Logic: Add means, add more gain or add more loss
 | `-` (I owe)          | `+` (I gain some)   | `- + +` → Subtract     | Depends on which is bigger | `(-2) + 5 = +3`    |
 | `-` (I owe)          | `-` (I owe more)    | `- + (-)` → Add values | `-` (negative)             | `(-3) + (-4) = -7` |
 
+### Carry over
+
+If you get 10 or more pieces in any place, you MUST trade them for one of the next bigger pieces. This trade is the "carry-over."
+
+#### Examples
+
+1. No Carry
+ 1 + 5 = 6  
+ `|` + `|||||` = `||||||`  
+
+ ```
+ 0      1       2       3       4       5       6       7       8       9
+        |                                       |
+        +0      +1      +2      +3      +4      +5
+        start                                   end
+ ```
+ 
+ Since we are following base-10 we have to symbol to represent six units
+ the ones place can hold up to 9 (in base-10). Since 1+5 = 6, nothing needs to move to the next place.
+
+2. Single carry over   
+ 7 + 5 = 12  
+ `|||||||` + `|||||` = `||||||||||||`  
+
+ ```
+ 1's
+  0      1       2       3       4       5       6       7       8       9
+                                                         |
+                                                         +0     +1       +2   (still we have to add 3 units but we ran out of symbols
+                                                                                Now move to next place value 10 and add the numbers there)
+10's
+  0       1       2       3      4       5       6       7       8       9   
+ +3       +4      +5                 
+                                                        
+
+when we reach 9 + 1 -> we will reset the scale from 0 and add ten's place 1, in 10's place we can specify 0-9
+ ```
+
+ we have twelve units, we don't a single symbol to represent 12 so we are forming a group of with the next place value
+ we have twelve units so we will trade 1 ten group unit for ten single units and remaining 2 extra   
+ so it is 12   
+ ```
+ 1    2    
+10th 1's  0's
+ ```
+
+3. double carry 
+99 + 1
+
+```
+1's
+0      1       2       3       4       5       6       7       8       9
+                                                                       |
+                                                                      +0     
+
+10's
+0      1      2        3       4       5       6       7       8       9      
+|
++1
+
+adding +1 -> element of 1's place is full so it will exchange 1 group of ten for 10 units
+
+we already have nine 10 group and new one more 10 group
+so  90 + 10 = 100 
+
+       place value
+100    10     1     
+       -----------
+1      1
+0      9      9    (meaning have 9 group of 10's and 9 extra's)
+0      0      1    (meaning have 0 group of 10's and 1 extra's)
+--------------------
+              0      (9 + 1) -> now we have ten single units so we can exchange it for 1 group of 10's, 
+       0             we already gave nine ten groups and one more new ten group -> (9 + 1) -> we have ten 10 group, we can exchange it for single hendred unit
+1                    we don't have any 100 group by adding one new hundred group we have one 100 group
+                     
+```
+
+
 ## Subtraction
 ### What is subtraction?
 Subtraction means taking away. It answers: "How much is left?"  
