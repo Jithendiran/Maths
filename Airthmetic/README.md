@@ -93,8 +93,10 @@ so  90 + 10 = 100
 
        place value
 100    10     1     
-       -----------
+-------------------
+       carry
 1      1
+-------------------
 0      9      9    (meaning have 9 group of 10's and 9 extra's)
 0      0      1    (meaning have 0 group of 10's and 1 extra's)
 --------------------
@@ -138,6 +140,109 @@ why `+ - (-)` → `+ +` ?
  here we are doing subract   
  (+5) - (-3) It is like subracting owing, so it is actually gain  
  +5 + 3 = 8
+
+### Borrow
+
+### Examples
+
+1. 9 - 2 = 7
+```
+0      1      2      3      4      5      6      7      8      9
+                                                               |
+                                                 -2<-- (-1) <--0
+                                                 end           start
+```
+
+2. 13 - 9 = 4
+```
+
+
+1. in 1's place we have 3 - 9
+
+0      1      2      3      4      5      6      7      8      9
+|      |      |      |
+-3    -2     -1      0 (start)
+
+
+after 0's we can't do subtract any more, so we have to exchange 1 ten group for 10 single units
+since we took and exchanged 1 ten group for 10 single units, we have to reduce 1 from ten group
+now we have 0 ten group and 13 single units
+
+
+0      1      2      3      4      5      6      7      8      9
+|      |      |      |
+-3    -2     -1      0 (start)
+
+0      1      2      3      4      5      6      7      8      9     
+                           -9     -8      -7    -6     -5     -4
+                           (end)
+
+
+10's   1's    
+
+1      3      (1 group of 10's and 3 single units )
+
+0      9      (0 group of 10's and 9 single units )
+-------------------
+
+9 is greater than 3, so we can't subtract, now exchange 10 single units from next higher place value
+The next higher place value is 10's we have 1 ten group
+
+10's   1's
+0      13
+0      9
+------------
+0      4
+```
+
+3. 23 - 9 = 14
+
+```
+
+10's   1's
+2      3
+0      9
+-----------
+
+9 is greater than 3, so we can't subtract, now exchange 10 single units from next higher place value
+The next higher place value is 10's we have 2 ten group, so we can exchange 10 units for 1 ten group and reduce 1 ten group 
+
+10's   1's
+1      13
+0      9
+-----------
+1      4
+```
+
+4. 100 - 1
+
+```
+
+100's  10's   1's
+1      0      0
+0      0      1
+--------------------
+
+1. we can't suubtract 1's place because 1 is greater than 0, we have to exchange, look for next place value
+2. we have 0 group's of ten, so look for next place value
+3. we have 1 group hundred's, so exchange it for 10 groups of ten's
+
+100's  10's   1's
+0      10     0
+
+4. Now ten place value has value, exchage 1 group of ten's for 10 units 
+
+100's  10's   1's
+0      9     10
+
+5. now do the subtract
+
+100's  10's   1's
+0      9      10
+0      0      1
+-------------------
+       9      9
+```
 
 ## Multiplication
 ### What is multiplication?
