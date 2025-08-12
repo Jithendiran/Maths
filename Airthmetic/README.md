@@ -143,7 +143,7 @@ why `+ - (-)` → `+ +` ?
 
 ### Borrow
 
-### Examples
+#### Examples
 
 1. 9 - 2 = 7
 ```
@@ -291,6 +291,92 @@ In number way: `4x2 = 8`
 
 
 **Memory trick**: Same signs = Positive, Different signs = Negative
+
+### Shortcuts explain
+
+#### Example
+
+1. 12 * 2
+
+```
+              ten's         one's  
+   2 ->        0             2
+  12 ->        1             2  
+
+```
+
+`12 -> 10 + 2`, 1 group of 10 and 2 single units  
+
+* Multiply one's place:  
+    $2 \times 2$ = 4   (4 single units)
+
+* Multiply ten's place:  
+    $10 \times 2$ = 20 (2 group of tens)
+
+Add the reults together `4 + 20 = 24`
+
+2. 23 * 4
+```
+              ten's         one's  
+   4 ->        0             4
+  23 ->        2             3  
+
+```
+
+* Method 1
+
+`23 -> 20 + 3`, 2 group of 10's and  3 single units
+
+ Multiply one's place:  
+   $3 \times 4$ is 12 (12 single units and we trade 1 group of 10's, so it will be  1 group of 10 and 2 single unit)
+
+ Multiply ten's place:  
+   $20 \times 4$ is 80 (80 single units and we can trade for 8 group of 10's and 0 single unit )
+
+Add the results together = `12 + 80 = 92`
+
+* Method 2
+
+```
+                     2    3    *     4
+                     -------------------
+carry:
+  1's:              
+ 10's:                    
+```
+1. Multiply 1's $3 \times 4 = 12$ write 2 in 1's place and 1 in 10's place.  
+
+```
+                     2    3    *     4
+                     -------------------
+carry:
+  1's:               1    2  
+ 10's:                    
+```
+
+2. Multiply 10's, Since it is 10's place we have to start from 10's place not from 1's $2 \times 4 = 8$  write 8 in 10's group  
+   $2 \times 4 = 8$ is single 8, why we have to write in 10's?  This is because we are multiplying 2 group of 10's which is equal $20 \times 4 = 80$, for shortcut multiplicaton we removed 0, 
+```
+                     2    3    *     4
+                     -------------------
+carry:
+  1's:               1    2  
+ 10's:               8    0 -> this 0 is place holder for 10's
+```   
+
+Now add them
+
+```
+                     2    3    *     4
+                     -------------------
+carry:
+  1's:               1    2  
+ 10's:               8    0 
+                     --------------------
+                     9    2
+```
+
+
 
 ## Division
 ### What is division?
