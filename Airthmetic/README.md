@@ -604,3 +604,43 @@ No more digites to bring down, so **Stop here**
 
 Quotient: 108  
 Remainder: 3
+
+## Why Divisoin is left to right and other operations are right to left
+
+### Addition, Subtraction, and Multiplication (Right-to-Left)
+
+As we seen in the above examples we will be forming group when we run out of symbol, it will be carry over to the next higher place value for addition and multiplication. For subtraction if the top value is smaller than the lower value, we have to exchange things from next higher place value. This is borrow/exchange
+
+*   **Example (Addition): `59 + 23`**
+    1.  **Ones place (right):** `9 + 3 = 12`. This is `2` ones and `1` ten.
+    2.  You write down the `2` in the ones column.
+    3.  You **carry** the `1` ten over to the tens column.
+    4.  **Tens place (left):** `1 (carry) + 5 + 2 = 8`.
+    5.  Result: `82`.
+
+### Division (Left-to-Right)
+
+Division is about finding how many times the divisor fits into the dividend, starting with the largest parts of the dividend first. The "leftover" from dividing the larger place values is passed down to the smaller place values.
+
+*   **Example (Division): `84 ÷ 7`**
+    1.  **Tens place (left):** How many times does `7` fit into `8` (which represents 80)? It fits `1` time. This `1` is the tens digit of our answer.
+    2.  `1 * 7 = 7`. We subtract this from the `8` tens: `8 - 7 = 1`.
+    3.  We have `1` ten leftover. We **pass this remainder down** by combining it with the next digit. The `1` ten and the `4` ones become `14`.
+    4.  **Ones place (right):** How many times does `7` fit into `14`? It fits `2` times. This `2` is the ones digit of our answer.
+    5.  Result: `12`.
+
+```
+    12
+  ____
+7 | 84
+  - 7
+  ____
+    14
+  - 14
+  ____
+     0
+```
+
+* **Is it possible to use right-to-left order in division?**
+    Not with the standard long division algorithm. If you started on the right with `84 ÷ 7`, you'd ask "how many times does 7 go into 4?". 
+    The answer is 0 with a remainder of 4. This doesn't help you solve the problem because you haven't dealt with the `80` yet. The size of the most significant digits (`80`) is the most important factor in determining the overall size of the answer, so we must start there.
