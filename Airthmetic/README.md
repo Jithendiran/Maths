@@ -26,9 +26,10 @@ Operation Logic: Add means, add more gain or add more loss
 | `-` (I owe)          | `+` (I gain some)   | `- + +` → Subtract     | Depends on which is bigger | `(-2) + 5 = +3`    |
 | `-` (I owe)          | `-` (I owe more)    | `- + (-)` → Add values | `-` (negative)             | `(-3) + (-4) = -7` |
 
-### Carry over
+### How
 
 If you get 10 or more pieces in any place, you MUST trade them for one of the next bigger pieces. This trade is the "carry-over."
+Addition start from `right to left` (1's, 10's, 10's,..)
 
 #### Examples
 
@@ -141,7 +142,8 @@ why `+ - (-)` → `+ +` ?
  (+5) - (-3) It is like subracting owing, so it is actually gain  
  +5 + 3 = 8
 
-### Borrow
+### How
+Subtraction start's frm `right to left` (1's, 10's, 100's, ...)
 
 #### Examples
 
@@ -293,6 +295,7 @@ In number way: `4x2 = 8`
 **Memory trick**: Same signs = Positive, Different signs = Negative
 
 ### Shortcuts explain
+Multiplication start's frm `right to left` (1's, 10's, 100's, ...)
 
 #### Example
 
@@ -525,3 +528,79 @@ End / step direction = facing direction
 
 
 **Memory trick**: Same signs = Positive, Different signs = Negative
+
+### Short cuts
+Division start's from `left to right` ...100's, 10's, 1
+
+Division is typically done left-to-right, starting with the highest place value of the dividend. This is because division involves repeatedly subtracting the divisor from the largest possible portion of the dividend to build the quotient systematically, aligning with how place values are structured in numbers.
+
+435/4
+```
+  ______     
+4 | 435
+
+```
+1. Start with the leftmost digit (hundreds place).
+
+$1 \times 4 = 4$, with 0 remainder
+
+```
+   1
+  _____________
+4 | 4   3    5
+  - 4
+  --------------
+    0
+```
+
+2. Bring down the next digit (tens place).
+
+3 is smaller than 4 , so it can't be divided . Write 0 in quotient 
+```
+  1    
+  _____________
+4 | 4   3    5
+  - 4   |
+  --------------
+    0   3
+
+   1   0
+  _____________
+4 | 4   3    5
+  - 4
+  --------------
+    0   3
+```
+
+3. Bring down the next digit (units place).
+
+From the previous step we have remainder of 3 and we bring down 5, so total we have 35
+
+$4 \times 8 = 32$
+
+```
+    1   0   
+  _____________
+4 | 4   3   5
+  - 4       |
+  --------------
+    0   3   5
+
+
+    1   0   8
+  _____________
+4 | 4   3   5
+  - 4       
+  --------------
+    0   3   5
+        3   2
+  ---------------
+        0   3
+```
+
+4. Check for more digits.
+
+No more digites to bring down, so **Stop here**
+
+Quotient: 108  
+Remainder: 3
