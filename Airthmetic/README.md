@@ -529,7 +529,7 @@ End / step direction = facing direction
 
 **Memory trick**: Same signs = Positive, Different signs = Negative
 
-### Short cuts
+### Long division
 Division start's from `left to right` ...100's, 10's, 1
 
 Division is typically done left-to-right, starting with the highest place value of the dividend. This is because division involves repeatedly subtracting the divisor from the largest possible portion of the dividend to build the quotient systematically, aligning with how place values are structured in numbers.
@@ -694,119 +694,266 @@ combine 6 (1's) with the last (10's) remainder 1, it will form as 16. $6 \times 
      0 4 
 
 ```
----
-
-1200/500
+----
+8550250/50
 
 ```
-      __________
-  500 | 1 7 1 0
+      ______________
+  50 | 8 5 5 0 2 5 0
 ```
-1. Start with left most digit (1000's)
+divisior is 10's place value, so we have to start from 17, not from 1
 
-Since divisior (500) is 100's place value we have consider consider from 100's place value of dividend (1710)
+1. Start with left most digit (85).
 
-1 in smaller than 500, so $500 \times 0 = 0$
+$50 \times 1 = 50$, $50 \times 2 = 100$, second one is bigger
+
 ```
-        0
-      __________
-  500 | 1 7 1 0
-        0 
-      ----------
-        1 
+       0 1
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0
+      ---------------
+       3 5
 ```
 
 2. Bring down next digit
 
 ```
-        0
-      __________
-  500 | 1 7 1 0
-        0 |
-      ----------
-        1 7 
+       0 1
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0 |
+      ---------------
+       3 5 5
 ```
 
-last remainder 1 in 1000's combine with 7 in hundred, so in total it is 1700, $500 \times 3 = 1500$
+last remainder 35 and new bring down 5 as a total it become 355
+
+$50 \times 7 = 350$
+```
+       0 1 7
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0 
+      ---------------
+       3 5 5
+       3 5 0
+      ----------------
+       0 0 5
+```
+
+3. Bring down next
 
 ```
-        0 3
-      __________
-  500 | 1 7 1 0
-        0 
-      ----------
-        1 7 0 0
-        1 5 0 0
-        ---------
-        0 2 0 0
-        
+       0 1 7
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0   |
+      ---------------
+       3 5 5 |
+       3 5 0 |
+      ----------------
+       0 0 5 0
 ```
 
-3. Bring down next digit
+$50 \times 1 = 50$
 
 ```
-        0 3
-      __________
-  500 | 1 7 1 0
-        0   |
-      ----------
-        1 7 |
-        1 5 |
-        ---------
-        0 2 1
+       0 1 7 1
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0   
+      ---------------
+       3 5 5 
+       3 5 0 
+      ----------------
+       0 0 5 0
+           5 0
+      ----------------
+           0 0
+      
 ```
-21 in 100's is smaller than 500, so $500 \times 0 = 0$
 
-
-```
-        0 3 0
-      __________
-  500 | 1 7 1 0
-        0   
-      ----------
-        1 7 
-        1 5 
-        ---------
-        0 2 1
-          0 0
-        ----------
-          2 1
-``` 
 4. Bring down next digit
 
 ```
-        0 3 0
+       0 1 7 1
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0     |
+      ---------------
+       3 5 5   |
+       3 5 0   |
+      ----------------
+       0 0 5 0 |
+           5 0 |
+      ----------------
+           0 0 2
+
+```
+
+2 is smaller than 50, so $50 \times 0 = 50$
+
+```
+       0 1 7 1 0
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0     
+      ---------------
+       3 5 5   
+       3 5 0   
+      ----------------
+       0 0 5 0 
+           5 0 
+      ----------------
+           0 0 2
+               0
+      ----------------
+               2
+```
+
+5. Bring down next digit
+
+```
+       0 1 7 1 0
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0       |
+      ---------------
+       3 5 5     |
+       3 5 0     |
+      ----------------
+       0 0 5 0   |
+           5 0   |
+      ----------------
+           0 0 2 |
+               0 |
+      ----------------
+               2 5
+```
+
+25 is samller than 50, so $50 \times 0 = 50$
+
+```
+       0 1 7 1 0 0
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0       
+      ---------------
+       3 5 5     
+       3 5 0     
+      ----------------
+       0 0 5 0   
+           5 0   
+      ----------------
+           0 0 2 
+               0 
+      ----------------
+               2 5
+               0 0
+      ----------------
+               2 5
+```
+
+6. Bring down next digit
+
+```
+       0 1 7 1 0 0
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0         |
+      ---------------
+       3 5 5       |
+       3 5 0       |
+      ----------------
+       0 0 5 0     |
+           5 0     |
+      ----------------
+           0 0 2   |
+               0   |
+      ----------------
+               2 5 |
+               0 0 |
+      ----------------
+               2 5 0
+
+```
+$50 \times 5 = 250$
+
+```
+       0 1 7 1 0 0 5
+      ______________
+  50 | 8 5 5 0 2 5 0
+       5 0         
+      ---------------
+       3 5 5       
+       3 5 0       
+      ----------------
+       0 0 5 0     
+           5 0     
+      ----------------
+           0 0 2   
+               0   
+      ----------------
+               2 5 
+               0 0 
+      ----------------
+               2 5 0
+               2 5 0
+      ----------------
+               0 0 0
+
+```
+
+
+----
+
+1710/500
+
+```
+      __________
+  500 | 1 7 1 0
+```
+1. Start with left most digit 
+
+Since divisior (500) is 100's place value we have consider consider from 100's place value of dividend (1710)
+
+171 in smaller than 500, so $500 \times 0 = 0$
+```
+        0 0 0
+      __________
+  500 | 1 7 1 0
+        0 0 0
+      ----------
+        1 7 1
+```
+
+2. Bring down next digit
+
+```
+        0 0 0 
       __________
   500 | 1 7 1 0
         0     |
       ----------
-        1 7   |
-        1 5   |
-        ---------
-        0 2 1 |
-          0 0 |
-        ----------
-          2 1 0
+        1 7 1 0 
 ```
-210 is samller than 500, so $500 \times 0 = 0$
+
+last remainder 171, new total  is 1700, $500 \times 3 = 1500$
 
 ```
-        0 3 0 0
+        0 0 0 3
       __________
   500 | 1 7 1 0
-        0   
+        0 
       ----------
-        1 7 
-        1 5 
+        1 7 1 0
+        1 5 0 0
         ---------
-        0 2 1
-          0 0
-        ----------
-          2 1 0
-          0 0 0
-        ----------
-          2 1 0
-``` 
+        0 2 1 0
+        
+```
+
 
 
 ### Why Divisoin is left to right and other operations are right to left
