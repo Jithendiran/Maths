@@ -542,12 +542,12 @@ Division is typically done left-to-right, starting with the highest place value 
 ```
 1. Start with the leftmost digit (hundreds place).
 
-$1 \times 4 = 4$, with 0 remainder, put the quotient in 100's place
+$4 \times 1 = 4$, with 0 remainder, put the quotient in 100's place, why 100's because 435's 4 is in 100's
 
 ```
-   1
+    1
   _____________
-4 | 4   3    5
+4 | 4   3   5
   - 4
   --------------
     0
@@ -555,21 +555,25 @@ $1 \times 4 = 4$, with 0 remainder, put the quotient in 100's place
 
 2. Bring down the next digit (tens place).
 
-3 is smaller than 4 , so it can't be divided . Write 0 in 10's quotient 
+3 is smaller than 4 , so it can't be divided . $4 \times 0 = 0$, with 3 remainder Write 0 in 10's quotient 
+
 ```
-  1    
+    1    
   _____________
-4 | 4   3    5
+4 | 4   3   5
   - 4   |
   --------------
     0   3
 
-   1   0
+    1   0
   _____________
-4 | 4   3    5
-  - 4
+4 | 4   3   5
+  - 4   |
   --------------
     0   3
+    0   0
+  --------------
+        3  
 ```
 
 3. Bring down the next digit (units place).
@@ -579,22 +583,28 @@ From the previous step we have remainder of 3 and we bring down 5, so total we h
 $4 \times 8 = 32$, write 8 in 1's place of quotient
 
 ```
-    1   0   
+    1   0
   _____________
 4 | 4   3   5
   - 4       |
   --------------
-    0   3   5
+    0   3   |
+    0   0   |
+  --------------
+        3   5
 
 
-    1   0   8
+    1   0   4
   _____________
 4 | 4   3   5
   - 4       
   --------------
-    0   3   5
+    0   3   
+    0   0   
+  --------------
+        3   5
         3   2
-  ---------------
+  --------------
         0   3
 ```
 
@@ -605,55 +615,203 @@ No more digites to bring down, so **Stop here**
 Quotient: 108  
 Remainder: 3
 
+-------
+
 256/6
 
 ```
  ________
 6| 256
 ```
-1. 
 
-* Process the first two digits (25, representing 250 tens and hundreds). Why two digits? Because 6 > 2 (hundreds place alone), so we take enough digits to make a number ≥ 6.
-* 25 ÷ 6 = 4 (since 6 × 4 = 24, 6 × 5 = 30). Write 4 in the quotient above the 5 (tens place of 256).
-* Place Value: The 4 is in the tens place because we’re dividing 25 (250, or 25 tens) by 6, and 250 ÷ 6 ≈ 41.66, so the leading digit (4) represents tens.
-* Subtract: 25 − 24 = 1.
+1. Start with the leftmost digit (hundreds place).
+
+2 is smaller than 6, so it fits 0 time in 6. $6 \times 0 = 0$, put 0 in quotient and write 2 in remainder
+
 ```
-   4
+   0
  ________
-6| 256
-   24
-  ------
-   01
+6| 2 5 6
+   0
+-----------
+   2
+
+```
+
+2. Bring down next digit (tens's place)
+
+```
+   0
+ ________
+6| 2 5 6
+   0 |
+-----------
+   2 5
+```
+Combine the 5 with last remainder 2 (2 is 200 or 20 tenth). $6 \times 4 = 24$
+```
+   0 4
+ ________
+6| 2 5 6
+   0 
+-----------
+   2 5
+   2 4
+-----------
+   0 1
+
+```
+
+3. Bring down next digit (one's place)
+
+```
+   0 4
+ ________
+6| 2 5 6
+   0   |
+-----------
+   2 5 |
+   2 4 |
+-----------
+   0 1 6
+
+```
+
+combine 6 (1's) with the last (10's) remainder 1, it will form as 16. $6 \times 2 = 12$
+
+```
+   0 4 2
+ ________
+6| 2 5 6
+   0   
+-----------
+   2 5 
+   2 4 
+-----------
+   0 1 6
+     1 2
+-----------
+     0 4 
+
+```
+---
+
+1200/500
+
+```
+      __________
+  500 | 1 7 1 0
+```
+1. Start with left most digit (1000's)
+
+Since divisior (500) is 100's place value we have consider consider from 100's place value of dividend (1710)
+
+1 in smaller than 500, so $500 \times 0 = 0$
+```
+        0
+      __________
+  500 | 1 7 1 0
+        0 
+      ----------
+        1 
 ```
 
 2. Bring down next digit
 
-* Bring down the next digit (6), forming 16 (1 ten + 6 ones).
-* 16 ÷ 6 = 2 (since 6 × 2 = 12, 6 × 3 = 18). Write 2 in the quotient above the 6 (ones place of 256).
-* Place Value: The 2 is in the ones place because we’re now dividing a number that includes the ones digit of the dividend.
-* Subtract: 16 − 12 = 4.
-
 ```
-   42
- ________
-6| 256
-   24
-  ------
-   016
-    12
-  -------
-    04
+        0
+      __________
+  500 | 1 7 1 0
+        0 |
+      ----------
+        1 7 
 ```
 
-3. 
+last remainder 1 in 1000's combine with 7 in hundred, so in total it is 1700, $500 \times 3 = 1500$
 
-* No more digits
-Remainder = 4. Quotient = 42 (4 tens + 2 ones).
+```
+        0 3
+      __________
+  500 | 1 7 1 0
+        0 
+      ----------
+        1 7 0 0
+        1 5 0 0
+        ---------
+        0 2 0 0
+        
+```
+
+3. Bring down next digit
+
+```
+        0 3
+      __________
+  500 | 1 7 1 0
+        0   |
+      ----------
+        1 7 |
+        1 5 |
+        ---------
+        0 2 1
+```
+21 in 100's is smaller than 500, so $500 \times 0 = 0$
 
 
-## Why Divisoin is left to right and other operations are right to left
+```
+        0 3 0
+      __________
+  500 | 1 7 1 0
+        0   
+      ----------
+        1 7 
+        1 5 
+        ---------
+        0 2 1
+          0 0
+        ----------
+          2 1
+``` 
+4. Bring down next digit
 
-### Addition, Subtraction, and Multiplication (Right-to-Left)
+```
+        0 3 0
+      __________
+  500 | 1 7 1 0
+        0     |
+      ----------
+        1 7   |
+        1 5   |
+        ---------
+        0 2 1 |
+          0 0 |
+        ----------
+          2 1 0
+```
+210 is samller than 500, so $500 \times 0 = 0$
+
+```
+        0 3 0 0
+      __________
+  500 | 1 7 1 0
+        0   
+      ----------
+        1 7 
+        1 5 
+        ---------
+        0 2 1
+          0 0
+        ----------
+          2 1 0
+          0 0 0
+        ----------
+          2 1 0
+``` 
+
+
+### Why Divisoin is left to right and other operations are right to left
+
+#### Addition, Subtraction, and Multiplication (Right-to-Left)
 
 As we seen in the above examples we will be forming group when we run out of symbol, it will be carry over to the next higher place value for addition and multiplication. For subtraction if the top value is smaller than the lower value, we have to exchange things from next higher place value. This is borrow/exchange
 
@@ -664,7 +822,7 @@ As we seen in the above examples we will be forming group when we run out of sym
     4.  **Tens place (left):** `1 (carry) + 5 + 2 = 8`.
     5.  Result: `82`.
 
-### Division (Left-to-Right)
+#### Division (Left-to-Right)
 
 Division is about finding how many times the divisor fits into the dividend, starting with the largest parts of the dividend first. The "leftover" from dividing the larger place values is passed down to the smaller place values.
 
@@ -691,43 +849,3 @@ Division is about finding how many times the divisor fits into the dividend, sta
     Not with the standard long division algorithm. If you started on the right with `84 ÷ 7`, you'd ask "how many times does 7 go into 4?". 
     The answer is 0 with a remainder of 4. This doesn't help you solve the problem because you haven't dealt with the `80` yet. The size of the most significant digits (`80`) is the most important factor in determining the overall size of the answer, so we must start there.
 
-* **How to Determine the Quotient’s Place Value in Division**
-
-In **addition, subtraction, and multiplication**, we process digits from right to left, starting with the least significant place value (ones). Each result digit’s place value is clear from the column being processed (e.g., ones, tens, hundreds), and carries or borrows propagate to higher place values. For example, in 59 + 23, the ones place gives 9 + 3 = 12 (write 2 in ones, carry 1 to tens), and the tens place gives 5 + 2 + 1 = 8 (tens). The result (82) has digits with fixed place values: 2 (ones), 8 (tens).
-
-In **division**, we process the dividend left-to-right, starting with the most significant digit (highest place value, e.g., thousands for a 4-digit number). The quotient’s digits are assigned from highest to lowest place value (e.g., tens to ones), and their place value depends on the number of dividend digits processed. If the dividend has *n* digits and we process *k* digits to form a partial dividend ≥ divisor, the quotient digit is in the (*n* − *k* + 1)th place. This contrasts with other operations because division distributes the largest parts of the dividend first to determine the quotient’s magnitude.
-
-Let’s illustrate with examples:
-
-1. **84 ÷ 7** (Dividend: 2 digits, 8 tens + 4 ones)
-   - **First digit (tens place)**: 8 (80, tens place). Since 7 ≤ 8, divide 8 ÷ 7 = 1 (quotient digit). Write 1 above the 8.
-   - **Place Value**: *n* = 2 digits, *k* = 1 digit processed. Quotient digit 1 is in the (*n* − *k* + 1) = 2 − 1 + 1 = 2nd place, or **tens place** .
-   - Subtract: 8 − 7 = 1. Bring down the next digit (4), forming 14.
-   - **Second digit (ones place)**: 14 ÷ 7 = 2. Write 2 above the 4.
-   - **Place Value**: *n* = 2, *k* = 2 digits processed. Quotient digit 2 is in the 2 − 2 + 1 = 1st place, or **ones place**.
-   - **Result**: Quotient = 12 (1 tens + 2 ones), remainder = 0.
-
-2. **256 ÷ 6** (Dividend: 3 digits, 2 hundreds + 5 tens + 6 ones)
-   - **First digit (hundreds place)**: 2 (200). Since 2 < 6, take the first two digits: 25 (hundreds and tens, 250).
-   - **Place Value**: *n* = 3, *k* = 2 digits processed (25). 25 ÷ 6 = 4 (since 6 × 4 = 24). Quotient digit 4 is in the 3 − 2 + 1 = 2nd place, or **tens place**. Write 4 above the 5.
-   - Subtract: 25 − 24 = 1. Bring down the next digit (6), forming 16.
-   - **Second digit (ones place)**: 16 ÷ 6 = 2 (6 × 2 = 12). Write 2 above the 6.
-   - **Place Value**: *n* = 3, *k* = 3 digits processed. Quotient digit 2 is in the 3 − 3 + 1 = 1st place, or **ones place**.
-   - **Result**: Quotient = 42 (4 tens + 2 ones), remainder = 4.
-
-3. **1234 ÷ 5** (Dividend: 4 digits, 1 thousands + 2 hundreds + 3 tens + 4 ones)
-   - **First digit (thousands place)**: 1 (1000). Since 1 < 5, take the first two digits: 12 (thousands and hundreds, 1200).
-   - **Place Value**: *n* = 4, *k* = 2 digits processed (12). 12 ÷ 5 = 2 (5 × 2 = 10). Quotient digit 2 is in the 4 − 2 + 1 = 3rd place, or **hundreds place**. Write 2 above the 2.
-   - Subtract: 12 − 10 = 2. Bring down the next digit (3), forming 23.
-   - **Second digit (tens place)**: 23 ÷ 5 = 4 (5 × 4 = 20). Write 4 above the 3.
-   - **Place Value**: *n* = 4, *k* = 3 digits processed. Quotient digit 4 is in the 4 − 3 + 1 = 2nd place, or **tens place**.
-   - Subtract: 23 − 20 = 3. Bring down the next digit (4), forming 34.
-   - **Third digit (ones place)**: 34 ÷ 5 = 6 (5 × 6 = 30). Write 6 above the 4.
-   - **Place Value**: *n* = 4, *k* = 4 digits processed. Quotient digit 6 is in the 4 − 4 + 1 = 1st place, or **ones place** .
-   - **Result**: Quotient = 246 (2 hundreds + 4 tens + 6 ones), remainder = 4.
-
-4. **1000 ÷ 500** (Dividend: 4 digits, 1 thousands + 0 hundreds + 0 tens + 0 ones)
-   - **First digit (thousands place)**: 1 (1000). Since 500 ≤ 1000, divide 1000 ÷ 500 = 2 (500 × 2 = 1000). Write 2 above the 1.
-   - **Place Value**: *n* = 4, *k* = 1 digit processed (1000, but effectively all 4 digits since 000 contributes nothing). Quotient digit 2 is in the 4 − 1 + 1 = 4th place (thousands), but since the quotient is 2 (a single digit), it’s effectively in the **ones place**  as the result is a whole number.
-   - Subtract: 1000 − 1000 = 0. No more digits to process.
-   - **Result**: Quotient = 2 (ones place), remainder = 0.
