@@ -1,6 +1,17 @@
 ## Addition
-1.
- - 0 + 1 = 1
+
+### Rules
+```
+0 + 0 = 0
+0 + 1 = 1
+1 + 0 = 1
+1 + 1 = 10  (which is 0 with a carry of 1 to the next bit)
+```
+
+### Example
+
+1. 
+ 0 + 1 = 1
     Answer in decimal is 1, with 0 carry
 
 2.   
@@ -65,10 +76,65 @@ carry
 ```
 1 group of 16, 1 group of 8, 0 group of 4, 0 group of 2 and 0 extra, so the result is 16 + 8 = 24
 
+### How computers do?
+
+To perform addition computer needs two input (A nand B) and two output (sum and carry)
+
+#### Half added
+
+Used for adding two single bits (no carry-in). It has two inputs (A and B) and two outputs: the sum and the carry.
+
+- **Sum** = A XOR B (exclusive OR: 1 if exactly one input is 1).
+- **Carry** = A AND B (AND: 1 inly if both inputs are 1)
+
+| A | B | Sum (A XOR B) | Carry (A AND B) |
+|---|---|----------------|-----------------|
+| 0 | 0 | 0              | 0               |
+| 0 | 1 | 1              | 0               |
+| 1 | 0 | 1              | 0               |
+| 1 | 1 | 0              | 1               |
+
+#### Full Adder
+
+Extends the half adder to handle a carry-in from a previous addition, making it suitable for multi-bit addition. It has three inputs (A, B, and Carry-in) and two outputs (Sum and Carry-out).
+
+- **Sum** = A XOR B XOR Carry-in.
+- **Carry-out** = (A AND B) OR (B AND Carry-in) OR (A AND Carry-in).
+
+| A | B | Carry-in  | Sum | Carry-out  |
+|---|---|-----------|-----|------------|
+| 0 | 0 |    0      |  0  |     0      |
+| 0 | 0 |    1      |  1  |     0      |
+| 0 | 1 |    0      |  1  |     0      |
+| 0 | 1 |    1      |  0  |     1      |
+| 1 | 0 |    0      |  1  |     0      |
+| 1 | 0 |    1      |  0  |     1      |
+| 1 | 1 |    0      |  0  |     1      |
+| 1 | 1 |    1      |  1  |     1      |
+
+Example with Full Adder
+-----------------------
+
+     101    
+    +110  
+
+**Bit 0:** Inputs A=1, B=0, Carry-in=0. Sum = 1 XOR 0 XOR 0 = `1`, Carry-out = (1 AND 0) OR (0 AND 0) OR (1 AND 0) = `0`.  
+
+**Bit 1:** Inputs A=0, B=1, Carry-in=0. Sum = 0 XOR 1 XOR 0 = `1`, Carry-out = (0 AND 1) OR (1 AND 0) OR (0 AND 0) = `0`.
+
+**Bit 2:** Inputs A=1, B=1, Carry-in=0. Sum = 1 XOR 1 XOR 0 = `0`, Carry-out = (1 AND 1) OR (1 AND 0) OR (1 AND 0) = `1`.
+
+**Bit 3:** Carry-out = `1` becomes the most significant bit.
+
+Result: `1011`, computed bit by bit using adders.
+
+#### Handling Larger Numbers
+
+Computers represent numbers using fixed-size registers (e.g., 8-bit, 16-bit, 32-bit, or 64-bit). For a 32-bit addition, 32 full adders (or a combination starting with a half adder) work in parallel or sequentially, depending on the architecture. If the sum exceeds the register size, an overflow occurs, which may trigger a flag or require special handling in software.
 
 ## Subtraction
 
-Rule  
+### Rule  
 
 ```
 1 - 1 = 0
@@ -78,6 +144,8 @@ Rule
 ----
 10 - 1 = 1 (borrow)  from next higher value exchange for 2 groups
 ```
+
+### Example 
 
 1. 1 1 0 - 1 0 1
 
@@ -135,7 +203,9 @@ Step 2: The Borrow Chain
     0       1       0       1       0
 
 ```
-as a result we get  11010, which is wrong
+as a result we get  01010
+
+### How computers do?
 
 ## Multiplication
 
