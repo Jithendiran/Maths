@@ -132,6 +132,77 @@ Result: `1011`, computed bit by bit using adders.
 
 Computers represent numbers using fixed-size registers (e.g., 8-bit, 16-bit, 32-bit, or 64-bit). For a 32-bit addition, 32 full adders (or a combination starting with a half adder) work in parallel or sequentially, depending on the architecture. If the sum exceeds the register size, an overflow occurs, which may trigger a flag or require special handling in software.
 
+**Carry-Lookahead Adder (CLA)**
+--------------------------------------
+
+**What**: Instead of waiting for carries to propagate bit by bit (ripple-carry adder), a CLA computes carries for multiple bits simultaneously.
+
+**Why it works**: It uses additional logic to predict carry-out for each bit based on "generate" (A AND B) and "propagate" (A OR B) conditions, reducing delay.
+
+**How**:
+* Generate: G = A AND B (carry is generated if both inputs are 1).
+* Propagate: P = A OR B (carry passes through if at least one input is 1).
+* Carry-out for bit i: C_i+1 = G_i OR (P_i AND C_i).
+This allows parallel computation of carries, speeding up addition for large numbers.
+
+**Example**
+
+* **Step 1: Compute Generate and Propagate Signals**
+- `G = A AND B `, `P = A OR B`
+
+- Bit 0: A_0=1, B_0=1
+
+    G_0 = A_0 AND B_0 = 1 AND 1 = 1
+    P_0 = A_0 OR B_0 = 1 OR 1 = 1
+
+- Bit 1: A_1=1, B_1=0
+
+    G_1 = A_1 AND B_1 = 1 AND 0 = 0
+    P_1 = A_1 OR B_1 = 1 OR 0 = 1
+
+- Bit 2: A_2=0, B_2=1
+
+    G_2 = A_2 AND B_2 = 0 AND 1 = 0
+    P_2 = A_2 OR B_2 = 0 OR 1 = 1
+
+- Bit 3: A_3=1, B_3=1
+
+    G_3 = A_3 AND B_3 = 1 AND 1 = 1
+    P_3 = A_3 OR B_3 = 1 OR 1 = 1
+
+* **Step 2: Compute Carry Bits**
+- Initial carry is `0`, formula for other bits `C_i+1 = G_i OR (P_i AND C_i)`
+
+- C_0 = 0
+
+- C_1 (carry into bit 1):
+
+    C_1 = G_0 OR (P_0 AND C_0) = 1 OR (1 AND 0) = 1 OR 0 = 1
+
+- C_2 (carry into bit 2):
+
+    C_2 = G_1 OR (P_1 AND C_1) = 0 OR (1 AND 1) = 0 OR 1 = 1
+
+- C_3 (carry into bit 3):
+
+    C_3 = G_2 OR (P_2 AND C_2) = 0 OR (1 AND 1) = 0 OR 1 = 1
+
+- C_4 (carry-out from bit 3, the final carry):
+
+    C_4 = G_3 OR (P_3 AND C_3) = 1 OR (1 AND 1) = 1 OR 1 = 1
+
+* **Step 3: Compute Sum Bits**
+For each bit, `S_i = A_i XOR B_i XOR C_i`:
+- Bit 0: S_0 = A_0 XOR B_0 XOR C_0 = 1 XOR 1 XOR 0 = 0
+- Bit 1: S_1 = A_1 XOR B_1 XOR C_1 = 1 XOR 0 XOR 1 = 0
+- Bit 2: S_2 = A_2 XOR B_2 XOR C_2 = 0 XOR 1 XOR 1 = 0
+- Bit 3: S_3 = A_3 XOR B_3 XOR C_3 = 1 XOR 1 XOR 1 = 1
+
+* **Step 4: Assemble the Result**
+- Sum bits: S_3 S_2 S_1 S_0 = `1000`
+- Carry-out: C_4 = `1`
+- Final result: C_4 S_3 S_2 S_1 S_0 = `11000`
+
 ## Subtraction
 
 ### Rule  
