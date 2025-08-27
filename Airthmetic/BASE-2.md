@@ -203,6 +203,10 @@ For each bit, `S_i = A_i XOR B_i XOR C_i`:
 - Carry-out: C_4 = `1`
 - Final result: C_4 S_3 S_2 S_1 S_0 = `11000`
 
+#### Addition with negative number
+
+#### How sign rule will work
+
 ## Subtraction
 
 ### Rule  
