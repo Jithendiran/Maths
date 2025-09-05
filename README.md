@@ -24,6 +24,7 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 1.6 [Numbers We Can't Write Simply - Irrational Numbers](./Number_system/README.md#numbers-we-cant-write-simply---irrational-numbers)
 - 1.7 [The Complete Picture - Real Numbers](./Number_system/README.md#the-complete-picture---real-numbers)
 - 1.8 [How We Write Numbers - Place Value System](./Number_system/README.md#how-we-write-numbers---place-value-system)
+- 1.9 [How to represent negative numbers without `-`](./Number_system/BASE-2.md)
 
 
 ### 2. [Arithmetic (Basic Operations)](./Airthmetic/README.md#chapter-2-arithmetic)

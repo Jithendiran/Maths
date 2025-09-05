@@ -143,6 +143,137 @@ The complement system allows this by:
 
 This idea is used not only in decimal systems historically but also in **binary systems**, where the same principle is applied with **1’s and 2’s complements**.
 
+---
+
+## 8. Subtracting Multi-Digit Numbers Using 10’s Complement
+
+Let’s apply the same 10’s complement trick to perform subtraction like a computer — using **only addition**.
+
+We want to compute:
+
+> **A - B**
+
+Instead of subtracting directly, we:
+
+1. Take the **10’s complement** of `B`.
+2. **Add** it to `A`.
+3. If there's a **carry**, drop it — the result is **positive**.
+4. If there's **no carry**, take the **10’s complement** of the result — and the final answer is **negative**.
+
+---
+
+### Example 1: `8652 - 2739` using 10’s complement
+
+We want:
+
+$$
+8652 - 2739 = ?
+$$
+
+### Step 1: Find 10’s complement of `2739`
+
+**a. 9’s complement (subtract each digit from 9)**:
+
+| Digit | 9 - Digit |
+| ----- | --------- |
+| 2     | 7         |
+| 7     | 2         |
+| 3     | 6         |
+| 9     | 0         |
+
+So:
+
+```
+9's complement of 2739 → 7260
+```
+
+**b. Add 1 to get 10's complement**:
+
+```
+7260 + 1 = 7261
+```
+
+---
+
+### Step 2: Add to 8652
+
+```
+8652 + 7261 = 15913
+```
+
+### Step 3: Drop the carry (the leading 1)
+
+```
+5913
+```
+
+Final Answer: `8652 - 2739 = 5913`
+
+---
+
+### Example 2: `2739 - 8652` using 10’s complement
+
+Let’s reverse it:
+
+$$
+2739 - 8652 = ?
+$$
+
+We expect a **negative** result.
+
+### Step 1: Find 10’s complement of `8652`
+
+**a. 9’s complement**:
+
+| Digit | 9 - Digit |
+| ----- | --------- |
+| 8     | 1         |
+| 6     | 3         |
+| 5     | 4         |
+| 2     | 7         |
+
+```
+9’s complement of 8652 → 1347
+```
+
+**b. Add 1**:
+
+```
+1347 + 1 = 1348
+```
+
+---
+
+### Step 2: Add to 2739
+
+```
+2739 + 1348 = 4087
+```
+
+### Step 3: No carry → Take 10’s complement of 4087
+
+**a. 9's complement**:
+
+| Digit | 9 - Digit |
+| ----- | --------- |
+| 4     | 5         |
+| 0     | 9         |
+| 8     | 1         |
+| 7     | 2         |
+
+```
+9's complement → 5912
+```
+
+**b. Add 1**:
+
+```
+5912 + 1 = 5913
+```
+
+Final Answer: `-5913`
+
+
 # Binary Number Representation in Computers
 
 In the previous section, we explored how to represent negative numbers without using the `-` symbol using **complement systems** in the **decimal system**. Now, let’s extend the same idea to the **binary system**, which is the core of how modern computers operate.
