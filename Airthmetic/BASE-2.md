@@ -1,12 +1,12 @@
 ## Addition
 
 ### Rules
-```
-0 + 0 = 0
-0 + 1 = 1
-1 + 0 = 1
-1 + 1 = 10  (which is 0 with a carry of 1 to the next bit)
-```
+$$
+0 + 0 = 0 \\
+0 + 1 = 1 \\
+1 + 0 = 1 \\
+1 + 1 = 10  (which\ is\ 0\ with\ a\ carry\ of\ 1\ to\ the\ next\ bit) \\
+$$
 
 ### Example
 
@@ -211,14 +211,13 @@ For each bit, `S_i = A_i XOR B_i XOR C_i`:
 
 ### Rule  
 
-```
-1 - 1 = 0
-1 - 0 = 1
-0 - 1 = -1
-0 - 0 = 0
-----
-10 - 1 = 1 (borrow)  from next higher value exchange for 2 groups
-```
+$$
+1 - 1 = 0 \\
+1 - 0 = 1 \\
+0 - 1 = -1 \\
+0 - 0 = 0 \\
+10 - 1 = 1 (borrow)\  from\ next\ higher\ value\ exchange\ for\ 2\ groups
+$$
 
 ### Example 
 
@@ -282,7 +281,64 @@ as a result we get  01010
 
 ### How computers do?
 
+Computers take 2's complement and do addition, see [subtract](../Number_system/BASE-2.md)
+
 ## Multiplication
+
+### Rule
+
+$$
+0 \times 0 = 0  \\
+1 \times 0 = 0  \\
+0 \times 1 = 0  \\
+1 \times 1 = 1  \\
+$$
+
+The process involves these steps:
+
+1.  Align the numbers just like in decimal multiplication.
+2.  Multiply the top number by each digit of the bottom number, starting from the right.
+3.  For each multiplication, if the bottom digit is a **1**, the result is the top number. If the bottom digit is a **0**, the result is all 0s.
+4.  Shift each successive result to the left by one position, just as you would in decimal multiplication.
+5.  Add all the partial products together using binary addition rules.
+
+### Example
+
+1. $101 \times 10$ ($5 \times 2$ in decimal)
+
+```
+        1   0   1
+            1   0
+        ------------
+0 ->    0   0   0
+1 -> 1  0   1           (left shift 1 digit)
+    ------------------------
+     1  0   1   0   
+```
+$1010\ is\ 10$
+
+2. $1101 \times 1011$ ($13 \times 11$)
+
+```
+                1   1   0   1
+                1   0   1   1
+            ------------------
+c     1   1  1 
+---------------------------------
+1->             1   1   0   1
+1->         1   1   0   1
+0->     0   0   0   0
+1->  1  1   0   1
+    ------------------------------
+    10  0   0   1   1   1   1            
+```
+$10001111\ is\ 143$
+
+### How computers do?
+
+Computers multiply binary numbers by leveraging the fundamental operations they are built for: **shifting** and **addition**. They don't have separate hardware for multiplication like they do for addition. Instead, a multiplication operation is broken down into a series of shifts and additions.
+
+Modern processors use more advanced algorithms, such as **Wallace tree multipliers**, which use a tree of adders to perform multiplication much faster by adding partial products in parallel.
 
 ## Division
 
