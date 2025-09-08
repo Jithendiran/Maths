@@ -283,6 +283,69 @@ as a result we get  01010
 
 Computers take 2's complement and do addition, see [subtract](../Number_system/BASE-2.md)
 
+Also there was a seperate circut for subtract : **full subtractor**, but they don't use now a days
+
+* **Difference ($D$)**: The difference output is 1 if an odd number of inputs are 1. This is the exact definition of an **XOR** (Exclusive OR) operation.
+    * $D = A\ XOR\ B\ XOR\ B_{in}$
+
+* **Borrow-out ($B_{out}$)**: A borrow is needed if you are subtracting a 1 from a 0, or if you have a borrow-in and are subtracting from a 0.
+    * $B_{out} = \bar{A}\ and\ B + \bar{A}\ and\ B_{in} + B\ and\ B_{in}$
+
+### Example
+
+A = 101, B = 011
+5 - 3 = 2
+
+## Full Subtractor Example
+
+Let's subtract a 3-bit number $B = 011$ from another 3-bit number $A = 101$ using a chain of three full subtractors. 
+
+**The problem in decimal is $5 - 3 = 2$.**
+
+We will process the subtraction bit by bit, from right to left (Least Significant Bit to Most Significant Bit), with each full subtractor handling one column.
+
+#### Bit 0 (Rightmost Bit)
+* **Inputs:**
+    * Minuend Bit ($A_0$) = 1
+    * Subtrahend Bit ($B_0$) = 1
+    * Borrow-in ($B_{in}$) = 0 (since this is the first bit, there's no borrow from a previous step)
+* **Logic:**
+    * **Difference ($D_0$)**: $D_0 = A_0\ XOR\ B_0\ XOR\ B_{in} = 1\ XOR\ 1\ XOR\ 0 = 0$
+    * **Borrow-out ($B_{out}$)**: $B_{out} = \bar{A_0}\ *\ B_0 + \bar{A_0}\ *\ B_{in} + B_0\ *\ B_{in} = \bar{1}\ *\ (1) + \bar{1}\ *\ (0) + 1\ *\ (0) = 0\ *\ (1) + 0\ *\ (0) + 1\ *\ (0) = 0 + 0 + 0 = 0$
+* **Result for Bit 0:**
+    * Difference bit = 0
+    * Borrow-out = 0 (this becomes the borrow-in for the next bit)
+
+#### Bit 1 (Middle Bit)
+* **Inputs:**
+    * Minuend Bit ($A_1$) = 0
+    * Subtrahend Bit ($B_1$) = 1
+    * Borrow-in ($B_{in}$) = 0 (from the previous step's borrow-out)
+* **Logic:**
+    * **Difference ($D_1$)**: $D_1 = A_1\ XOR\ B_1\ XOR\ B_{in} = 0\ XOR\ 1\ XOR\ 0 = 1$
+    * **Borrow-out ($B_{out}$)**: $B_{out} = \bar{A_1\ *\ }B_1 + \bar{A_1}\ *\ B_{in} + B_1\ *\ B_{in} = \bar{0}\ *\ (1) + \bar{0}\ *\ (0) + 1\ *\ (0) = 1\ *\ (1) + 1\ *\ (0) + 1\ *\ (0) = 1 + 0 + 0 = 1$
+* **Result for Bit 1:**
+    * Difference bit = 1
+    * Borrow-out = 1 (this becomes the borrow-in for the next bit)
+
+#### Bit 2 (Leftmost Bit)
+* **Inputs:**
+    * Minuend Bit ($A_2$) = 1
+    * Subtrahend Bit ($B_2$) = 0
+    * Borrow-in ($B_{in}$) = 1 (from the previous step's borrow-out)
+* **Logic:**
+    * **Difference ($D_2$)**: $D_2 = A_2\ XOR\ B_2\ XOR\ B_{in} = 1\ XOR\ 0\ XOR\ 1 = 0$
+    * **Borrow-out ($B_{out}$)**: $B_{out} = \bar{A_2}\ *\ B_2 + \bar{A_2}\ *\ B_{in} + B_2\ *\ B_{in} = \bar{1}\ *\ (0) + \bar{1}\ *\ (1) + 0\ *\ (1) = 0\ *\ (0) + 0\ *\ (1) + 0\ *\ (1) = 0 + 0 + 0 = 0$
+* **Result for Bit 2:**
+    * Difference bit = 0
+    * Borrow-out = 0
+
+#### Final Result
+Combining the difference bits from right to left, we get the final result:
+**$D_2D_1D_0 = 010$**
+
+In decimal, $010 = 2$, which is the correct answer for $5 - 3$. This example shows how a full subtractor works bit by bit to produce the final difference.
+
 ## Multiplication
 
 ### Rule
@@ -336,11 +399,69 @@ $10001111\ is\ 143$
 
 ### How computers do?
 
-Computers multiply binary numbers by leveraging the fundamental operations they are built for: **shifting** and **addition**. They don't have separate hardware for multiplication like they do for addition. Instead, a multiplication operation is broken down into a series of shifts and additions.
+Computers multiply binary numbers by leveraging the fundamental operations they are built for: **left shifting** and **addition**. They don't have separate hardware for multiplication like they do for addition. Instead, a multiplication operation is broken down into a series of shifts and additions.
 
 Modern processors use more advanced algorithms, such as **Wallace tree multipliers**, which use a tree of adders to perform multiplication much faster by adding partial products in parallel.
 
 ## Division
+
+$$
+1 - 1 = 0 \\
+1 - 0 = 1 \\
+0 - 0 = 0 \\
+0 - 1 = 1 (with\ borrow\ from\ next\ position)
+$$
+
+### Example
+
+Let's divide $1010$ by $10$ ($10 \div 2$ in decimal).
+
+1.  Set up the problem:
+    ```
+       _____
+    10|1010
+    ```
+2.  Compare the divisor ($10$) with the first two digits of the dividend ($10$).
+      * $10 \ge 10$, so the first digit of the quotient is **1**.
+      * Subtract $10$ from $10$: $10 - 10 = 00$.
+    ```
+       _1
+      _____
+    10|1010
+      -10
+      ---
+       00
+    ```
+3.  Bring down the next digit (1). The new number is $001$.
+      * $10 > 001$, so the next digit of the quotient is **0**.
+    ```
+       _10
+      ______
+    10|1010
+      -10
+      ---
+       001
+    ```
+4.  Bring down the next digit (0). The new number is $0010$.
+      * $10 \ge 0010$, so the next digit of the quotient is **1**.
+      * Subtract $10$ from $10$: $10 - 10 = 00$.
+    ```
+       _101
+      _____
+    10|1010
+      -10
+      ---
+       0010
+      -  10
+      ----
+         00
+    ```
+
+The quotient is $101\_2$ and the remainder is $0$. In decimal, $10 \div 2 = 5$, and $101 = 5$. The result is correct.
+
+### How computers do?
+
+Computers perform division using a combination of **subtraction** and **right shifts**. They don't have a separate division unit. A standard algorithm is the **restoring division algorithm**, which works step-by-step to build the quotient.
 
 ## Bitwise
 
@@ -353,3 +474,6 @@ Modern processors use more advanced algorithms, such as **Wallace tree multiplie
 ### xor
 
 ## shifting
+
+
+What about floating points operations
