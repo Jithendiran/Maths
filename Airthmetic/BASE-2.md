@@ -534,12 +534,12 @@ The NOT operation, also known as bitwise complement, inverts the bits of a singl
 ### xor
 
 #### Rule
-```
-0 XOR 0 = 0 \\
-0 XOR 1 = 1 \\
-1 XOR 0 = 1 \\
-1 XOR 1 = 0 \\
-```
+$$
+0\ XOR\ 0 = 0 \\
+0\ XOR\ 1 = 1 \\
+1\ XOR\ 0 = 1 \\
+1\ XOR\ 1 = 0 \\
+$$
 The XOR operation compares two bits and outputs a 1 if the bits are different. If they are the same, the output is 0.
 
 XOR is used for many applications, including swapping two variables without a temporary variable and for simple encryption because of its property of self-cancellation: $A\ XOR\ B\ XOR\ B\ =\ A$.
