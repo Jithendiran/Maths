@@ -457,7 +457,7 @@ Let's divide $1010$ by $10$ ($10 \div 2$ in decimal).
          00
     ```
 
-The quotient is $101\_2$ and the remainder is $0$. In decimal, $10 \div 2 = 5$, and $101 = 5$. The result is correct.
+The quotient is $101$ and the remainder is $0$. In decimal, $10 \div 2 = 5$, and $101 = 5$. The result is correct.
 
 ### How computers do?
 
@@ -467,13 +467,111 @@ Computers perform division using a combination of **subtraction** and **right sh
 
 ### and
 
+#### Rule
+
+$$
+0 \& 0 = 0 \\
+0 \& 1 = 0 \\
+1 \& 0 = 0 \\
+1 \& 1 = 1 \\
+$$
+
+The AND operation compares two bits and outputs a 1 only if both bits are 1. Otherwise, the output is 0.
+
+#### Example
+
+
+```
+  1011  (11)
+& 0110  (6)
+-------
+  0010  (2)
+```
+
+The AND operation is often used to clear specific bits or to mask a value to check if certain bits are set. For example, 1011 & 0010 will result in 0010 because only the second bit from the right is 1 in both numbers.
+
+Think like this
+1011 is the Flag, we would like to know wheather  0010 is present or not
+```
+    1011
+&   0010
+    ------
+    0010
+```
+if result == check flag means flag is present
+
 ### or
+
+#### Rule
+$$
+0 | 0 = 0 \\
+0 | 1 = 1 \\
+1 | 0 = 1 \\
+1 | 1 = 1 \\
+$$
+
+The OR operation compares two bits and outputs a 1 if at least one of the bits is 1. The output is 0 only if both bits are 0.
+
+#### Example
+```
+  1011  (11)
+| 0110  (6)
+-------
+  1111  (15)
+```
+
+The OR operation is commonly used to set specific bits to 1. For example, 1011 | 0100 will result in 1111, setting the third bit from the right to 1.
 
 ### not
 
+The NOT operation, also known as bitwise complement, inverts the bits of a single binary number. It changes every 0 to a 1 and every 1 to a 0.
+```
+~ 1011  (11)
+-------
+  0100  (4)
+```
+
 ### xor
+
+#### Rule
+```
+0 XOR 0 = 0 \\
+0 XOR 1 = 1 \\
+1 XOR 0 = 1 \\
+1 XOR 1 = 0 \\
+```
+The XOR operation compares two bits and outputs a 1 if the bits are different. If they are the same, the output is 0.
+
+XOR is used for many applications, including swapping two variables without a temporary variable and for simple encryption because of its property of self-cancellation: $A\ XOR\ B\ XOR\ B\ =\ A$.
+
+```
+  1011  (11)
+^ 0110  (6)
+-------
+  1101  (13)
+```
+
 
 ## shifting
 
+These operations shift the bits of a number to the left or right.
+
+### Left shift
+
+Left Shift ($<<$): Shifts bits to the left, adding 0s to the right. It effectively multiplies the number by a power of 2.  
+$101 << 1 = 1010 (5\ becomes\ 10)$ == 5 * (1 * 2) = 10    
+$101 << 2 = 10100 (5\ becomes\ 20)$ == 5 * (2 * 2) = 20  
+
+
+### Right shift
+
+Right Shift (): Shifts bits to the right. It effectively divides the number by a power of 2. For unsigned numbers, 0s are added to the left.
+
+Each position shifted to the right halves the number's value. For example, shifting a number right by one position is the same as dividing it by $2^1$(2)
+
+$1010 << 1=101 (10\ becomes\ 5)$ == 10 / (1 * 2) = 5  
+$10100 << 2=101 (20\ becomes\ 5)$ == 20 / (2 * 2) = 5  
+
 
 What about floating points operations
+floating ponit addition, subtraction, multiply, division and bitwise
