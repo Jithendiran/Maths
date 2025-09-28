@@ -53,53 +53,37 @@ This is a complete step-by-step guide to build your understanding of math — fr
   - [LCM](./Fractions/README.md#lcm-least-common-multiple)
 
 
-### 4. Decimals (Coming Soon)
-- 4.1 What is decimals?
-- 4.2 Why use Decimals?
-- 4.3 Place values in decimal
-- 4.4 Decimals vs Fractions
-- 4.5 Comparing and Ordering Decimals
-- 4.6 Addition
-- 4.7 Subtraction
-- 4.8 Multiplication
-- 4.9 Division
-- 4.10 Repeating and Terminating Decimals
+### 5. Decimals (Coming Soon)
+- 5.1 What is decimals?
+- 5.2 Why use Decimals?
+- 5.3 Place values in decimal
+- 5.4 Decimals vs Fractions
+- 5.5 Comparing and Ordering Decimals
+- 5.6 Addition
+- 5.7 Subtraction
+- 5.8 Multiplication
+- 5.9 Division
+- 5.10 Repeating and Terminating Decimals
 
 
-### 5. Percentages (Coming Soon)
-- 5.1 What is Percentage?
-- 5.2 Why Use Percentages?
-- 5.3 Percent vs Fractions vs Decimals
-- 5.4 Converting:
+### 6. Percentages (Coming Soon)
+- 6.1 What is Percentage?
+- 6.2 Why Use Percentages?
+- 6.3 Percent vs Fractions vs Decimals
+- 6.4 Converting:
    - Fraction -> Percent
    - Decimal -> Percent
    - Percent -> Fraction
    - Percent -> Decimal
-- 5.5 Finding Percent of a Number
-- 5.6 Addition
-- 5.7 Subtrcation
-- 5.8 Multiplication 
-- 5.9 Division
-- 5.10 Real-life Applications
+- 6.5 Finding Percent of a Number
+- 6.6 Addition
+- 6.7 Subtrcation
+- 6.8 Multiplication 
+- 6.9 Division
+- 6.10 Real-life Applications
 
-### 6. Ratios & Proportions (Coming Soon)
+### 7. Ratios & Proportions (Coming Soon)
 
-
-### 7. Word Problems (Real-World Scenarios)
-
-
-### 8. Visual & Object-Based Explanations
-- Using cakes , chocolates , coins , blocks , etc.
-
-
-### 9. Shortcut Techniques (Only After Understanding)
-
-
-### 10. Practice Questions & Challenges (For All Levels)
-
-
-Reference:
-Myself, ChatGPT (Free Version) and claude.ai free version
 
 Standards
 # Chapter1
