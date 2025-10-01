@@ -54,16 +54,20 @@ This is a complete step-by-step guide to build your understanding of math — fr
 
 
 ### 5. Decimals (Coming Soon)
-- 5.1 What is decimals?
-- 5.2 Why use Decimals?
-- 5.3 Place values in decimal
-- 5.4 Decimals vs Fractions
-- 5.5 Comparing and Ordering Decimals
-- 5.6 Addition
-- 5.7 Subtraction
-- 5.8 Multiplication
-- 5.9 Division
-- 5.10 Repeating and Terminating Decimals
+- 5.1 [What is decimals?](./Decimals/README.md#what-is-decimal)
+- 5.2 [Why use Decimals?](./Decimals/README.md#why-use-decimals)
+- 5.3 [Place values in decimal](./Decimals/README.md#structure-of-a-decimal)
+- 5.4 [Comparing and Ordering Decimals](./Decimals/README.md#comparing-and-ordering-decimals)
+- 5.5 [Addition](./Decimals/README.md#addition)
+- 5.6 [Subtraction](./Decimals/README.md#subtraction)
+- 5.7 [Multiplication](./Decimals/README.md#multiplication)
+- 5.8 [Division](./Decimals/README.md#division)
+- 5.9 [conversion](./Decimals/README.md#conversion)
+      - Decimal to fraction
+      - Fraction to decimal
+- 5.10 [Repeating and Terminating Decimals](./Decimals/README.md#terminating-decimals)
+- 5.11 Shortcuts
+      - [GCD](./Decimals/README.md#gcd-greatest-common-divisior)
 
 
 ### 6. Percentages (Coming Soon)
@@ -84,16 +88,5 @@ This is a complete step-by-step guide to build your understanding of math — fr
 
 ### 7. Ratios & Proportions (Coming Soon)
 
-
-Standards
-# Chapter1
-## 1.1
-### subtopic
-**headings**
-
-## Todo
-* Algebraic expressions
-* Equations and inequalities
-* Geometry
-* Statics and probability
-* Calcus
+### 8. Irrational Numbers
+what is log, exponent,...

@@ -2,10 +2,10 @@
 
 ### Rules
 $$
-0 + 0 = 0 \\
-0 + 1 = 1 \\
-1 + 0 = 1 \\
-1 + 1 = 10  (which\ is\ 0\ with\ a\ carry\ of\ 1\ to\ the\ next\ bit) \\
+0 + 0 = 0 \\  
+0 + 1 = 1 \\  
+1 + 0 = 1 \\  
+1 + 1 = 10  (which\ is\ 0\ with\ a\ carry\ of\ 1\ to\ the\ next\ bit) \\  
 $$
 
 ### Example
@@ -641,4 +641,58 @@ This design choice ensures that the exponent is always a non-negative number wit
 
 #### int with float
 
+When adding an integer to a floating-point number, a computer first converts the integer into a floating-point format and then performs the standard floating-point addition.
+
+Convert the Integer: The integer is converted into its equivalent floating-point representation. This involves:
+
+1. Determining the sign of the integer.
+
+2. Converting the integer's magnitude into its normalized binary form (e.g., 1010 becomes 1.010 x $2^3$).
+
+3. Encoding the exponent (using the bias, e.g., 3 + 127 = 130) and the fraction (010).
+
+Once the integer is in the floating-point format, the two numbers are added using float with float
+
 #### float with float
+
+Adding two floating-point numbers is more complex than adding integers because you must first align their exponents. It follows these steps:
+
+1. Extract Components: Separate each number into its sign, exponent, and fraction. For a normalized single-precision number, remember to add the implicit leading `1` to the fraction.
+
+2. Align Exponents: Find the number with the smaller exponent and shift its fraction to the right until its exponent matches the larger one. The number of places you shift is equal to the difference between the two exponents. Shifting right effectively divides the number by a power of two, which corresponds to increasing the exponent.
+
+3. Add/Subtract Fractions: Add the fractions together. If the numbers have different signs, the operation becomes a subtraction.
+
+4. Normalize the Result:
+* If the sum of the fractions is too large (i.e., it creates a carry-out), shift the result's fraction one position to the right and increment the exponent by one.
+* If the sum is too small (i.e., it has leading zeros), shift the fraction to the left and decrement the exponent until the leading 1 is in the correct position.
+
+5. Round the Result: The final sum's fraction is often longer than the available bits, so it must be rounded according to the IEEE 754 standard's rounding rules (e.g., round to nearest even).
+
+6. Re-assemble: Combine the final sign, exponent, and rounded fraction to form the final floating-point number.
+
+#### Floating-Point Multiplication
+To multiply two floating-point numbers, you follow these steps:
+
+1. Multiply Signs: The sign of the result is the XOR of the two input signs.
+
+2. Add Exponents: Add the two exponents and then subtract the bias from the result.
+
+3. Multiply Fractions: Multiply the two fractions (including the implicit 1 for each).
+
+4. Normalize: The result of the fraction multiplication may need to be shifted and the exponent adjusted to ensure it's in the normalized 1.xxxx format.
+
+5. Round: The final fraction is rounded to fit the available bits.
+
+#### Floating-Point Division
+To divide two floating-point numbers, you follow a similar process:
+
+1. Divide Signs: The sign of the result is the XOR of the two input signs.
+
+2. Subtract Exponents: Subtract the divisor's exponent from the dividend's exponent, and then add the bias back to the result.
+
+3. Divide Fractions: Divide the dividend's fraction by the divisor's fraction (including the implicit 1 for each).
+
+4. Normalize: The result is normalized, and the exponent is adjusted accordingly.
+
+5. Round: The final fraction is rounded.
