@@ -573,5 +573,72 @@ $1010 << 1=101 (10\ becomes\ 5)$ == 10 / (1 * 2) = 5
 $10100 << 2=101 (20\ becomes\ 5)$ == 20 / (2 * 2) = 5  
 
 
-What about floating points operations
-floating ponit addition, subtraction, multiply, division and bitwise
+# Floating IEEE 754
+
+| Field     | Bit Range | Size     | Description                                                                 |
+|-----------|-----------|----------|-----------------------------------------------------------------------------|
+| Sign (S)  | 31        | 1 bit    | 0 for positive, 1 for negative                                              |
+| Exponent (E) | 23–30  | 8 bits   | Stores the exponent in biased form (bias = 127)                            |
+| Fraction (F) | 0–22   | 23 bits  | Stores the fractional part (significand/mantissa, with implicit leading 1) |
+
+
+3.14159274 == 11.00100100001111110111
+
+
+| Number  | Normalized Form|
+| :---    | :---           |
+| 3.14159 | 3.14159×$10^0$ |
+| 123.45  | 1.2345×$10^2$  |
+| 0.00456 | 4.56×$10^−3$   |
+
+
+In binary (base 2) floating-point, the normalized form is required to have exactly one '1' to the left of the binary point.  All normalized numbers must start with 1..
+
+So we no need to store the 1. -> 1, because every number will have 1
+
+Normal = 11.00100100001111110111  
+Normalized = 1.100100100001111110111
+
+And the 1st bit is always 1 so we no need to store
+
+s = 0
+e = 1 -> $2^1$
+fraction = 100100100001111110111
+
+example:
+-----------
+Decimal: 5.0, Binary: 101.0    
+Normalized Binary: $1.01 \times 2^2 $    
+Sign (S): 0 (positive)  
+Exponent(E): The actual exponent is 2. The biased exponent is 2+127=129. In binary, this is 10000001.   
+Fraction (F): The part after the binary point is 01. We pad this with zeros to fill the 23 bits: 01000000000000000000000.
+
+So, the IEEE 754 representation of 5.0 would be: `0 10000001 01000000000000000000000`
+
+
+> [!TIP] 127 for single-precision.  
+> The exponent is stored with a bias of 127.
+
+What is a Bias?
+
+The bias is a value added to the actual exponent to allow the representation of both positive and negative exponents without needing a separate sign bit for the exponent itself. This is particularly useful for simplifying hardware logic.
+
+The bias of 127 is subtracted from the stored exponent value to get the true exponent.
+
+`Actual Exponent=Stored Exponent − Bias`
+
+For single-precision: Actual Exponent=Stored Exponent − 127
+
+If stored exponent is 130, the actual exponent is 130−127=3. This means the number should be multiplied by $2^3$  
+If stored exponent is 125, the actual exponent is 125−127=−2. This means the number should be multiplied by $2^(-2)$
+
+This design choice ensures that the exponent is always a non-negative number within the 8-bit field, while still allowing the full range of both positive and negative exponents to be used.
+
+
+## Airthmetic
+
+### Addition
+
+#### int with float
+
+#### float with float
