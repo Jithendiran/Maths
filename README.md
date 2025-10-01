@@ -53,7 +53,7 @@ This is a complete step-by-step guide to build your understanding of math — fr
   - [LCM](./Fractions/README.md#lcm-least-common-multiple)
 
 
-### 5. Decimals (Coming Soon)
+### 5. Decimals
 - 5.1 [What is decimals?](./Decimals/README.md#what-is-decimal)
 - 5.2 [Why use Decimals?](./Decimals/README.md#why-use-decimals)
 - 5.3 [Place values in decimal](./Decimals/README.md#structure-of-a-decimal)
@@ -70,7 +70,7 @@ This is a complete step-by-step guide to build your understanding of math — fr
       - [GCD](./Decimals/README.md#gcd-greatest-common-divisior)
 
 
-### 6. Percentages (Coming Soon)
+### 6. Percentages
 - 6.1 What is Percentage?
 - 6.2 Why Use Percentages?
 - 6.3 Percent vs Fractions vs Decimals
@@ -86,7 +86,7 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 6.9 Division
 - 6.10 Real-life Applications
 
-### 7. Ratios & Proportions (Coming Soon)
+### 7. Ratios & Proportions
 
 ### 8. Irrational Numbers
 what is log, exponent,...
