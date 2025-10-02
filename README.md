@@ -53,7 +53,7 @@ This is a complete step-by-step guide to build your understanding of math — fr
   - [LCM](./Fractions/README.md#lcm-least-common-multiple)
 
 
-### 5. Decimals
+### 5. [Decimals](./Decimals/README.md#chapter-5-decimals)
 - 5.1 [What is decimals?](./Decimals/README.md#what-is-decimal)
 - 5.2 [Why use Decimals?](./Decimals/README.md#why-use-decimals)
 - 5.3 [Place values in decimal](./Decimals/README.md#structure-of-a-decimal)
@@ -70,21 +70,16 @@ This is a complete step-by-step guide to build your understanding of math — fr
       - [GCD](./Decimals/README.md#gcd-greatest-common-divisior)
 
 
-### 6. Percentages
-- 6.1 What is Percentage?
-- 6.2 Why Use Percentages?
-- 6.3 Percent vs Fractions vs Decimals
-- 6.4 Converting:
-   - Fraction -> Percent
-   - Decimal -> Percent
-   - Percent -> Fraction
-   - Percent -> Decimal
-- 6.5 Finding Percent of a Number
-- 6.6 Addition
-- 6.7 Subtrcation
-- 6.8 Multiplication 
-- 6.9 Division
-- 6.10 Real-life Applications
+### 6. [Percentages](./Percentage/Readme.md#chapter-6-percentage)
+- 6.1 [What is Percentage?](./Percentage/Readme.md#what-is-percentage)
+- 6.2 [Why Use Percentages?](./Percentage/Readme.md#why-use-percentages)
+- 6.3 [Finding Percent of a Number](./Percentage/Readme.md#how-to-calculate-percentage)
+- 6.4 [Percent vs Fractions vs Decimals](./Percentage/Readme.md#percent-vs-fractions-vs-decimals)
+- 6.5 [Conversion](./Percentage/Readme.md#converting)
+- 6.6 [Addition](./Percentage/Readme.md#addition)
+- 6.7 [Subtrcation](./Percentage/Readme.md#subtraction)
+- 6.8 [Multiplication ](./Percentage/Readme.md#multiplication)
+- 6.9 [Division](./Percentage/Readme.md#division)
 
 ### 7. Ratios & Proportions
 
