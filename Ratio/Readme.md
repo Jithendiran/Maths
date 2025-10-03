@@ -35,7 +35,7 @@ It is more likely fraction airthmetic
 |                | Multiply the numerators: $ 2 \times 3 = 6$                                 |                 |        |
 |                | Multiply the denominators: $ 3 \times 5 = 15$                              |                 |        |
 |                | Result: $ \frac{6}{15}$, simplify: $ \frac{6}{15} = \frac{2}{5}$           |                 | 2:5    |
-| Division       | Convert to fractions, divide $multiply by reciprocal), simplify            | 4:5 ÷ 2:3       | 6:5    |
+| Division       | Convert to fractions, divide ,multiply by reciprocal , simplify            | 4:5 ÷ 2:3       | 6:5    |
 |                | Invert the second fraction: $ 2:3$ becomes $ 3:2$                          |                 |        |
 |                | Multiply: $ 4:5 \times 3:2$                                                |                 |        |
 |                | Multiply the numerators: $ 4 \times 3 = 12$                                |                 |        |
@@ -60,6 +60,19 @@ $$a \times d=b \times c$$
  A proportion is used to find a missing value in an equivalent ratio, usually written as an equation:  
 
 Example: If 2 pens cost $4, how much do 5 pens cost?  
+
+**Normal method**
+
+Find the cost of single pen: 
+
+$\frac{4}{2} = 2$, 2$ is the price of each pen  
+
+Now the new quantity or count is 5, we know the price which is \$2, no matter how much pen we have, price is always \$2 for each pen
+
+so $5 \times 2 = 10$ \$ is the price for 5 pens
+
+**In cross multiply method**
+
 Let x be the cost of 5 pens. The ratio of (pens : cost) must be the same:
 
 $$\frac{2}{4} = \frac{5}{x}$$
@@ -71,7 +84,60 @@ $$ 2 \times x = 20 $$
 $$ x = \frac{20}{2} $$
 $$ x = 10 $$
 
-So, 5 pens cost $10. so the ratio is `2:5::4:10`
+How it give the same result?
+Lets for say 2 is the `old quantity` and 4\$ is the `old price`, 5 is the `new quanity` the `new price` is unknown
+
+$$\text{New price}=\frac{\text{Old quantity}}{\text{Old price}} \times \text{New Quantity}$$
+$$ = \frac{4}{2} \times 5 = 2 \times 5 = 10$$
+
+This is same as
+
+$$\text{New price}=\frac{\text{Old quantity} \times \text{New Quantity}}{\text{Old price}} $$
+$$ = \frac{4 \times 5}{2}  = \frac{20}{2} = 10$$
+
+How both gave the same result?
+$$\text{New price}=\frac{\text{Old quantity}}{\text{Old price}} \times \text{New Quantity}$$
+In the $\frac{\text{Old quantity}}{\text{Old price}}$ method we find single unit price and do the 
+
+$$\text{New price}=\frac{\text{Old quantity} \times \text{New Quantity}}{\text{Old price}} $$
+In cross multiplication, we are doing $\text{Old quantity} \times \text{New Quantity}$ and dividing (eliminating) old price, so we left with new price
+
+This is `Associative Property`, no matter how we group and multiply while diving we get the same result
+
+Let's see new combination 
+
+$$\text{New price}= \text{Old quantity} \times \frac{\text{New Quantity}}{\text{Old price}}$$
+$$ = 4 \times \frac{5}{2} = 4 \times 2.5 = 10$$
+
+`Associative Property` is proved no matter which grouping we do 1st
+
+1. $$(4 \times 5) \div 2 = 20 \div 2 = 10$$
+  This like eliminating old price   
+
+This method is about calculating a temporary, grossly oversized price ($20) and then scaling it down proportionally to account for the fact that the original $4 was for two items, not one. It's the most direct algebraic path from the cross-multiplication setup.
+
+---
+
+2. $$(4 \div 2) \times 5 = 2 \times 5 = 10$$
+This is like finding unit price
+
+This method logically breaks the proportion into two understandable steps: first finding the cost of one unit, and then multiplying that consistent rate by the new number of units. This is often the easiest method to explain to someone.
+
+---
+
+3. $$(5 \div 2) \times 4 = 2.5 \times 4 = 10$$
+
+* The new quantity (5 pens) is how many times larger than the old quantity (2 pens)?  
+* The answer is 2.5. You need 2.5 times the number of pens.
+* Since the price must scale proportionally, you multiply the old price ($4) by the scaling factor (2.5).
+
+Find the Scaling Factor first, then multiply by old price.
+
+---
+
+So, 5 pens cost $10. so the ratio is `2:4::5:10`
+
+## Where it use?
 
 It allows you to scale a recipe, a map, or a financial breakdown. If the relationship is 1:3 for a small batch, it must be the same (2:6, 10:30, etc.) for a larger batch
 
@@ -112,10 +178,10 @@ We subtract the parts of a ratio to find the difference in the number of parts, 
 The ratio of boys to girls in a class is 4:3. If there are 5 more boys than girls, how many girls are there?
 
 1. Find the difference
-$$4 - 3 = 1 \text{each group has 1 boy extra}$$
+$$4 - 3 = 1 \text{ each group has 1 boy extra}$$
 
 2. question is about 5 more boys, now find how many groups present
-$$\frac{5\text{more of boys}}{1\text{each group has extra boy}} = \frac{5}{1} = 5\ groups$$
+$$\frac{5\text{ more of boys}}{1\text{ each group has extra boy}} = \frac{5}{1} = 5\ groups$$
 
 3. Now we found if 5 groups of students are present, 5 more boys will be there, so the girls count for 5 group is
 
