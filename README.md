@@ -63,11 +63,9 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 5.7 [Multiplication](./Decimals/README.md#multiplication)
 - 5.8 [Division](./Decimals/README.md#division)
 - 5.9 [conversion](./Decimals/README.md#conversion)
-      - Decimal to fraction
-      - Fraction to decimal
 - 5.10 [Repeating and Terminating Decimals](./Decimals/README.md#terminating-decimals)
-- 5.11 Shortcuts
-      - [GCD](./Decimals/README.md#gcd-greatest-common-divisior)
+- 5.11 Shortcuts  
+  - [GCD](./Decimals/README.md#gcd-greatest-common-divisior)
 
 
 ### 6. [Percentages](./Percentage/Readme.md#chapter-6-percentage)
