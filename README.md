@@ -79,7 +79,23 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 6.8 [Multiplication ](./Percentage/Readme.md#multiplication)
 - 6.9 [Division](./Percentage/Readme.md#division)
 
-### 7. Ratios & Proportions
+### 7. [Ratios & Proportions](./Ratio/Readme.md#chapter-7-ratio)
+- 7.1 [Ratio](./Ratio/Readme.md#what-is-ratio)
+- 7.2 [Airthmetic](./Ratio/Readme.md#airthmetic)
+- 7.3 [Proportions](./Ratio/Readme.md#what-is-proportions)
+- 7.4 [Ways to find the value](./Ratio/Readme.md#ways-to-find-the-value)
+- 7.5 [Finding missing value](./Ratio/Readme.md#finding-missing-value)
+- 7.6 [Where it use?](./Ratio/Readme.md#where-it-use)
+- 7.7 [Addition](./Ratio/Readme.md#addition)
+- 7.8 [Subtraction](./Ratio/Readme.md#subtraction)
+- 7.9 [Multiplication](./Ratio/Readme.md#in-direct-propertion-multiplication)
+- 7.10 [Division](./Ratio/Readme.md#direct-proportion-division)
+
+### 8. Algebra
+
+### 8. Graphs ( Graphing Linear Equations)
 
 ### 8. Irrational Numbers
 what is log, exponent,...
+
+### [more](./Knows/Readme.md)

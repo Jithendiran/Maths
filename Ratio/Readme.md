@@ -57,9 +57,11 @@ $$\frac{a}{b} = \frac{c}{d}$$
 
 *The Cross-Multiplication Rule*: This is the most important rule for solving proportion problems. If  $\frac{a}{b} = \frac{c}{d}$
 $$a \times d=b \times c$$
- A proportion is used to find a missing value in an equivalent ratio, usually written as an equation:  
+ A proportion is used to find a missing value in an equivalent ratio
 
-Example: If 2 pens cost $4, how much do 5 pens cost?  
+**Example**:
+
+If 2 pens cost $4, how much do 5 pens cost?  
 
 **Normal method**
 
@@ -97,7 +99,7 @@ $$ = \frac{4 \times 5}{2}  = \frac{20}{2} = 10$$
 
 How both gave the same result?
 $$\text{New price}=\frac{\text{Old quantity}}{\text{Old price}} \times \text{New Quantity}$$
-In the $\frac{\text{Old quantity}}{\text{Old price}}$ method we find single unit price and do the 
+In the $\frac{\text{Old quantity}}{\text{Old price}}$ method we find single unit price and do scale up for desire count
 
 $$\text{New price}=\frac{\text{Old quantity} \times \text{New Quantity}}{\text{Old price}} $$
 In cross multiplication, we are doing $\text{Old quantity} \times \text{New Quantity}$ and dividing (eliminating) old price, so we left with new price
@@ -128,7 +130,7 @@ This method logically breaks the proportion into two understandable steps: first
 3. $$(5 \div 2) \times 4 = 2.5 \times 4 = 10$$
 
 * The new quantity (5 pens) is how many times larger than the old quantity (2 pens)?  
-* The answer is 2.5. You need 2.5 times the number of pens.
+* The answer is 2.5. New price 2.5 times the number of pens.
 * Since the price must scale proportionally, you multiply the old price ($4) by the scaling factor (2.5).
 
 Find the Scaling Factor first, then multiply by old price.
@@ -136,6 +138,156 @@ Find the Scaling Factor first, then multiply by old price.
 ---
 
 So, 5 pens cost $10. so the ratio is `2:4::5:10`
+### Ways to find the value
+
+#### **1. Scaling Up or Scaling Down**
+
+In proportions, scaling is all about adjusting one part of the ratio while maintaining the same relationship between the other parts. You can either scale up (when the new quantity is larger) or scale down (when the new quantity is smaller) to find the missing value.
+
+##### **Scaling Up**:
+
+This involves determining how much larger the new quantity is compared to the old quantity and applying the same scaling factor to the old price (or the other ratio component).
+
+**Formula**:
+$$ \text{New value} = \text{Old value} \times \frac{\text{New Quantity}}{\text{Old Quantity}} $$
+
+**Example**: If 2 apples cost $4, how much do 8 apples cost?
+
+Here, the old quantity is 2 apples and the old price is $4. The new quantity is 8 apples, and we need to find the new price.
+
+We can scale up as follows:
+$$ \text{New Price} = 4 \times \frac{8}{2} = 4 \times 4 = 16 $$
+
+$\frac{8}{2} = 4$ tells that the new value is 4 times bigger, so price also 4 times bigger 
+
+So, 8 apples cost $16.
+
+---
+
+##### **Scaling Down**:
+
+This method is used when the new quantity is smaller than the old one. You use the same scaling factor, but this time you’re scaling down to find the missing value.
+
+**Formula**:
+$$ \text{New value} = \text{Old value} \times \frac{\text{New Quantity}}{\text{Old Quantity}} $$
+
+**Example**: If 8 apples cost $16, how much do 2 apples cost?
+
+Here, the old quantity is 8 apples and the old price is $16. The new quantity is 2 apples, and we need to find the new price.
+
+We can scale down:
+$$ \text{New Price} = 16 \times \frac{2}{8} = 16 \times 0.25 = 4 $$
+
+So, 2 apples cost $4.
+
+---
+
+#### **2. Finding the Missing Value Using Unit Rate**
+
+The unit rate method is a more straightforward approach that focuses on finding the cost per unit (or price per unit) and then multiplying it by the new quantity. This can be particularly useful when you’re looking for the price per one unit and then scaling it.
+
+**Formula**:
+
+$$ \text{Unit Rate} = \frac{\text{Old Price}}{\text{Old Quantity}} $$
+
+Then, multiply the unit rate by the new quantity:
+$$ \text{New Price} = \text{Unit Rate} \times \text{New Quantity} $$
+
+---
+
+**Example**: If 4 pens cost $8, how much do 6 pens cost?
+
+1. **Step 1**: Find the unit rate (cost per pen):
+   $$ \text{Unit Rate} = \frac{8}{4} = 2 $$
+   So, each pen costs $2.
+
+2. **Step 2**: Multiply the unit rate by the new quantity (6 pens):
+   $$ \text{New Price} = 2 \times 6 = 12 $$
+
+So, 6 pens cost $12.
+
+---
+
+#### **3. The Cross-Multiplication Method (Traditional)**
+
+This is the algebraic method, which is what you initially mentioned. It uses the standard proportion equation and cross-multiplication to solve for the missing value.
+
+**Formula**:
+$$ \frac{a}{b} = \frac{c}{d} $$
+Then, using cross-multiplication:
+$$ a \times d = b \times c $$
+
+This method works well when we need an exact solution without first calculating a unit rate or scaling factor.
+
+---
+
+#### **Comparing the Three Methods:**
+
+* **Scaling Up / Scaling Down**: Good for simple problems where you can directly see the relationship between the quantities and prices.
+* **Unit Rate**: Very clear when you need to find the price (or another value) per unit and then scale it up or down. Often the easiest for people to understand.
+* **Cross-Multiplication**: Algebraic and precise, especially for more complicated proportions or when more than one unknown is involved.
+
+---
+
+#### **More Examples to Illustrate the Methods**
+
+---
+
+##### **1. Scaling Up** (Direct Proportion):
+
+**Problem**: If 3 oranges cost $6, how much do 9 oranges cost?
+
+* **Scaling Up**:
+  $$ \text{New Price} = 6 \times \frac{9}{3} = 6 \times 3 = 18 $$
+  So, 9 oranges cost $18.
+
+---
+
+##### **2. Scaling Down** (Inverse Proportion):
+
+**Problem**: If 12 pounds of flour cost $24, how much do 4 pounds cost?
+
+* **Scaling Down**:
+  $$ \text{New Price} = 24 \times \frac{4}{12} = 24 \times \frac{1}{3} = 8 $$
+  So, 4 pounds of flour cost $8.
+
+---
+
+##### **3. Using Unit Rate** (Cost per unit):
+
+**Problem**: If 10 kilograms of rice cost $30, how much do 4 kilograms cost?
+
+* **Unit Rate**:
+  $$ \text{Unit Rate} = \frac{30}{10} = 3 \text{ dollars per kilogram} $$
+  $$ \text{New Price} = 3 \times 4 = 12 $$
+  So, 4 kilograms of rice cost $12.
+
+---
+
+### Finding missing value
+
+For simplicity showed in algebric method
+
+$$\frac{a}{b} = \frac{c}{d}$$
+$$a \times d = b \times c$$
+
+#### a is missed
+
+$$ a = \frac{b \times c}{d} $$
+
+
+#### b is missed
+
+$$ b = \frac{a \times d}{c} $$
+
+#### c is missed
+
+$$ c = \frac{a \times d}{b} $$
+
+#### d is missed
+
+$$ d = \frac{b \times c}{a} $$
+
 
 ## Where it use?
 
@@ -208,7 +360,9 @@ $$\text{B : C = 6 : 5}$$
 
 $$\text{A : B = (2 * 2) : (3 * 2) = 4 : 6}$$
 
-4. Combine the Ratios: Now that the value for B is the same in both, you can write the combined ratio.
+4. Adjust the second Ratio (B:C): B is already in common multiple value so no need to change 
+
+5. Combine the Ratios: Now that the value for B is the same in both, you can write the combined ratio.
 
 $$\text{A:B:C=4:6:5}$$
 
@@ -478,6 +632,68 @@ $$\text{Unit Rate} = \frac{Distance}{Gallons}=\frac{180 \text{ miles}}{12 \text{
 $$y = kx$$
 $$Distance=15×Gallons$$
 This 15 is the constant of proportionality, k.
+
+---
+### **8.Find the ratio of 50 centimeters to 2 meters.**
+1. Identify the Units: We have centimeters (cm) and meters (m). They are different.
+
+2. Convert to the Same Unit: Convert the larger unit (m) to the smaller unit (cm):
+
+$$1\text{ meter} = 100 \text{ centimeter}$$
+$$2\text{ meter} = 2 \times 100 = 200 \text{ centimeter}$$
+
+3. Ratio: 
+$$50:200$$
+
+4. Simplify:
+$$1:4$$
+
+---
+
+### **9. If the ratio of boys to girls is 4:5, what percentage of the total students are boys?**
+1. Find total
+$$\text{students} = \text{boys + girls} = 4 + 5 = 9$$
+2. Percentage of boys
+$$=\frac{part}{whole}\times100 $$
+$$=\frac{4}{9}\times 100$$
+$$=0.4444\times100= 44.44\%$$
+
+---
+### **10. A product is on sale for 20% off. What is the ratio of the discount to the original price?**
+
+1. Percent to fraction 
+$$20\%=\frac{20}{100}$$
+
+2. simplify
+$$ = 20:100 $$
+$$ = 1:5$$
+
+---
+
+### **11. A diver descends from a platform $10 \text{ meters}$ above the water (at $t=0$ seconds) to a depth of $5 \text{ meters}$ below the water (at $t=5$ seconds). What is the average rate of change in his position?**
+
+* Starting Position: 10 meters above the water. water level is marked as 0 meter, as height goes up it is +ve
+* Ending Position: 5 meters below the water. The height goes down which is inside water so it is -5
+
+
+1.  Identify Points:
+    * Initial Point ($x_1, y_1$): $(0 \text{ seconds}, +10 \text{ meters})$
+    * Final Point ($x_2, y_2$): $(5 \text{ seconds}, -5 \text{ meters})$ (Depth is usually negative)
+
+2.  Calculate the Rate of Change:
+    $$\text{Rate of Change} = \frac{y_2 - y_1}{x_2 - x_1} = \frac{(-5) - 10}{5 - 0}$$   $$\text{Rate of Change} = \frac{-15}{5} = -3 \text{ meters/second}$$
+
+The negative rate of change ($-3 \text{ m/s}$) shows the diver is moving downward, decreasing his vertical position by 3 meters every second.
+
+---
+
+### **12.  What percent of 80 is 16?**
+$$\frac{16}{80}=\frac{x}{100}$$
+$$x * 80 = 16 * 100$$
+$$x = \frac{1600}{80}$$
+$$x = 20$$
+
+---
 
 #### Todo
 * did i covered all the concepts?
