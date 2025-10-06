@@ -135,13 +135,72 @@ So equation is $$(15 \times x) - 5 = 50$$
 
 The equation shows that the cost of the pizzas minus the coupon is equal to the total money spent. This shows the equation is balanced
 
-The equation $15x−5=50$ is the balanced statement. It accurately reflects the relationship between the price, the coupon, and the total cost. Since the equation is balanced what ever happen on one side will affect the other side
+The equation $15x−5=50$ is the balanced statement. It accurately reflects the relationship between the price, the coupon, and the total cost. If the spending increasing on one side, other side of the equation also get affected.   
+Since the equation is balanced what ever happen on one side will affect the other side
 
-### Order of Operations for Solving Equations
+## Algebric inversion 
 
-#### Simplification (The Pre-Inversion Steps)
+**why moving in other side of the equation we are changeing multiply to divide, divide to multiply?**
 
-The goal here is to reduce the equation to the clean, two-step format: $ax + b = c$.
+We don't actually "move" the term; we perform the inverse operation on both sides of the equation to cancel the term on one side.
+
+Let's look at an example to see why multiplication changes to division:
+#### Find the price of one pen if 5 pens cost $20.
+
+$$5 \times x = 20$$
+
+$$5 \rarr \text{Number of pens}$$
+$$x \rarr \text{Cost of 1 pen}$$
+$$20 \rarr \text{Cost of 20 pens}$$
+
+The goal of solving an equation is to isolate the variable (x) on one side of the equals sign. To achieve this, you must cancel out all other terms affecting x by performing the inverse operation. To maintain the equality of the equation, every operation performed on one side must also be performed on the other.
+
+We want to get x by itself. Since x is being multiplied by 5, the only way to cancel the "×5" is by dividing by 5.
+
+1. Divide both side by 5:
+
+$$\frac{5x}{5} = \frac{20}{5}$$
+
+2. The 5s on the left cancel out (because 5÷5=1, and 1×x=x):
+
+$$x=\frac{20}{5}$$
+
+3. $$x = 4$$
+
+
+The Core Rule: Why We Must Do It on Both Sides
+
+The equals sign (=) in an equation means that the expression on the left side has the exact same value as the expression on the right side.
+
+* If you change the weight on one side of a balanced scale (e.g., you divide the weight on the left by 5), the scale will tip and be unbalanced.
+
+* To keep the scale perfectly balanced (i.e., to keep the equation true), you must perform the exact same change (divide the weight on the right by 5) to the other side.
+
+### Other rules
+
+1. $x + 7 = 15$  
+x is combined with +7, to eliminate we have to do $-7$ in both side
+
+$$x + 7 -7 = 15 - 7 $$
+$$x = 15 - 7 = 8$$
+
+2. $x - 7 = 15$  
+x is combined with -7, to eliminate we have to do $+7$ in both side
+
+$$x - 7 + 7 = 15 + 7 = 22$$
+
+3. $\frac{x}{5} = 15$
+
+x is on divide, to cancel out $\frac{}{5}$ we have to do $\times 5 $ on both side
+
+$$ \frac{x}{5}  \times 5= 15 \times 5$$
+$$x = 15 \times 5 = 75$$
+
+## Order of Operations for Solving Equations
+
+### Simplification (The Pre-Inversion Steps)
+
+The goal here is to reduce the equation to the clean
 
 See also [properties](../properties/README.md)
 
@@ -151,8 +210,11 @@ Use the **Distributive Property** to eliminate all parentheses.
 
 You cannot solve an equation with variables locked inside parentheses.
 
-* $$a(b+c)=ab+ac$$
-* $$a(b−c)=ab−ac$$
+* $$a(b+c) = ab+ac$$
+* $$a(b−c) = ab−ac$$
+* $$(a+b)(c+d) = ac + ad + bc + bd$$
+
+*How it help?*
 
 Standard Approach: Calculate $6×43$ directly. Difficult to do mentally.
 
@@ -245,7 +307,7 @@ To eliminate fractions, multiply **every single term** in the entire equation by
     $$ \frac{6}{2} x  +  \frac{12}{3}  =  \frac{30}{6}$$
 
 
-3.  **Simplify (Cancel Denominators):**
+    Simplify (Cancel Denominators):
     $$3x + 4 = 5$$
     Now you have a clean two-step equation to solve!
 
@@ -260,7 +322,13 @@ To eliminate decimals, look for the term with the most decimal places and multip
     $$100(0.25x) - 100(1.5) = 100(3)$$
 3.  **Simplify:**
     $$25x - 150 = 300$$
-    Again, this results in a much easier two-step equation using only integers.
+        Again, this results in a much easier two-step equation using only integers.
+    divide by 25 to simplify further
+    $$\frac{25}{25}x - \frac{150}{25} = \frac{300}{25}$$
+    $$x-6=12$$
+    Isolate x, by adding 6
+    $$x-6+6=12+6$$
+    $$x=18$$
 
 ---
 
@@ -293,22 +361,173 @@ This happens when you arrive at a true statement.
 4.  **Conclusion:** The equation has **Infinite Solutions** (or "All Real Numbers").
 
 
-### Solving equation
-The goal is to isolate the variable (get x all by itself) on one side of the equation.
+## Solving equation
+The central goal in solving any equation is to use inverse operations and the Properties of Equality to isolate the variable (e.g., x) on one side of the equation.
 
-Refer: [Algeberic inversion](../Knows/Readme.md#algebric-inversion)
 
-##### Techniques for solving .
+#### Techniques for solving .
 
 1. **One-step inversion**
 
+One-step equations require a single inverse operation to solve for the variable.
+
+| Equation Type | Example | Inverse Operation | Solution |
+| :--- | :--- | :--- | :--- |
+| **Addition** | $$x + 9 = 15$$| **Subtract 9** from both sides. |$$x = 15 - 9$$ $$x = 6$$ |
+| **Subtraction** | $$y - 4 = 10$$| **Add 4** to both sides. |$$y = 10 + 4$$ $$y = 14$$ |
+| **Multiplication** | $$3m = 21$$| **Divide by 3** on both sides. |$$m = \frac{21}{3}$$ $$m = 7$$ |
+| **Division** | $$\frac{a}{5} = 7$$| **Multiply by 5** on both sides. |$$a = 7 \times 5$$ $$a = 35$$ |
+
+
 2. **Two-step inversion**
+
+Two-step equations involve a variable that is being affected by **two** operations (usually multiplication/division AND addition/subtraction). You must undo the operations in the reverse order of operations (like PEMDAS/BODMAS):
+
+**Rule:** Always undo the **addition/subtraction** first, and then undo the **multiplication/division**.
+**Why Inverse in reverse?**
+
+To isolate x, you must remove the operations affecting it, starting with the one that was applied last. Think of it like unwrapping a gift
+
+#### Example: Solve $4x + 7 = 19$
+
+| Step | Operation on $x$ | Action | Equation |
+| :--- | :--- | :--- | :--- |
+| **Original** | $x$ is multiplied by 4, then 7 is added. | | $$4x + 7 = 19$$ |
+| **Step 1: Undo Addition** | Undo $+7$ by **subtracting 7** from both sides. | $4x + 7 - 7 = 19 - 7$ | $$4x = 12$$ |
+| **Step 2: Undo Multiplication** | Undo $\times 4$ by **dividing by 4** on both sides. | $\frac{4x}{4} = \frac{12}{4}$ | $$\mathbf{x = 3}$$ |
 
 3. **Multi-step inversion**
 
+Multi-step equations are linear equations that require three or more steps to solve. These often involve:
+1.  **Distribution** (to clear parentheses).
+2.  **Combining Like Terms** (on the same side).
+3.  **Balancing Variables** (moving variables to one side).
+4.  **Two-Step Inversion** (the final steps).
 
-### Types of Equation
+**General Procedure (Simplify, Balance, Solve):**
 
-1. **Linear Equations (Degree 1)**
-2. **Quadratic Equations (Degree 2)**
-3. **Polynomial Equations (Degree 3 and Higher)**
+1.  **Simplify Each Side:**
+    * **Distribute** to eliminate parentheses. 
+    * **Combine Like Terms** on the left side, then on the right side.
+2.  **Balance Variables:**
+    * Use **addition or subtraction** to move all variable terms (e.g., $x$) to one side of the equation.
+3.  **Balance Constants:**
+    * Use **addition or subtraction** to move all plain numbers (constants) to the opposite side.
+4.  **Solve:**
+    * Use **multiplication or division** to isolate the variable.
+
+**Why this order?**
+
+By distributing first, you clear the structural barrier, allowing all terms to stand alone. Once the terms are free, you can begin the process of combining and balancing them.
+
+Example: In $4(x−1)+2x=20$
+
+You can't combine the x inside the parentheses with the 2x outside until you perform the multiplication (the distribution) first $4x−4+2x=20$
+
+| Order | Action | Purpose |
+| :--- | :--- | :--- |
+| **1st** | **Distribute** | Eliminate parentheses |
+| **2nd** | **Combine Like Terms** | Simplify the look of *each side* of the equation separately. |
+| **3rd** | **Balance Variables** | Move all $x$ terms to one side. |
+| **4th** | **Balance Constants** | Move all plain numbers to the other side (Sets up the Two-Step form). |
+| **5th** | **Solve (Inversion)** | Undo addition/subtraction, then multiplication/division. |
+
+#### Example: Solve $5(x - 2) + 3x = 2x + 14$
+
+| Step | Action | Equation |
+| :--- | :--- | :--- |
+| **Original** | | $$5(x - 2) + 3x = 2x + 14$$ |
+| **1. Distribute** | Apply $5$ to $(x-2)$. | $$5x - 10 + 3x = 2x + 14$$ |
+| **2. Combine Like Terms** | Combine $5x$ and $3x$ on the left side. | $$8x - 10 = 2x + 14$$ |
+| **3. Balance Variables** | Subtract $2x$ from both sides (to move variables left). | $$6x - 10 = 14$$ |
+| **4. Balance Constants** | Add $10$ to both sides (to move constants right). | $$6x = 24$$ |
+| **5. Solve** | Divide both sides by $6$. | $$\mathbf{x = 4}$$ |
+
+## Types of Equation
+Algebraic equations are categorized based on the highest power (or degree) of the variable. The degree dictates the shape of the graph, the complexity of the solution process, and, crucially, the number of solutions the equation will have
+
+
+### Finding the Degree
+
+The method for finding the degree depends on whether the polynomial has one variable or multiple variables.
+
+#### 1. For an Equation with One Variable
+
+The degree is simply the **largest exponent** of the variable in any term.
+
+| Degree | Name | General Form (Example) | Highest Power |
+| :---: | :---: | :---: | :---: |
+| 1 | **Linear** Equation | $2x + 5 = 0$ | $x^1$ |
+| 2 | **Quadratic** Equation | $x^2 - 3x + 2 = 0$ | $x^2$ |
+| 3 | **Cubic** Equation | $4x^3 + x^2 - 7 = 0$ | $x^3$ |
+| 4 | **Quartic** Equation | $x^4 - 2x = 9$ | $x^4$ |
+| 5 | **Quintic** Equation | $-x^5 + 8x^3 = 0$ | $x^5$ |
+
+
+
+#### 2. For an Equation with Multiple Variables
+
+The degree is the **highest sum of the exponents** of the variables in any single term.
+
+**Example: $5x^3y^2 + 7x^4 + 2xy = 10$**
+
+1.  **Find the degree of each term:**
+    * $5x^3y^2$: The exponents are 3 and 2. Sum: $3 + 2 = \mathbf{5}$.
+    * $7x^4$: The exponent is 4. Sum: $\mathbf{4}$.
+    * $2xy$: The exponents are 1 and 1. Sum: $1 + 1 = \mathbf{2}$.
+2.  **The degree of the equation** is the largest of these sums, which is **5**.
+
+
+### Importance of the Degree
+
+The degree of an equation is crucial because it generally determines:
+
+* **The maximum number of roots (solutions):** A polynomial equation of degree $n$ has at most $n$ real solutions.
+    * *Example:* A **Quadratic** equation (degree 2) has at most two real solutions.
+* **The shape of the graph:** The degree influences the general shape and "end behavior" (what the graph does as $x$ approaches positive and negative infinity) of the function when graphed.
+    * *Example:* **Linear** equations (degree 1) always graph as a straight line. **Quadratic** equations (degree 2) always graph as a parabola .
+
+
+### Where Algebraic Equations Are Used
+
+The degree of an equation determines its complexity and, therefore, the types of real-world phenomena it can accurately model.
+
+#### 1. Linear Equations (Degree 1)
+
+Linear equations are used for modeling relationships where the **change is constant**—a straight-line relationship.
+
+| Application Field | How it's Used | Example |
+| :--- | :--- | :--- |
+| **Finance** | Calculating simple interest, costs, or budgeting over time. | $\text{Total Cost} = (\text{Rate} \times \text{Hours}) + \text{Flat Fee}$ |
+| **Physics** | Modeling motion at a constant speed. | $\text{Distance} = \text{Rate} \times \text{Time}$ (where rate is constant) |
+| **Geometry** | Calculating the perimeter of shapes. | $\text{Perimeter} = 2l + 2w$ |
+| **Business** | Determining a break-even point in sales where the cost and revenue lines cross. |
+
+#### 2. Quadratic Equations (Degree 2)
+
+Quadratic equations are essential for modeling situations involving **gravity, area, and optimization**. Their parabolic shape captures the idea of something going up and then coming back down, or reaching a maximum/minimum point.
+
+| Application Field | How it's Used | Example |
+| :--- | :--- | :--- |
+| **Physics/Engineering** | Modeling the **trajectory** of projectiles (balls, rockets, water from a hose). | An equation for the height of a ball thrown into the air over time.  |
+| **Area & Design** | Designing large structures like satellite dishes, bridges, or car headlights, which use parabolic reflectors. | Finding the maximum area you can enclose with a fixed amount of fencing. |
+| **Economics** | Determining the **maximum profit** or the point of diminishing returns for a product. |
+
+#### 3. Cubic Equations (Degree 3)
+
+Cubic equations model situations that require **a turn and a change of direction**, such as volumes or complex growth patterns.
+
+| Application Field | How it's Used | Example |
+| :--- | :--- | :--- |
+| **Volume** | Calculating the volume of three-dimensional objects where dimensions are variable. | $\text{Volume} = l \times w \times h$ (if $l, w, h$ are related to $x$) |
+| **Engineering** | Designing the smooth curves and surfaces for car bodies, airplane wings, or roller coaster tracks. | Modeling the change in temperature of a metal object as it cools. |
+| **Medicine** | Creating mathematical models of biological growth, like the spread of a virus or the growth of a cell population. |
+
+#### 4. Quartic and Quintic Equations (Degree 4 and 5)
+
+Higher-degree polynomials are typically used in **advanced scientific and computational fields** where complex, multiple variables interact, leading to several turning points in the graph.
+
+| Application Field | How it's Used | Example |
+| :--- | :--- | :--- |
+| **Computer Graphics** | Used extensively in **Cubic Splines** and **Bezier Curves** to create the smooth, realistic motion and shapes in video games and animation. | Defining the flight path of a digital bird in a video game that needs to curve up, down, and then sharply up again. |
+| **Modeling** | Solving intricate problems in chemistry, quantum mechanics, and cosmology where systems have multiple energy states or equilibrium points. | Modeling the position of robotic arms with multiple joints (kinematics). |

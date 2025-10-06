@@ -91,7 +91,7 @@ This is a complete step-by-step guide to build your understanding of math — fr
 - 7.9 [Multiplication](./Ratio/Readme.md#in-direct-propertion-multiplication)
 - 7.10 [Division](./Ratio/Readme.md#direct-proportion-division)
 
-### 8. Algebra
+### 8. [Algebra](./Algebra/Index.md)
 
 ### 8. Graphs ( Graphing Linear Equations)
 

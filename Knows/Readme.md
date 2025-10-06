@@ -42,59 +42,22 @@ $$\frac{1}{4} + \frac{1}{6} = \frac{6}{24} + \frac{4}{24} = \frac{10}{24}$$
 
 Notice that with the larger number (24), you ended up with a fraction (10/24)  that you now have to simplify anyway to get to (5/12)
 
-## Algebric inversion 
-why moving in other side of the equation we are changeing multiply to divide, divide to multiply?
 
-We don't actually "move" the term; we perform the inverse operation on both sides of the equation to cancel the term on one side.
+## What is an Exponent?
 
-Let's look at an example to see why multiplication changes to division:
-#### Find the price of one pen if 5 pens cost $20.
+An exponent is the small number written just above and to the right of another number or variable.
 
-$$5 \times x = 20$$
+In the expression $\mathbf{b^n}$:
 
-$$5 \rarr \text{Number of pens}$$
-$$x \rarr \text{Cost of 1 pen}$$
-$$20 \rarr \text{Cost of 20 pens}$$
+* **b** is the **Base**: The number or variable being multiplied.
+* **n** is the **Exponent**: The number of times the base is multiplied by itself.
 
-The goal of solving an equation is to isolate the variable (x) on one side of the equals sign. To achieve this, you must cancel out all other terms affecting x by performing the inverse operation. To maintain the equality of the equation, every operation performed on one side must also be performed on the other.
+$$\text{Base}^{\text{Exponent}} = \underbrace{\text{Base} \times \text{Base} \times \dots \times \text{Base}}_{\text{n times}}$$
 
-We want to get x by itself. Since x is being multiplied by 5, the only way to cancel the "×5" is by dividing by 5.
+### Simple Examples
 
-1. Divide both side by 5:
-
-$$\frac{5x}{5} = \frac{20}{5}$$
-
-2. The 5s on the left cancel out (because 5÷5=1, and 1×x=x):
-
-$$x=\frac{20}{5}$$
-
-3. $$x = 4$$
-
-
-The Core Rule: Why We Must Do It on Both Sides
-
-The equals sign (=) in an equation means that the expression on the left side has the exact same value as the expression on the right side.
-
-* If you change the weight on one side of a balanced scale (e.g., you divide the weight on the left by 5), the scale will tip and be unbalanced.
-
-* To keep the scale perfectly balanced (i.e., to keep the equation true), you must perform the exact same change (divide the weight on the right by 5) to the other side.
-
-### Other rules
-
-1. $x + 7 = 15$  
-x is combined with +7, to eliminate we have to do $-7$ in both side
-
-$$x + 7 -7 = 15 - 7 $$
-$$x = 15 - 7 = 8$$
-
-2. $x - 7 = 15$  
-x is combined with -7, to eliminate we have to do $+7$ in both side
-
-$$x - 7 + 7 = 15 + 7 = 22$$
-
-3. $\frac{x}{5} = 15$
-
-x is on divide, to cancel out $\frac{}{5}$ we have to do $\times 5 $ on both side
-
-$$ \frac{x}{5}  \times 5= 15 \times 5$$
-$$x = 15 \times 5 = 75$$
+| Expression | Meaning (Expanded Form) | Value | What it's Doing |
+| :---: | :--- | :---: | :--- |
+| $\mathbf{3^2}$ | $3 \times 3$ | 9 | Multiplying the base (3) by itself 2 times. |
+| $\mathbf{2^4}$ | $2 \times 2 \times 2 \times 2$ | 16 | Multiplying the base (2) by itself 4 times. |
+| $\mathbf{x^3}$ | $x \times x \times x$ | - | Multiplying the variable $x$ by itself 3 times. |
