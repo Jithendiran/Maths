@@ -327,7 +327,7 @@ $$10 * \frac{4}{5} = \frac{40}{5} = 8$$
 
 ##### Shortcut for fraction multiplication
 
-$$\frac{a}{b} * \frac{c}{d} = \frac{(a * c)}{(b * d)}$$ 
+$$\frac{a}{b} * \frac{c}{d} = \frac{(a * c)}{(b * d)}$$
 
 $$\frac{2}{3} * \frac{4}{5} = \frac{(2 * 4)}{(3 * 5)} = \frac{8}{15}$$
 
