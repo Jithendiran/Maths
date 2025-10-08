@@ -321,9 +321,63 @@ $$so\ \frac{2}{3}\ is\ equaltent\ to\ \frac{10}{15}$$
 2. We have 10 smaller pieces, in that 10 piece we would like to eat only $\frac{4}{5}$. So in that 10 pieces how much is $\frac{4}{5}$, It is not 10 - 4 = 6.  
 You have 10 equal pieces, and you want to take 4 out of every 5. We have total 10 pieces meaning we have 2 group of 5, Take 4 from each it is 8, so 8 is the $\frac{4}{5}$ of 10
 
-$$10 * \frac{4}{5} = \frac{40}{5} = 8$$
+$$10 * \frac{4}{5}$$
+
+$$\frac{4}{5}+\frac{4}{5}+\frac{4}{5}+\cdots+\frac{4}{5} \text{ 10 times }$$
+$$\frac{40}{5} = 8$$
 
 3. Since the whole cake is splitted into 3 big equal size, each big pieces are equalent to 5 smaller pieces, so the whole cake is 3 x 5 = 15 small pieces, so we are going to eat $\frac{8}{15}$ in whole cake
+
+Another way of explain
+-----------------------
+
+### 1. Understand the Starting Amount ($\frac{2}{3}$)
+
+**What it means:** The original cake was split into **3** equal pieces (denominator 3), and you own **2** of them (numerator 2).
+
+
+### 2. Prepare for the Second Fraction ($\frac{4}{5}$)
+
+You want to take a portion of what you own. The new fraction, $\frac{4}{5}$, has a denominator of **5**. To apply this fraction, you must first split **every single piece** of the cake (both yours and the piece you don't own) into 5 smaller, equal pieces.
+
+#### A. New Total Pieces (The New Denominator)
+
+* **Action:** Multiply the original total pieces (3) by the new split size (5).
+    $$\text{New Total Pieces} = 3 \times 5 = \mathbf{15}$$
+* **What is found:** The whole cake is now composed of 15 very small, equal pieces. This is the **new common denominator** for the entire problem.
+
+#### B. New Pieces You Own (Equivalence of $\frac{2}{3}$)
+
+* **Action:** Multiply the pieces you own (2) by the new split size (5).
+    $$\text{New Pieces You Own} = 2 \times 5 = \mathbf{10}$$
+* **What is found:** You now own 10 of these new, smaller pieces.
+
+
+
+### 3. Calculate the Portion You Will Eat ($\frac{4}{5}$ of 10)
+
+You own **10** small pieces, and you want to eat $\frac{4}{5}$ of them.
+
+* **Goal:** Find $\mathbf{10 \times \frac{4}{5}}$.
+
+#### A. Divide Your Pieces by the Denominator (5)
+
+* **Action:** Divide the 10 pieces you own by the denominator of the fraction you want to take (5).
+    $$\text{Group Size (How many pieces is } \frac{1}{5} \text{)} = 10 \div 5 = \mathbf{2}$$
+* **What is found:** Finding the per unit size
+
+#### B. Multiply by the Numerator (4)
+
+* **Action:** Multiply the result (2 pieces per group) by the numerator (4).
+    $$\text{Pieces You Will Eat} = 2 \times 4 = \mathbf{8}$$
+* **What is found:** You are taking 4 of those groups, so you take a total of 8 pieces. 
+
+
+### 4. Final Answer (Fraction of the Whole Cake)
+
+* **Action:** Put the pieces you will eat (8) over the new total pieces (15).
+    $$\frac{\text{Pieces You Will Eat}}{\text{Total Pieces in the Whole Cake}} = \frac{8}{15}$$
+* **What is found:** The final answer, which is the fraction of the whole cake that you eat.
 
 ##### Shortcut for fraction multiplication
 
