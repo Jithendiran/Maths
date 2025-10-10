@@ -86,69 +86,102 @@ $$10 \times 0.8 = 8$$
 
 2. **Multiply by Total Unit**: Multiply the total number of children by the apple factor. $10 \times 0.8 = 8$ 
 
-# Todo
-
-That's a fun idea! Twisting the question format can change the operation required or what the unknown variable is.
-
-Here are three problems derived from the original scenario, each focusing on a different unknown and requiring a different operation:
 
 ---
 
-### Twist 1: Finding the Number of Children (Division)
+Question:
 
-**Original Math:** $10 \times \frac{4}{5} = 8$
-**Twisted Question:** $? \times \frac{4}{5} = 8$
+**8 Whole Apples, 4 Pieces per child, 5 pieces per apple, total child can fed?**
 
-**Problem:**
-"I have 8 whole apples. I slice every apple into 5 equal pieces. If I give 4 pieces to **each** child, **how many** children can I feed in total?"
+#### Method 1
 
-* **Logic:** You know the total resource (8 apples) and the requirement per unit ($\frac{4}{5}$ apple). To find the number of units, you divide: $8 \div \frac{4}{5}$.
+$$\text{Whole Apples} \times \text{Pieces per apple} = \text{Total pieces}$$
+
+$$8 \times 5 = 40$$
+
+$$\frac{\text{Total pieces}}{\text{Pieces per person}} =\text{ Total person}$$
+
+$$\frac{40}{4} = 10$$
+
+#### Method 2
+
+$$\frac{\text{Pieces per person}}{\text{Pieces per apple}} = \text{Per person whole apple}$$
+
+$$\frac{4}{5} \text{ in fraction}$$
+
+$$\frac{\text{ Total whole apple}}{\frac{\text{Pieces per person}}{\text{Pieces per apple}}} = \text{Total person}$$
+
+$$\frac{8}{\frac{4}{5}} = 10$$
+
+If we devide $\frac{4}{5}$ of 8 apples we can feed 10 person
+
+#### Method 3
+
+>[!WARNING]  
+> This method may confuse
+
+$$\frac{\text{Total Apples}}{\text{Pieces per person}} = \text{Total person can feed for 1 piece}$$
+Consider each apple is splitted into 1 piece so, 1 apple = 1 piece, 8 apple = 8 piece
+
+$$\frac{8 \text{ piece of apple}}{4 \text{ piece per person}} = 2 \text{ Person can feed}$$
+
+I have enough apples to feed 2 person
+
+$$\text{Total person can feed for 1 piece} \times \text{Pieces per apple} =\text{ Total person}$$
+$$2 \times 1 = 2$$
+If slices per apple increase, people can feed also increase
+
+It means that the total supply of 8 apple-pieces could only feed 2 people if the apples were not cut into smaller pieces (i.e., 1 apple = 1 piece). In other words, the total resource is 2 times the consumption rate.
+$$2 \times 2 = 4\text{ person}$$
+
+$$2 \times 3 = 6\text{ person}$$
+
+$$\vdots$$
+
+$$2 \times 5 = 10\text{ person}$$
+
+**General Formula**
+
+$$\frac{\text{Total resource}}{\text{Usage rate per unit}} = \text{Efficiency Factor}$$
+Efficiency Factor = The Total potential groups or units that can be served before considering any division or slicing of the resource.
 
 
- Finding the Number of Children
+$$\text{Efficiency Factor} \times \text{Parts per resource} = \text{Total capacity}$$
 
- "I have 8 whole apples. I slice every apple into 5 equal pieces. If I give 4 pieces to each child, how many children can I feed in total?"
+----
 
-Total object = 8
-Pieces for each child = 4
-Per object slices = 5
+Question:
 
-how many i can feed?
+**5 pieces per apple, total 8 apple, 10 child, no.of.slices per apple**
 
-Method 1: scale up and down
 
-total pieces = 8 * 5 = 40 pieces
+#### Method 1
 
-40/4 = 10 child
+$$\text{Pieces per apple} \times \text{Total apple} = \text{Total pieces}$$
+$$5 \times 8 = 40$$
 
-Method 2:
-Each child = 4/5
-Total apples = 8
+$$\frac{\text{Total Pieces}}{\text{Total child}} = \text{Pieces per child}$$
 
-8/(4/5) = 10 students
+$$\frac{40}{10} = 4$$
 
-Method 3:
+#### Method 2
 
----
+$$\frac{\text{Total apple}}{\text{Total child}} = \text{Apple per child }$$
 
-### Twist 2: Finding the Pieces Each Child Gets (Division/Inverse Multiplication)
+$$\frac{8}{10}= 0.8$$
 
-**Original Math:** $10 \times \frac{?}{5} = 8$
-**Twisted Question:** $10 \times \frac{X}{5} = 8 \implies X = ?$
+$$\text{Apple per child} \times \text{Slice per apple} = \text{Total slice per child}$$
 
-**Problem:**
-"I am feeding 10 children. I bought 8 apples and cut every apple into 5 equal pieces. **How many** slices must I give to **each** child so that all 8 apples are used up?"
+$$0.8 \times 5 = 4$$
 
-* **Logic:** You know the total resource (8 apples) and the number of units (10 children). To find the requirement per unit, you divide: $8 \div 10 = \frac{8}{10}$ of an apple. Since the denominator is 5, you convert $\frac{8}{10}$ to $\frac{4}{5}$. The number of pieces is **4**.
+#### Method 3
 
----
+$$\frac{\text{Total child}}{\text{Piece per apple}} = \text{Apples pieces per child}$$
 
-### Twist 3: Finding the Total Pieces per Apple (Denominator is Unknown)
+$$\frac{10}{5} = 2$$
 
-**Original Math:** $10 \times \frac{4}{?} = 8$
-**Twisted Question:** $10 \times \frac{4}{Y} = 8 \implies Y = ?$
+You have 2 children for every 1 slice a single apple provides
 
-**Problem:**
-"I need to feed 10 children, and I know I must give **4 slices** to each one. I have a total of 8 apples. **How many** equal slices must I cut from **each** apple to make sure I have exactly enough for all 10 children?"
+$$\frac{\text{Total Apple}}{\text{Apples pieces per child}} = \text{pieces per child}$$
 
-* **Logic:** The total pieces needed are $10 \times 4 = 40$ slices. Since 8 apples must produce 40 slices, you divide the total slices by the number of apples to find the slices per apple: $\frac{40 \text{ slices}}{8 \text{ apples}} = 5 \text{ slices per apple}$.
+$$\frac{8}{2}=4$$
