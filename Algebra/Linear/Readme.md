@@ -23,7 +23,8 @@ Purpose: It models relationships where the rate of change is constant. For every
 
 ## Types of Linear equation
 
-### 1. One Variable	$5x+2=0$	
+### 1. One Variable	
+
 
 1. $$x−5.7=−1.2$$
 
@@ -81,9 +82,8 @@ $$\frac{2}{8}=\frac{1}{4}$$
 Simplify
 $$\frac{1}{4}=\frac{1}{4}$$
 
-**variable on both sides**
 
-### 2. Two Variables $5x + 2y = 4$
+### 2. Two Variables 
 ### 3. n variables..
 
 
