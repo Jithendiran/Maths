@@ -311,6 +311,10 @@ To eliminate fractions, multiply **every single term** in the entire equation by
     $$3x + 4 = 5$$
     Now you have a clean two-step equation to solve!
 
+>[!NOTE]  
+> Here LCM is applied to both RHS and LHS because we are clearing the denominator, after applying LCM equation is balanced, it is in another form, so no need to balance the equation  
+> $0.75 == \frac{3}{4}$ , $0.50 == \frac{1}{2} == \frac{5}{10}, \cdots$ These are some simple examples we are just changing the form
+
 #### B. Clearing Decimals (Multiplying by a Power of 10)
 
 To eliminate decimals, look for the term with the most decimal places and multiply **every term** by the corresponding power of $10$ (10, 100, 1000, etc.).
@@ -329,6 +333,9 @@ To eliminate decimals, look for the term with the most decimal places and multip
     Isolate x, by adding 6
     $$x-6+6=12+6$$
     $$x=18$$
+
+> [!NOTE]  
+> Here after multiplying with 100 the equation is changes, so we must balance the equation, so we are doing for both the side, $0.25 \neq 25 \neq 2.5 \neq 250 \cdots$
 
 ---
 

@@ -534,6 +534,60 @@ $$25x = 400$$
 
 $$x = \frac{400}{25} = 16$$
 
+*method 2*
+---
+First, it is helpful to **convert all numbers to a single consistent format**, such as fractions, to make combining like terms easier.
+
+[Refer](../../Decimals/README.md#conversion)
+
+* $2.5 = \frac{5}{2}$
+* $1\frac{1}{2} = \frac{3}{2}$
+* $0.75 = \frac{3}{4}$
+
+**Equation in Fraction Form:**
+$$
+\frac{1}{3}x + \frac{5}{2} - 5 = \frac{5}{6}x + \frac{3}{2} - \frac{3}{4}x
+$$
+
+**Simplify Both Sides (Combine Like Terms)**
+
+Combine the $x$-terms and the constant terms on each side of the equation.
+
+**Left-Hand Side (LHS):**
+Combine constant terms: $\frac{5}{2} - 5 = \frac{5}{2} - \frac{10}{2} = -\frac{5}{2}$
+$$\frac{1}{3}x + \left(\frac{5}{2} - 5\right) = {\frac{1}{3}x - \frac{5}{2}}$$
+
+**Right-Hand Side (RHS):**
+Combine $x$-terms: $\frac{5}{6}x - \frac{3}{4}x$. The common denominator is $12$.
+$$\frac{5}{6}x - \frac{3}{4}x = \frac{10}{12}x - \frac{9}{12}x = \frac{1}{12}x$$
+$$\left(\frac{5}{6}x - \frac{3}{4}x\right) + \frac{3}{2} = {\frac{1}{12}x + \frac{3}{2}}$$
+
+**New Equation:**
+$$
+\frac{1}{3}x - \frac{5}{2} = \frac{1}{12}x + \frac{3}{2}
+$$
+
+
+| **Method 1: Working with Fractions** | **Method 2: Clearing the Fractions** |
+| :--- | :--- |
+| **Equation:** $$\frac{1}{3}x - \frac{5}{2} = \frac{1}{12}x + \frac{3}{2}$$| **Equation:**$$\frac{1}{3}x - \frac{5}{2} = \frac{1}{12}x + \frac{3}{2}$$ |
+| 1. **Isolate $x$-terms on one side** (Subtract $\frac{1}{12}x$ from both sides). | 1. **Find the LCM** of the denominators ($3, 2, 12, 2$). The **LCM is $12$**. |
+| $$\frac{1}{3}x - \frac{1}{12}x - \frac{5}{2} = \frac{3}{2}$$ | 2. **Multiply the entire equation by the LCM (12).** |
+| 2. **Combine $x$-terms (LCM 3,12) = 12:** $\frac{1}{3}x - \frac{1}{12}x = \frac{4}{12}x - \frac{1}{12}x = \frac{3}{12}x = \frac{1}{4}x$ | $$12 \left(\frac{1}{3}x - \frac{5}{2}\right) = 12 \left(\frac{1}{12}x + \frac{3}{2}\right)$$ |
+| **New Equation:** $$\frac{1}{4}x - \frac{5}{2} = \frac{3}{2}$$ | 3. **Simplify** (clear the fractions): |
+| 3. **Isolate the $x$-term** (Add $\frac{5}{2}$ to both sides). | $$\left(12 \cdot \frac{1}{3}\right)x - \left(12 \cdot \frac{5}{2}\right) = \left(12 \cdot \frac{1}{12}\right)x + \left(12 \cdot \frac{3}{2}\right)$$ |
+| $$\frac{1}{4}x = \frac{3}{2} + \frac{5}{2}$$|$$4x - 30 = 1x + 18$$ |
+| 4. **Combine constant terms:** $\frac{3}{2} + \frac{5}{2} = \frac{8}{2} = 4$ | **New Equation (Fraction-Free):** $$4x - 30 = x + 18$$ |
+| **New Equation:** $$\frac{1}{4}x = 4$$ | 4. **Isolate $x$-terms** (Subtract $x$ from both sides). |
+| 5. **Solve for $x$** (Multiply both sides by the reciprocal of $\frac{1}{4}$, which is $4$). | $$4x - x - 30 = 18$$ |
+| $$x = 4 \cdot 4$$|$$3x - 30 = 18$$ |
+| **Solution:** $$x = 16$$ | 5. **Isolate the $x$-term** (Add $30$ to both sides). |
+| | $$3x = 18 + 30$$ |
+| | $$3x = 48$$ |
+| | 6. **Solve for $x$** (Divide both sides by $3$). |
+| | $$x = \frac{48}{3}$$ |
+| | **Solution:** $$x = 16$$ |
+
 **Verify**
 
 $$\frac{1}{3}(16) + 2.5 - 5 = \frac{5}{6}(16) + 1\frac{1}{2} - 0.75(16)$$
@@ -542,7 +596,7 @@ $$(0.33 \times 16) -2.5 = (0.83 \times 16) + 1.5 - (0.75 \times16)$$
 
 $$2.78 = 2.78$$
 
---
+---
 
 $$
 \frac{3}{4}w - 1.25 + 7 = 2.5w + \frac{1}{5} - 0.003w
