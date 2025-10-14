@@ -172,6 +172,17 @@ So, whole numbers are **special cases** of fractions.
 
 ## Addition
 
+### Whole number
+
+$$\frac{4}{5} + 3$$
+It means a cake is cut into 5  pieces, we own 4 peices of a cake, and 3 whole cake, so what is my total portion.
+
+Since cake is cut into 5 pieces, we 1st split 3 whole cake into pieces which is $3 \times 5 = 15$, so 3 whole cake has 15 pieces, we already own 4 pieces of a cake so 4 + 15 = 19 pieces
+
+$$5 \times 3 = 15$$
+$$15 + 4 = 19$$
+$$=\frac{19}{5}$$
+
 ### same denominator
 $$\frac{2}{5} + \frac{1}{5} = \frac{3}{5}$$
 

@@ -18,7 +18,7 @@ in right side of the equation move  $\frac{-2}{1}$ out as common
 
 $$w = \frac{-2}{1}(\frac{2}{3} - \frac{1}{6})$$
 
-LCM (2, 3, 6) = 6
+Clearing the fraction, LCM (2, 3, 6) = 6
 
 $$w = \frac{-2}{1}(\frac{2 \times 2}{3 \times 2} - \frac{1 \times 1}{6 \times 1}) =  \frac{-2}{1}(\frac{4}{6} - \frac{1}{6})$$
 
@@ -602,17 +602,424 @@ $$
 \frac{3}{4}w - 1.25 + 7 = 2.5w + \frac{1}{5} - 0.003w
 $$
 
+*method 1*
+-----
+
+First, convert all terms to a common format (decimals in this case) and simplify the terms on each side.
+
+**Conversions:**
+
+  * $\frac{3}{4} = 0.75$
+  * $\frac{1}{5} = 0.2$
+
+**Equation in Decimals:**
+$$0.75w - 1.25 + 7 = 2.5w + 0.2 - 0.003w$$
+
+**Simplify Both Sides (Combine Like Terms):**
+
+  * **LHS:** $(0.75)w + (-1.25 + 7) = \mathbf{0.75w + 5.75}$
+  * **RHS:** $(2.5w - 0.003w) + 0.2 = \mathbf{2.497w + 0.2}$
+
+**Simplified Equation:**
+$$\mathbf{0.75w + 5.75 = 2.497w + 0.2}$$
+
+
+### Comparison of Methods
+
+| Step | Method 1: Working with Decimals | Method 2: Clearing Decimals to Integers |
+| :--- | :--- | :--- |
+| **Starting Point** | $$0.75w + 5.75 = 2.497w + 0.2$$|$$0.75w + 5.75 = 2.497w + 0.2$$ |
+| **2. Clear Decimals** | - | Multiply all terms by $1000$ (since $2.497$ has three decimal places). |
+| | | $$1000(0.75w) + 1000(5.75) = 1000(2.497w) + 1000(0.2)$$ |
+| **New Equation** | $$0.75w + 5.75 = 2.497w + 0.2$$|$$\mathbf{750w + 5750 = 2497w + 200}$$ |
+| **3. Collect Variable Terms** | Subtract $0.75w$ from both sides (to keep $w$ positive). | Subtract $750w$ from both sides. |
+| | $$5.75 = (2.497 - 0.75)w + 0.2$$|$$5750 = (2497 - 750)w + 200$$ |
+| **Result** | $$5.75 = 1.747w + 0.2$$|$$5750 = 1747w + 200$$ |
+| **4. Collect Constant Terms** | Subtract $0.2$ from both sides. | Subtract $200$ from both sides. |
+| | $$5.75 - 0.2 = 1.747w$$|$$5750 - 200 = 1747w$$ |
+| **Result** | $$5.55 = 1.747w$$|$$5550 = 1747w$$ |
+| **5. Isolate $w$** | Divide by $1.747$. | Divide by $1747$. |
+| | $$w = \frac{5.55}{1.747}$$|$$\mathbf{w = \frac{5550}{1747}}$$ |
+| **Fractional Solution** | *(Convert to fraction by multiplying numerator/denominator by $1000$)* $$\frac{5550}{1747}$$|$$\mathbf{w = \frac{5550}{1747}}$$ |
+
+The exact solution is:
+$$\mathbf{w = \frac{5550}{1747}}$$
+
+The decimal approximation is:
+$$\mathbf{w \approx 3.1769}$$
+
+
+*method 2*
+----
+
+The original equation is:
+$$\mathbf{\frac{3}{4}w - 1.25 + 7 = 2.5w + \frac{1}{5} - 0.003w}$$
+
+**Convert All Terms to Fractions**
+
+* $1.25 = 1 \frac{1}{4} = \frac{5}{4}$
+* $7 = \frac{7}{1}$
+* $2.5 = 2 \frac{1}{2} = \frac{5}{2}$
+* $0.003 = \frac{3}{1000}$
+
+**Equation in Fraction Form:**
+$$\frac{3}{4}w - \frac{5}{4} + \frac{7}{1} = \frac{5}{2}w + \frac{1}{5} - \frac{3}{1000}w$$
+
+**Simplify Both Sides (Combine Like Terms)**
+
+Combine the constant terms on the LHS and the $w$-terms on the RHS.
+
+* **LHS (Constants):** $-\frac{5}{4} + \frac{7}{1} = -\frac{5}{4} + \frac{28}{4} = \frac{23}{4}$
+* **RHS ($w$-terms):** $\frac{5}{2}w - \frac{3}{1000}w$. LCM of $2$ and $1000$ is $1000$.
+    $$\frac{5}{2}w - \frac{3}{1000}w = \frac{5 \cdot 500}{2 \cdot 500}w - \frac{3}{1000}w = \frac{2500}{1000}w - \frac{3}{1000}w = \frac{2497}{1000}w$$
+
+**Simplified Equation:**
+$$\frac{3}{4}w + \frac{23}{4} = \frac{2497}{1000}w + \frac{1}{5}$$
+
+**Clear Fractions by Multiplying by the LCM**
+
+The denominators are $4, 4, 1000, 5$.
+The **LCM** of $(4, 1000, 5)$ is $1000$.
+
+Multiply every term by $1000$:
+$$1000 \cdot \left(\frac{3}{4}w\right) + 1000 \cdot \left(\frac{23}{4}\right) = 1000 \cdot \left(\frac{2497}{1000}w\right) + 1000 \cdot \left(\frac{1}{5}\right)$$
+
+**Simplify the terms:**
+* $1000 \cdot \frac{3}{4} = 250 \cdot 3 = 750$
+* $1000 \cdot \frac{23}{4} = 250 \cdot 23 = 5750$
+* $1000 \cdot \frac{2497}{1000} = 2497$
+* $1000 \cdot \frac{1}{5} = 200 \cdot 1 = 200$
+
+**Equation with Integers:**
+$$750w + 5750 = 2497w + 200$$
+
+**Solve the Integer Equation**
+
+1.  **Collect $w$-terms** (Subtract $750w$ from both sides):
+    $$5750 = (2497 - 750)w + 200$$
+    $$5750 = 1747w + 200$$
+
+2.  **Collect Constant Terms** (Subtract $200$ from both sides):
+    $$5750 - 200 = 1747w$$
+    $$5550 = 1747w$$
+
+3.  **Isolate $w$** (Divide by $1747$):
+    $$w = \frac{5550}{1747}$$
+
+$$\mathbf{w = \frac{5550}{1747}}$$
+
+**Verification**
+
+Substitute the fractional value $w = \frac{5550}{1747}$ into the simplified equation $0.75w + 5.75 = 2.497w + 0.2$.
+
+Using the original simplified integer form:
+$$5550 = 1747w$$
+$$w = \frac{5550}{1747}$$
+
+This confirms the solution from both methods.
+
+---
+
 $$
 5(2.5x - 3) + \frac{1}{2}x = 4.08 - \frac{3}{4}(x + 0.004)
 $$
+
+
+
+**Convert Fractions to Decimals and Apply the Distributive Property**
+
+First, convert the fractions to decimals ($\frac{1}{2}=0.5$, $\frac{3}{4}=0.75$). Then, apply the distributive property on both sides to clear the parentheses.
+
+$$\mathbf{5(2.5x) - 5(3) + 0.5x = 4.08 - 0.75(x) - 0.75(0.004)}$$
+
+$$12.5x - 15 + 0.5x = 4.08 - 0.75x - 0.003$$
+
+**Simplify Both Sides (Combine Like Terms)**
+
+Combine the $x$-terms and the constant terms on each side.
+
+**Left-Hand Side (LHS):**
+$$(12.5x + 0.5x) - 15 = \mathbf{13x - 15}$$
+
+**Right-Hand Side (RHS):**
+$$-0.75x + (4.08 - 0.003) = \mathbf{-0.75x + 4.077}$$
+
+**New Simplified Equation:**
+$$\mathbf{13x - 15 = -0.75x + 4.077}$$
+
+**Collect the Variable Terms**
+
+We move the smaller $x$-term (which is $-0.75x$) to the side of the larger $x$-term ($13x$) by **adding $0.75x$** to both sides.
+
+$$13x + 0.75x - 15 = \cancel{-0.75x}\cancel{+0.75x} + 4.077$$
+
+$$\mathbf{13.75x - 15 = 4.077}$$
+
+**Collect the Constant Terms**
+
+We move the constant term ($-15$) from the LHS to the RHS by **adding $15$** to both sides.
+
+$$13.75x \cancel{- 15}\cancel{+ 15} = 4.077 + 15$$
+
+$$\mathbf{13.75x = 19.077}$$
+
+**Isolate the Variable**
+
+Divide both sides by $13.75$.
+
+$$x = \frac{19.077}{13.75}$$
+
+To express the answer as an exact fraction, we clear the decimals by multiplying the numerator and the denominator by $10,000$ (since $13.75$ has two decimal places and $19.077$ has three, the required power is $10^3=1000$ for $19.077$ and $10^2=100$ for $13.75$). To clear both simultaneously, we must multiply by $10^3=1000$:
+
+$$x = \frac{19.077 \times 1000}{13.75 \times 1000} = \frac{19077}{13750}$$
+
+$$\mathbf{x = \frac{19077}{13750} \text{ or } x \approx 1.3874}$$
+
+
+**Verification**
+
+Substitute $x = \frac{19077}{13750}$ into the simplified equation: $13x - 15 = -0.75x + 4.077$
+
+This is the equivalent of: $13x - 15 = -\frac{3}{4}x + \frac{4077}{1000}$
+
+**LHS:**
+$$13\left(\frac{19077}{13750}\right) - 15 = \frac{248001}{13750} - \frac{15 \cdot 13750}{13750}$$
+$$= \frac{248001 - 206250}{13750} = \frac{41751}{13750}$$
+
+**RHS:**
+$$-\frac{3}{4}\left(\frac{19077}{13750}\right) + \frac{4077}{1000} = -\frac{57231}{55000} + \frac{4077 \cdot 55}{1000 \cdot 55}$$
+$$= -\frac{57231}{55000} + \frac{224235}{55000} = \frac{167004}{55000}$$
+
+Now, reduce the fraction $\frac{167004}{55000}$ by dividing both by 4:
+$$\frac{167004 \div 4}{55000 \div 4} = \frac{41751}{13750}$$
+
+$$\frac{41751}{13750} = \frac{41751}{13750} \text{ is proved}$$
+
+---
 
 $$
 \frac{2}{5}\left(x - 3.5\right) + 1.05 = 4 - 0.1\left(\frac{1}{4}x + 7\right)
 $$
 
-$$
-\frac{2}{3}(4z - 1.5) - \frac{1}{6}z = 5.5 + 0.75\left( \frac{1}{2}z + \frac{4}{9} \right)
-$$
+
+**Convert Fractions to Decimals and Apply the Distributive Property**
+
+First, convert the fractions to their decimal equivalents: $\frac{2}{5} = 0.4$ and $\frac{1}{4} = 0.25$.
+Then, apply the **Distributive Property** to clear the parentheses on both sides.
+
+$$0.4(x - 3.5) + 1.05 = 4 - 0.1(0.25x + 7)$$
+
+$$0.4(x) - 0.4(3.5) + 1.05 = 4 - 0.1(0.25x) - 0.1(7)$$
+
+$${0.4x - 1.4 + 1.05 = 4 - 0.025x - 0.7}$$
+
+**Simplify Both Sides (Combine Like Terms)**
+
+Combine the $x$-terms and the constant terms on each side.
+
+**Left-Hand Side (LHS):**
+$$0.4x + (-1.4 + 1.05) = {0.4x - 0.35}$$
+
+**Right-Hand Side (RHS):**
+$$-0.025x + (4 - 0.7) = {-0.025x + 3.3}$$
+
+**New Simplified Equation:**
+$${0.4x - 0.35 = -0.025x + 3.3}$$
+
+**Collect the Variable Terms**
+
+We move the smaller $x$-term (which is $-0.025x$) to the LHS by **adding $0.025x$** to both sides.
+
+$$0.4x + 0.025x - 0.35 = \cancel{-0.025x}\cancel{+0.025x} + 3.3$$
+
+$${0.425x - 0.35 = 3.3}$$
+
+**Collect the Constant Terms**
+
+We move the constant term ($-0.35$) from the LHS to the RHS by **adding $0.35$** to both sides.
+
+$$0.425x \cancel{- 0.35}\cancel{+ 0.35} = 3.3 + 0.35$$
+
+$${0.425x = 3.65}$$
+
+**Isolate the Variable**
+
+Divide both sides by $0.425$.
+
+$$x = \frac{3.65}{0.425}$$
+
+To find the exact fractional solution, we clear the decimals by multiplying the numerator and the denominator by $1000$ (based on the term $0.425$, which has three decimal places).
+
+$$x = \frac{3.65 \times 1000}{0.425 \times 1000} = \frac{3650}{425}$$
+
+**Reduce the fraction** (Both are divisible by 25):
+$$x = \frac{3650 \div 25}{425 \div 25} = \frac{146}{17}$$
+
+$$\mathbf{x = \frac{146}{17}} = 8.58$$
+
+*Method 2*
+---
+
+* $3.5 = \frac{35}{10} = \frac{7}{2}$
+* $1.05 = \frac{105}{100} = \frac{21}{20}$
+* $0.1 = \frac{1}{10}$
+* $4 = \frac{4}{1}$
+* $7 = \frac{7}{1}$
+
+**Simplified Equation (after distribution):**
+
+| Method 1: Working with Decimals | Method 2: Working with Fractions |
+| :--- | :--- |
+| **Equation in Decimals:** | **Equation in Fractions:** |
+| $$0.4(x) - 0.4(3.5) + 1.05 = 4 - 0.1(0.25x) - 0.1(7)$$|$$\frac{2}{5}\left(x - \frac{7}{2}\right) + \frac{21}{20} = \frac{4}{1} - \frac{1}{10}\left(\frac{1}{4}x + \frac{7}{1}\right)$$ |
+| **Apply Distributive Property:** | **Apply Distributive Property:** |
+| $$0.4x - 1.4 + 1.05 = 4 - 0.025x - 0.7$$|$$\frac{2}{5}x - \frac{2}{5} \cdot \frac{7}{2} + \frac{21}{20} = 4 - \frac{1}{10} \cdot \frac{1}{4}x - \frac{1}{10} \cdot 7$$ |
+| **Combine Like Terms:** | $$\frac{2}{5}x - \frac{7}{5} + \frac{21}{20} = 4 - \frac{1}{40}x - \frac{7}{10}$$ |
+| **Simplified Equation:** | **Simplified Equation:** |
+| $$\mathbf{0.4x - 0.35 = -0.025x + 3.3}$$|$$\mathbf{\frac{2}{5}x - \frac{7}{5} + \frac{21}{20} = 4 - \frac{1}{40}x - \frac{7}{10}}$$ |
+
+
+| Step | Method 1: Working with Decimals | Method 2: Clearing the Denominators |
+| :--- | :--- | :--- |
+| **Starting Point** | $$0.4x - 0.35 = -0.025x + 3.3$$|$$\frac{2}{5}x - \frac{7}{5} + \frac{21}{20} = 4 - \frac{1}{40}x - \frac{7}{10}$$ |
+| **2. Clear Decimals/Fractions** | *(N/A - Working directly with decimals)* | Find the LCM of all denominators ($5, 20, 1, 40, 10$). **LCM is $40$**. Multiply all terms by $40$. |
+| **New Integer/Simplified Eq.** | *(Same as starting point)* | $$40\left(\frac{2}{5}x\right) - 40\left(\frac{7}{5}\right) + 40\left(\frac{21}{20}\right) = 40(4) - 40\left(\frac{1}{40}x\right) - 40\left(\frac{7}{10}\right)$$ |
+| **Simplify Integers** | *(N/A)* | $$(8 \cdot 2x) - (8 \cdot 7) + (2 \cdot 21) = 160 - (1x) - (4 \cdot 7)$$ |
+| | *(N/A)* | $$16x - 56 + 42 = 160 - x - 28$$ |
+| **3. Combine Like Terms**| $$0.4x - 0.35 = -0.025x + 3.3$$|$$16x - 14 = -x + 132$$ |
+| **4. Collect Variable Terms**| Add $0.025x$ to both sides. | Add $x$ to both sides. |
+| | $$0.425x - 0.35 = 3.3$$|$$17x - 14 = 132$$ |
+| **5. Collect Constant Terms**| Add $0.35$ to both sides. | Add $14$ to both sides. |
+| | $$0.425x = 3.65$$|$$17x = 132 + 14$$ |
+| | *(N/A)* | $$17x = 146$$ |
+| **6. Isolate $x$** | Divide by $0.425$. | Divide by $17$. |
+| | $$x = \frac{3.65}{0.425}$$|$$\mathbf{x = \frac{146}{17}}$$ |
+| **Final Solution** | $$x = \frac{3650}{425} = \mathbf{\frac{146}{17}}$$|$$\mathbf{x = \frac{146}{17}}$$ |
+
+Both methods yield the same exact solution:
+$$\mathbf{x = \frac{146}{17} = 8.58}$$
+
+
+**Verification**
+
+Substitute $x = \frac{146}{17}$ into the simplified equation: $0.4x - 0.35 = -0.025x + 3.3$.
+
+**LHS:**
+Decimal to fractiion $0.4 = \frac{2}{5}, 0.35 = \frac{7}{20}$  
+$$0.4\left(\frac{146}{17}\right) - 0.35 = \frac{2}{5}\left(\frac{146}{17}\right) - \frac{7}{20}$$
+$$= \frac{292}{85} - \frac{7}{20}$$
+LCM of 85 and 20 is 340.
+$$= \frac{292 \times 4}{85 \times 4} - \frac{7 \times 17}{20 \times 17} = \frac{1168}{340} - \frac{119}{340} = \frac{1049}{340}$$
+
+**RHS:**
+Decimal to fractiion $0.025 = \frac{1}{40}, 3.3 = \frac{33}{10}$  
+$$-0.025x + 3.3 = -\frac{1}{40}\left(\frac{146}{17}\right) + \frac{33}{10}$$
+$$= -\frac{146}{680} + \frac{33}{10}$$
+LCM of 680 and 10 is 680.
+$$= -\frac{146}{680} + \frac{33 \times 68}{10 \times 68} = -\frac{146}{680} + \frac{2244}{680} = \frac{2098}{680}$$
+
+Now, reduce the fraction $\frac{2098}{680}$ by dividing both by 2:
+$$\frac{2098 \div 2}{680 \div 2} = \frac{1049}{340}$$
+
+$$\frac{1049}{340} = \frac{1049}{340} \text{ is proved}$$
+
+---
+
+
+$$\mathbf{\frac{2}{3}(4z - 1.5) - \frac{1}{6}z = 5.5 + 0.75\left( \frac{1}{2}z + \frac{4}{9} \right)}$$
+
+**Convert Decimals to Fractions and Apply the Distributive Property**
+
+First, convert all decimal terms to fractions:
+* $1.5 = \frac{3}{2}$
+* $5.5 = \frac{11}{2}$
+* $0.75 = \frac{3}{4}$
+
+**Equation in Fraction Form:**
+$$\frac{2}{3}\left(\frac{4z}{1} - \frac{3}{2}\right) - \frac{1}{6}z = \frac{11}{2} + \frac{3}{4}\left( \frac{z}{2} + \frac{4}{9} \right)$$
+
+Apply the **Distributive Property**:
+
+**LHS:**
+$$\frac{2}{3}\left(\frac{4z}{1}\right) - \frac{2}{3}\left(\frac{3}{2}\right) - \frac{1}{6}z = \frac{8z}{3} - \frac{6}{6} - \frac{z}{6} = \frac{8z}{3} - 1 - \frac{z}{6}$$
+
+**RHS:**
+$$\frac{11}{2} + \frac{3}{4}\left(\frac{z}{2}\right) + \frac{3}{4}\left(\frac{4}{9}\right) = \frac{11}{2} + \frac{3z}{8} + \frac{12}{36} = \frac{11}{2} + \frac{3z}{8} + \frac{1}{3}$$
+
+**New Simplified Equation:**
+$${\frac{8z}{3} - 1 - \frac{z}{6} = \frac{11}{2} + \frac{3z}{8} + \frac{1}{3}}$$
+
+**Clear Fractions by Multiplying by the LCM**
+
+The denominators are $3, 1, 6, 2, 8, 3$. The **LCM** of $(3, 6, 2, 8)$ is ${24}$.
+
+Multiply every single term on both sides by $24$:
+$$24\left(\frac{8z}{3}\right) - 24(1) - 24\left(\frac{z}{6}\right) = 24\left(\frac{11}{2}\right) + 24\left(\frac{3z}{8}\right) + 24\left(\frac{1}{3}\right)$$
+
+**Simplify the terms:**
+$$(8 \cdot 8z) - 24 - (4 \cdot z) = (12 \cdot 11) + (3 \cdot 3z) + (8 \cdot 1)$$
+
+$${64z - 24 - 4z = 132 + 9z + 8}$$
+
+**Simplify Both Sides (Combine Like Terms)**
+
+Combine the $z$-terms and constant terms on each side of the integer equation.
+
+**Left-Hand Side (LHS):**
+$$(64z - 4z) - 24 = {60z - 24}$$
+
+**Right-Hand Side (RHS):**
+$$9z + (132 + 8) = {9z + 140}$$
+
+**New Simplified Equation:**
+$${60z - 24 = 9z + 140}$$
+
+**Collect the Variable Terms**
+
+Subtract $9z$ from both sides (to keep the $z$ coefficient positive).
+
+$$60z - 9z - 24 = \cancel{9z}\cancel{-9z} + 140$$
+
+$${51z - 24 = 140}$$
+
+**Collect the Constant Terms**
+
+Add $24$ to both sides.
+
+$$51z \cancel{- 24}\cancel{+ 24} = 140 + 24$$
+
+$${51z = 164}$$
+
+**Isolate the Variable**
+
+Divide both sides by $51$.
+
+$$z = \frac{164}{51}$$
+
+The fraction $\frac{164}{51}$ cannot be reduced further ($51 = 3 \times 17$, and $164$ is not divisible by $3$ or $17$).
+
+$$\mathbf{z = \frac{164}{51} = 3.215}$$
+
+
+**Verification**
+
+Substitute $z = \frac{164}{51}$ into the simplified integer equation: $60z - 24 = 9z + 140$.
+
+**LHS:**
+$$60\left(\frac{164}{51}\right) - 24$$
+*Reduce $60$ and $51$ by $3$: $\frac{20}{17}$*
+$$20\left(\frac{164}{17}\right) - 24 = \frac{3280}{17} - \frac{24 \cdot 17}{17}$$
+$$= \frac{3280 - 408}{17} = \frac{2872}{17}$$
+
+**RHS:**
+$$9\left(\frac{164}{51}\right) + 140$$
+*Reduce $9$ and $51$ by $3$: $\frac{3}{17}$*
+$$3\left(\frac{164}{17}\right) + 140 = \frac{492}{17} + \frac{140 \cdot 17}{17}$$
+$$= \frac{492 + 2380}{17} = \frac{2872}{17}$$
+
+$$\frac{2872}{17} = \frac{2872}{17} \text{ is proved}$$
+
+----
 
 $$
 \frac{a}{\frac{1}{2}} - 0.04a = 10\left( \frac{a}{0.1} - 3 \right) - 0.5
