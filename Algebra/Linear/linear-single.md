@@ -1021,6 +1021,55 @@ $$\frac{2872}{17} = \frac{2872}{17} \text{ is proved}$$
 
 ----
 
+$$\frac{3}{x} - \frac{1}{2} = \frac{5}{2x} + 2$$
+
+**1. Identify the Least Common Denominator (LCD)**
+
+The denominators are $x$, $2$, and $2x$. The **LCD** is **$2x$**.
+
+**2. Multiply the Entire Equation by the LCD**
+
+Multiply every term in the equation by $2x$ to eliminate the denominators:
+
+$$2x \left(\frac{3}{x}\right) - 2x \left(\frac{1}{2}\right) = 2x \left(\frac{5}{2x}\right) + 2x(2)$$
+
+**3. Simplify the Terms**
+
+$$2\cancel{x} \left(\frac{3}{\cancel{x}}\right) - \cancel{2}x \left(\frac{1}{\cancel{2}}\right) = \cancel{2x} \left(\frac{5}{\cancel{2x}}\right) + 2x(2)$$
+
+Cancel out the common factors:
+
+$$2 \cdot 3-x \cdot1 = 5 + 2x \cdot 2$$
+
+$$6 - x = 5 + 4x$$
+
+**4. Isolate the Variable ($x$)**
+
+  * **Move all terms with $x$ to one side** (e.g., the right side):
+    $$6 - 5 = 4x + x$$
+    $$1 = 5x$$
+
+  * **Solve for $x$**:
+    $$\frac{1}{5} = x$$
+
+
+
+**Verification**
+
+To verify the solution, substitute $x = \frac{1}{5}$ back into the original equation:
+
+$$\frac{3}{1/5} - \frac{1}{2} = \frac{5}{2(1/5)} + 2$$
+
+  * **Left Hand Side (LHS):**
+    $$3 \times 5 - \frac{1}{2} = 15 - \frac{1}{2} = \frac{30}{2} - \frac{1}{2} = \frac{29}{2}$$
+
+  * **Right Hand Side (RHS):**
+    $$\frac{5}{2/5} + 2 = 5 \times \frac{5}{2} + 2 = \frac{25}{2} + 2 = \frac{25}{2} + \frac{4}{2} = \frac{29}{2}$$
+
+Since $\text{LHS} = \text{RHS}$ ($\frac{29}{2} = \frac{29}{2}$), the solution is correct.
+
+---
+
 $$
 \frac{a}{\frac{1}{2}} - 0.04a = 10\left( \frac{a}{0.1} - 3 \right) - 0.5
 $$
