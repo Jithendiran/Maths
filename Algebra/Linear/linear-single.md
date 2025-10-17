@@ -1085,3 +1085,164 @@ $$
 $$
 \frac{\frac{3}{4}m - 1.2}{\frac{2}{5}} = 0.5m + \frac{4}{3}
 $$
+
+
+# Important
+
+$$\mathbf{\frac{1}{3} \left[ 4x - \frac{1}{2} \left( \frac{x}{0.6} + 5 \right) \right] - 0.75x = \frac{1}{5} \left( \frac{1}{2} + \frac{1}{x+2} \right) \left( \frac{10x+20}{3} \right)}$$
+
+### LHS simplify
+$$\frac{1}{3} \left[ 4x - \frac{1}{2} \left( \frac{x}{0.6} + 5 \right) \right] - 0.75x$$
+
+**Decimal to fraction**  
+Why decimal to fraction not fractions to decimal?
+ 
+    1/3, 4x/1, 1/2, 5/1 -> 4 fractions  
+    0.75, 0.6 -> 2 decimals  
+    Compariteviely decimal count is less, operations will be quick
+
+* $0.6 \rightarrow \frac{6}{10} \rightarrow \frac{3}{5}$
+* $0.75 \rightarrow \frac{75}{100} \rightarrow \frac{3}{4}$
+
+
+$$\frac{1}{3} \left[ 4x - \frac{1}{2} \left( \frac{x}{3/5} + 5 \right) \right] - \frac{3}{4}x$$
+
+**Simplify inner term**
+
+$$\frac{x}{3/5} + 5 \rightarrow \frac{5x}{3} + 5 $$
+
+$$\frac{5x}{3}+\frac{5}{1} \text{(LCM is 3)}$$
+$$\frac{5x}{3}+\frac{15}{3}$$
+
+> [!NOTE]  
+> $$\frac{5x}{3} + 5 == \frac{5x}{3}+\frac{5}{1} \rightarrow \frac{5x}{3} + \frac{15}{3} \rightarrow \frac{(5x+15)}{3}$$
+> $$\frac{(5x+15)}{3} = \frac{5(x+3)}{3} \text{This is valid}$$
+> $$\frac{5(x+3)}{3} \neq \frac{5(x+\cancel{3})}{\cancel{3}} \text{Not valid}$$
+> This us wrong
+
+Now multiply $\frac{1}{2}$ with $\frac{5x}{3}+\frac{15}{3}$
+
+$$\left( \frac{1}{2}\cdot\frac{5x}{3} \right) + \left( \frac{1}{2}\cdot\frac{15}{3} \right)$$
+$$\frac{5x}{6}+\frac{15}{6} = \frac{5x}{6}+\frac{5}{2}$$
+
+
+or **Distribute** $\frac{1}{2}$ inside the parentheses: 
+$$\frac{1}{2} \left( \frac{5x}{3} + 5 \right) = \left(\frac{1}{2} \times \frac{5x}{3}\right) + \left(\frac{1}{2} \times 5\right) = \frac{5x}{6} + \frac{5}{2}$$
+
+apply sign
+
+$$\frac{1}{3} [ 4x - \frac{5x}{6} -\frac{5}{2}] - \frac{3}{4}x$$
+
+**Distribute** $\frac{1}{3}$ inside the parentheses: 
+$$\frac{1*4x}{3} - \frac{1 * 5x}{6} - \frac{1*5}{2}$$
+$$\frac{4x}{3} - \frac{5x}{3*6} - \frac{5}{2*3}$$
+
+$$\frac{4x}{3} - \frac{5x}{18} - \frac{5}{6} - \frac{3x}{4}$$
+$$\frac{4x}{3} - \frac{5x}{6} - \frac{3x}{4}  - \frac{5}{2}$$
+
+$$\left( \frac{4x}{3} - \frac{5x}{18} - \frac{3x}{4} \right) - \frac{5}{6}$$
+
+To combine the $x$ terms, the Least Common Denominator (LCD) of $3, 18,$ and $4$ is **36**:
+
+$$\frac{4x \cdot 12}{3 \cdot 12} - \frac{5x \cdot 2}{18 \cdot 2} - \frac{3x \cdot 9}{4 \cdot 9} - \frac{5}{6}$$
+$$\frac{48x}{36} - \frac{10x}{36} - \frac{27x}{36} - \frac{5}{6}$$
+
+$$\frac{(48 - 10 - 27)x}{36} - \frac{5}{6}$$
+
+$$\mathbf{\frac{11x}{36} - \frac{5}{6}}$$
+
+or 
+
+The **LCM** of $\mathbf{3}$, $\mathbf{18}$, $\mathbf{4}$, and $\mathbf{6}$ is **36**.
+
+Let's convert all terms to have a denominator of $36$:
+
+1.  $$\frac{4x}{3} = \frac{4x \cdot 12}{3 \cdot 12} = \frac{48x}{36}$$
+2.  $$\frac{5x}{18} = \frac{5x \cdot 2}{18 \cdot 2} = \frac{10x}{36}$$
+3.  $$\frac{3x}{4} = \frac{3x \cdot 9}{4 \cdot 9} = \frac{27x}{36}$$
+4.  $$\frac{5}{6} = \frac{5 \cdot 6}{6 \cdot 6} = \frac{30}{36}$$
+
+Now, substitute these back into the expression:
+$$\frac{48x}{36} - \frac{10x}{36} - \frac{27x}{36} - \frac{30}{36}$$
+
+Combine the numerators:
+$$\frac{(48x - 10x - 27x) - 30}{36}$$
+
+$$48x - 10x - 27x = 11x$$
+
+The **Final Simplified LHS** is:
+$$\mathbf{\frac{11x - 30}{36}}$$
+
+$$\mathbf{\frac{11x}{36} - \frac{5}{6}} \text{ or } \mathbf{\frac{11x - 30}{36}}$$
+
+### RHS simplify
+
+$$\frac{1}{5} \left( \frac{1}{2} + \frac{1}{x+2} \right) \left( \frac{10x+20}{3} \right)$$
+
+**Simplify**
+$$\left( \frac{1}{2} + \frac{1}{x+2} \right)$$
+
+Take $LCM(2, x+2) = 2(x+2)$
+
+$$\frac{1 \cdot (x+2)}{2 \cdot (x+2)} + \frac{1 \cdot 2}{(x+2) \cdot 2}$$
+
+$$\frac{x+2}{2(x+2)} + \frac{2}{2(x+2)} = \frac{(x+2) + 2}{2(x+2)} = \frac{x+4}{2(x+2)}$$
+
+**Simplify**
+$$\left( \frac{10x+20}{3} \right)$$
+
+$\text{10 is common in } 10x+20 \text{ can be written as }10(x+2)$
+
+$$\left( \frac{10(x+2)}{3} \right)$$
+
+**combine**
+
+$$\frac{x+4}{2(x+2)}\left( \frac{10(x+2)}{3} \right)$$
+
+$\text{ x+2 can be cancelled}$
+
+$$\frac{x+4}{2(\cancel{x+2})}\left( \frac{10(\cancel{x+2})}{3} \right)$$
+
+$$\frac{x+4}{\cancel{2}}\left( \frac{\cancel{10}}{3} \right)=\frac{x+4}{1}\left( \frac{5}{3} \right)$$
+
+$$\frac{5(x+4)}{3}$$
+
+combine with $\frac{1}{5}$
+
+$$\frac{1}{5}\frac{5(x+4)}{3}$$
+
+$$\frac{1}{\cancel{5}}\frac{\cancel{5}(x+4)}{3} = \frac{x+4}{3}$$
+
+**Combine LHS and RHS**
+
+From LHS take $\frac{11x}{36} - \frac{5}{6}$
+
+$$\frac{11x}{36} - \frac{5}{6} = \frac{x+4}{3}$$
+
+clear denominator $LCM(36, 6, 3) = 36$
+
+$$36 \cdot \frac{11x}{36} - 36 \cdot \frac{5}{6} = 36 \cdot \frac{x+4}{3}$$
+
+$$11x-(6\cdot5) = 12 \cdot(x+4)$$
+
+$$11x - 30 = 12x + 48$$
+
+Move $12x$ to LHS of equation by $-12x$ on both side
+
+$$11x - 30 -12x = \cancel{12x} + 48 \cancel{-12x}$$
+
+$$11x - 30 -12x =  48 $$
+
+Move $-30$ to RHS of equation by $+30$ on both side
+$$11x \cancel{-30} -12x \cancel{+30} =  48 + 30 $$
+
+$$11x -12x =  48 + 30 $$
+
+$$-x = 78$$
+
+**Isolate x**
+
+Move $-$ to the other side of the equation by $\frac{1}{-1}$ because $-$ is multiplied with x
+
+$$\frac{\cancel{-}x}{\cancel{-}1} = \frac{78}{-1}$$
+$$x = -78$$
