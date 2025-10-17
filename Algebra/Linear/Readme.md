@@ -21,6 +21,109 @@ Purpose: It models relationships where the rate of change is constant. For every
     The memory address of the n-th element in an array is calculated using a linear relationship:
     $$\text{Address} = \text{Base Address} + \text{n} \times \text{Size of one element}$$
 
+## Operations
+
+### 1. Basic Operations
+
+* $2x$: **2 multiplied by $x$**
+* $2/x$: **2 divided by $x$**
+* $x/2$: **$x$ divided by 2**
+* $x + 3$: **$x$ added to 3**
+* $x - 3$: **$x$ subtracted by 3**
+
+***
+
+### 2. Equality of Terms 
+$$\frac{1}{2}x == \frac{1x}{2} = \frac{1}{2x} == \frac{1x}{2x} ?$$
+
+No above statement is not correct
+
+
+#### Correct
+
+$$\mathbf{\frac{1}{2}x = \frac{1x}{2}}$$
+These two expressions are equal to $\frac{x}{2}$.
+
+$$\mathbf{\frac{1x}{2x} = \frac{1}{2}}$$
+These two expressions are equal to $\frac{1}{2}$.
+
+***
+
+### 3. Multiplication and Simplification
+
+$$\mathbf{2x \cdot \frac{1}{x} = 2}$$
+
+Your check with $x=4$ is perfect:
+$$2x \cdot \frac{1}{x} = \frac{2(4)}{1} \cdot \frac{1}{(4)} = \frac{8}{4} = 2$$
+
+***
+
+### 4. Multiplication of Monomials
+
+$$\mathbf{2x \cdot 1x = 2x^2}$$
+
+check by substituting $x=4$:
+
+$$2x \cdot 1x = 2(4) \cdot 1(4)$$
+$$2x \cdot 1x = (8) \cdot (4)$$
+$$2x \cdot 1x = \mathbf{32}$$
+
+Now we check the resulting expression, $2x^2$:
+$$2x^2 = 2(4)^2$$
+$$2x^2 = 2(16)$$
+$$2x^2 = \mathbf{32}$$
+
+Since $32 = 32$, our calculation $\mathbf{2x \cdot 1x = 2x^2}$ is correct
+
+### Simplify
+
+1. $$\frac{3x}{3} + \frac{9}{3}$$
+
+if a expression or term is like this we can written this as 
+
+$$\frac{3(x+3)}{3}$$
+
+We can cancel 3 from numerator and denominator
+$$\frac{\cancel{3}(x+3)}{\cancel{3}} = (x+3)$$
+
+so $$\frac{3x}{3} + \frac{9}{3} == \frac{3(x+3)}{3} == (x+3)$$
+
+To verify subsritute x = 3, evey expression should return same result
+
+$$\frac{3(3)}{3} + \frac{9}{3} == \frac{3(3+3)}{3} == (3+3)$$
+
+$$\frac{3(3)}{3} + \frac{9}{3} \rightarrow equation 1$$
+$$\frac{9}{3} + \frac{9}{3} \rightarrow \frac{18}{3} \rightarrow 6$$
+
+$$\frac{3(3+3)}{3}  \rightarrow equation 2$$
+$$\frac{9+9}{3} \rightarrow \frac{18}{3} \rightarrow 6$$
+
+$$(3+3) \rightarrow equation 3$$
+$$3+3 \rightarrow 6$$
+
+hence it is verified
+
+2. $$\frac{5(x+3)}{3}$$
+Here we cannot cancel numerator and denominator 3
+
+if we cancel repression will be $$\frac{5(x+\cancel{3})}{\cancel{3}} = 5x$$
+Let's substitute x = 3
+$$\frac{5(x+3)}{3} = \frac{5(3+3)}{3} = \frac{5(6)}{3} = \frac{30}{3} = 10 \rightarrow eq1$$
+$$5x = 5(3) = 15 \rightarrow eq2$$
+
+Hence it is not equal
+
+
+
+### Exponents (Powers)
+
+
+| Expression | Meaning | Example (if $x=3$) |
+| :--- | :--- | :--- |
+| $\mathbf{x^2}$ | $x$ multiplied by itself (x times x). | $3^2 = 3 \cdot 3 = 9$ |
+| $\mathbf{x^3}$ | $x$ multiplied by itself three times. | $3^3 = 3 \cdot 3 \cdot 3 = 27$ |
+| $\mathbf{x^n}$ | $x$ multiplied by itself $n$ times. | |
+
 ## Types of Linear equation
 
 ### 1. One Variable	
@@ -81,6 +184,13 @@ $$\frac{-3}{8}+\frac{5}{8} = \frac{1}{4}$$
 $$\frac{2}{8}=\frac{1}{4}$$
 Simplify
 $$\frac{1}{4}=\frac{1}{4}$$
+
+### Solving Literal Equations
+Solving Literal Equations: Equations where you solve for a specific variable in terms of other variables (e.g., solving A=P+Prt for r). This is essential preparation for working with formulas.
+
+### Single-Variable Inequalities:
+Equations that use <,>,≤,≥. The solving process is the same, with the added rule that you must reverse the inequality sign if you multiply or divide by a negative number.
+
 
 
 ### 2. Two Variables 
