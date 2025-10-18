@@ -185,16 +185,148 @@ $$\frac{2}{8}=\frac{1}{4}$$
 Simplify
 $$\frac{1}{4}=\frac{1}{4}$$
 
-### Solving Literal Equations
-Solving Literal Equations: Equations where you solve for a specific variable in terms of other variables (e.g., solving A=P+Prt for r). This is essential preparation for working with formulas.
+#### Solving Literal Equations
+Solving a literal equation means rearranging the equation to isolate a specific variable in terms of the others. You use the exact same algebraic operations (addition, subtraction, multiplication, division) as you would for numerical equations, but you apply them to variables instead of numbers.
 
-### Single-Variable Inequalities:
-Equations that use <,>,≤,≥. The solving process is the same, with the added rule that you must reverse the inequality sign if you multiply or divide by a negative number.
+##### Example
 
+**1. Solve the formula for the area of a rectangle, $A = lw$, for the variable $w$ (width)**
+
+$$\text{A= lw}$$
+1. The variable $l$ is currently multiplying $w$.
+2. To isolate w, divide both sides by l:
+$$\frac{A}{l} = \frac{l w}{l}$$
+3. Simplify:$$\mathbf{w = \frac{A}{l}}$$
+
+**2. Solve the simple interest formula, $I = Prt$, for the variable $t$ (time).**
+$$\mathbf{I = P r t}$$
+
+1. The variables $P$ and $r$ are currently multiplying $t$.
+2. To isolate t, divide both sides by the product Pr:
+$$\frac{I}{P r} = \frac{P r t}{P r}$$
+3. Simplify:$$\mathbf{t = \frac{I}{P r}}$$
+
+**3. Solve the formula for the perimeter of a rectangle, $P = 2l + 2w$, for the variable $l$ (length).**
+$$\mathbf{P = 2 l + 2 w}$$
+1. Isolate the term containing l by subtracting 2w from both sides:$$P - 2w = 2l$$
+
+2. To isolate l, divide the entire expression on the left side by 2:$$\frac{P - 2w}{2} = \frac{2l}{2}$$
+
+3. Simplify:$$\mathbf{l = \frac{P - 2w}{2}}$$
+
+#### Single-Variable Inequalities:
+A linear inequality uses an inequality symbol instead of an equals sign. It represents a range of values that satisfy the condition, not just a single value.
+
+| Symbol | Meaning | Example |
+| :--- | :--- | :--- |
+| **$<$** | less than | $x < 5$ |
+| **$>$** | greater than | $x > 5$ |
+| **$\le$** | less than or equal to | $x \le 5$ |
+| **$\ge$** | greater than or equal to | $x \ge 5$ |
+
+##### Solving Single-Variable Inequalities
+The process for solving single-variable linear inequalities is very similar to solving single-variable equations, with one crucial difference:
+
+1. **Isolate the variable**: Use the same inverse operations (addition, subtraction, multiplication, division) on both sides of the inequality to isolate the variable, just as you would for an equation.
+
+2. **The Multiplication/Division Rule**: If you multiply or divide both sides of the inequality by a **negative number**, you must reverse the direction of the inequality symbol.
+
+$$2 < 5$$
+Now, multiply both sides by $-1$:
+$$-2 < -5 \quad (\text{FALSE})$$
+To keep the statement true, you must invert the sign:$$-2 > -5 \quad (\text{TRUE})$$
+
+**Examples**
+
+$$10 - 2x < 4$$
+Eliminate 10 by -10 on both side
+$$\cancel{10} - 2x  \cancel{-10}< 4 - 10$$
+$$-2x<-6$$
+Divide both sides by −2 and reverse the inequality symbol:$$\frac{-2x}{-2} > \frac{-6}{-2}$$
+$$x > 3$$
+The solution is all numbers greater than 3.
+
+**A cell phone company offers a plan for $30 per month plus a fee of $0.05 per text message. If a customer wants their total monthly bill to be no more than $45, what is the maximum number of text messages ($t$) they can send?**
+
+Fixed Cost: $30.00
+
+Variable Cost: $0.05 per text message ($t$)
+
+Total Cost: $30 + 0.05t$
+
+Constraint: The total bill must be "no more than \$45," which means less than or equal to ($\le$) $45.
+$$\text{Total Cost} \le \text{Maximum Budget}$$
+
+$$30 + 0.05t \le 45$$
+
+Subtract 30 from both sides:$$0.05t \le 45 - 30$$
+$$0.05t \le 15$$
+
+Divide by the positive number 0.05. (Since we are dividing by a positive number, the inequality sign does not flip.)
+$$t \le \frac{15}{0.05}$$
+
+$$t \le 300$$
+
+##### Compound Inequalities
+A compound inequality combines two simple inequalities using the words "and" or "or."
+
+* "And" (Intersection): The solution must satisfy both inequalities. These are often written in a compact form:$$-5 \le 3x + 1 < 10$$
+(Means $-5 \le 3x + 1$ AND $3x + 1 < 10$). Solve all three parts simultaneously.
+* "Or" (Union): The solution must satisfy at least one of the two inequalities. Solve each inequality separately:$$x + 1 < 3 \quad \text{or} \quad 4x - 5 > 15$$
+
+Example: 
+* $$−7\le2x−1<5$$
+1. Add 1 to all three parts:
+$$−7+1\le2x−1+1<5+1$$
+$$−6\le2x<6$$
+2. Divide by 2 (a positive number) in all three parts:
+$$-3 \le x < 3$$
+"Solution: $−3 \le x<3$ or in interval notation, [−3,3)."
+
+* $$3x+1 \le −5 OR 4x−5>7$$
+Solve $3x + 1 \le -5$
+
+(Subtract 1) $$3x \le -6$$
+(Divide by 3) $$x \le -2$$
+
+Solve $4x−5>7$
+
+(Add 5) $$4x > 12$$
+(Divide by 4) $$x > 3$$
+
+Solution: $x \le -2 \text{ OR } x > 3$.
+
+Interval Notation: $(-\infty, -2] \cup (3, \infty)$ (The $\cup$ symbol represents the union of the two sets.)
+
+#### Refer
+1. [More](./linear-single.md)
+2. [cleaning](./linear-awkward.md)
+3. [Combination](./linear-single.md#important)
 
 
 ### 2. Two Variables 
+
+A linear equation in two variables, typically $x$ and $y$, is one that can be written in the form:$$\mathbf{Ax + By = C}$$
+
+where $A$, $B$, and $C$ are real numbers, and $A$ and $B$ are not both zero.
+
+
+#### Systems of Linear Equations
+A system of linear equations consists of two or more linear equations involving the same variables.8 The solution to the system is the ordered pair 9$(x, y)$ that satisfies all equations simultaneously.10 Graphically, this solution is the point of intersection of the lines.
+
+#### Methods for Solving Systems of Linear Equations
+
+Method,Description
+1. Substitution,"Solve one equation for one variable (e.g., y in terms of x), then substitute that expression into the other equation. This reduces the system to a single linear equation in one variable, which you can then solve."
+2. Elimination (or Addition),"Multiply one or both equations by a number so that when the equations are added together, one of the variables is eliminated. This leaves a single equation in the remaining variable."
+3. Graphing,Graph both lines on the same coordinate plane. The point where the two lines cross is the solution. This is often the least accurate method unless done with a graphing calculator.
+
+#### Literal Equations
+
+#### Inequalities
+
+#### Graph plots
+1. Cartesian plane
+2. The Slope ($m$)
+
 ### 3. n variables..
-
-
-### 4. Equation with Variables on Both Sides

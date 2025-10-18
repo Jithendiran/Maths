@@ -1246,3 +1246,95 @@ Move $-$ to the other side of the equation by $\frac{1}{-1}$ because $-$ is mult
 
 $$\frac{\cancel{-}x}{\cancel{-}1} = \frac{78}{-1}$$
 $$x = -78$$
+
+**Combine LHS and RHS**
+
+From LHS take $\frac{11x}{36} - \frac{5}{6}$
+
+$$\frac{11x - 30}{36} = \frac{x+4}{3}$$
+
+clear denominator $LCM(36, 3) = 36$
+
+$$\cancel{36} \cdot \frac{11x - 30}{\cancel{36}} = 12\cancel{36} \cdot \frac{x+4}{\cancel{3}}$$
+
+$$11x-30=12x+48$$
+
+$$11x -12x =  48 + 30 $$
+
+$$x = -78$$
+
+**method2**
+
+Simplified LHS and Unsimplified RHS
+
+**LHS (from previous steps, already simplified):**
+$$\text{LHS} = \frac{11x - 30}{36}$$
+
+**RHS (Multiplying without cancelling $\mathbf{(x+2)}$):**
+
+$$\text{RHS} = \frac{1}{5} \left( \frac{1}{2} + \frac{1}{x+2} \right) \left( \frac{10x+20}{3} \right)$$
+
+Substitute the first term with its common denominator $\frac{x+4}{2(x+2)}$ and the second term with its factored form $\frac{10(x+2)}{3}$:
+
+$$\text{RHS} = \frac{1}{5} \left( \frac{x+4}{2(x+2)} \right) \left( \frac{10(x+2)}{3} \right)$$
+
+Now, multiply the numerators and denominators:
+
+$$\text{RHS} = \frac{1 \cdot (x+4) \cdot 10(x+2)}{5 \cdot 2(x+2) \cdot 3} = \frac{10(x+4)(x+2)}{30(x+2)}$$
+
+
+The resulting equation is:
+
+$$\frac{11x - 30}{36} = \frac{10(x+4)(x+2)}{30(x+2)}$$
+
+To clear the denominators, we can multiply both sides by $\text{LCM}[36, 30(x+2)] = 180(x+2)$.
+
+$$180(x+2) \cdot \frac{11x - 30}{36} = 180(x+2) \cdot \frac{10(x+4)(x+2)}{30(x+2)}$$
+
+$$5(x+2)(11x - 30) = 6 \cdot 10(x+4)(x+2)$$
+
+$$5(11x^2 - 30x + 22x - 60) = 60(x^2 + 2x + 4x + 8)$$
+
+$$5(11x^2 - 8x - 60) = 60(x^2 + 6x + 8)$$
+
+$$55x^2 - 40x - 300 = 60x^2 + 360x + 480$$
+
+Move all terms to one side to set the quadratic equation to zero:
+
+$$(60x^2 - 55x^2) + (360x - (-40x)) + (480 - (-300)) = 0$$
+
+$$5x^2 + 400x + 780 = 0$$
+
+Divide by 5 to simplify:
+
+$$x^2 + 80x + 156 = 0$$
+
+Now, solve the quadratic equation (by factoring or the quadratic formula). Look for two numbers that multiply to $156$ and add up to $80$. The numbers are $78$ and $2$.
+
+$$(x + 78)(x + 2) = 0$$
+
+This gives two potential solutions for $x$:
+
+1.  $$x + 78 = 0 \quad \rightarrow \quad \mathbf{x = -78}$$
+2.  $$x + 2 = 0 \quad \rightarrow \quad \mathbf{x = -2}$$
+
+In the original equation, the term $\frac{1}{x+2}$ means the equation is **undefined** when the denominator is zero, so $x \neq -2$.
+
+Therefore, the only valid solution is:$$\mathbf{x = -78}$$
+
+**Verify**
+
+$$\frac{1}{3} \left[ 4x - \frac{1}{2} \left( \frac{x}{0.6} + 5 \right) \right] - 0.75x = \frac{1}{5} \left( \frac{1}{2} + \frac{1}{x+2} \right) \left( \frac{10x+20}{3} \right)$$
+
+$$\frac{1}{3} \left[ 4(-78) - \frac{1}{2} \left( \frac{(-78)}{0.6} + 5 \right) \right] - 0.75(-78) = \frac{1}{5} \left( \frac{1}{2} + \frac{1}{(-78)+2} \right) \left( \frac{10(-78)+20}{3} \right)$$
+
+$$\frac{1}{3} \left[ -312 - \frac{1}{2} \left( -130 + 5 \right) \right] +58.5 = \frac{1}{5} \left( \frac{1}{2} + \frac{1}{-76} \right) \left( \frac{-760}{3} \right)$$
+
+$$\frac{1}{3} \left[ -312 - \frac{1}{2} \left( -125 \right) \right] +58.5 = \frac{1}{5} \left( 0.486842105 \right) \left( −253.333333333 \right)$$
+
+$$\frac{-312}{3} -\frac{-125}{6}+58.5 = −24.666666653$$
+
+$$-104 -(−20.833333333)+58.5 = −24.666666653$$
+
+$$−24.666666667 \approx −24.666666653$$
+

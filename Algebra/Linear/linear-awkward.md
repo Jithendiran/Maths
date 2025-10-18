@@ -1,9 +1,3 @@
-I'm leaning linear, single variable equations, i would like to master the basics before moving to next level like 2 variables
-
-i would like to get comfortable with the below equations
-
-This to understand how to simplify awkward looking equations
-
 ## Simplify
 
 Refer this before

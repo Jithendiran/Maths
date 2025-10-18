@@ -228,6 +228,33 @@ When you divide a number by 10, 100, 1000, and so on, you simply move the decima
 
 `4.8÷0.06=80`
 
+### Quick way
+
+1. $$\mathbf{\frac{0.6}{0.003}}$$
+
+If we divide it will give `200` 
+
+Some times it will be hard to work with decimal in that case convert the decimal to integer and do the division
+
+`0.6` has `1` decimal and `0.003` has `3` decimals after `.` so the larger one is 3, multiply both with `1000`
+
+$$\frac{0.6 \times 1000}{0.003 \times 1000} = \frac{600}{3} = 200$$
+
+In both way the result is 200
+
+
+2. $$\mathbf{\frac{0.4}{5}}$$
+
+Direct multiply
+$$\frac{0.4}{5} = 0.08$$
+
+Convert to int
+`0.4` has one decimal so mmultiply with 10 
+$$\frac{0.4 \times 10}{5 \times 10} = \frac{4}{50} = \frac{2}{25} = 0.08$$
+
+>[!NOTE]  
+> In the convert to int we have to multiply both the terms, then only it will give the correct result
+
 ## Conversion
 
 ### Decimal to fraction
