@@ -303,6 +303,9 @@ Interval Notation: $(-\infty, -2] \cup (3, \infty)$ (The $\cup$ symbol represent
 2. [cleaning](./linear-awkward.md)
 3. [Combination](./linear-single.md#important)
 
+#### Todo
+1. Absolute Value Equation
+
 
 ### 2. Two Variables 
 
@@ -310,9 +313,134 @@ A linear equation in two variables, typically $x$ and $y$, is one that can be wr
 
 where $A$, $B$, and $C$ are real numbers, and $A$ and $B$ are not both zero.
 
+solution is a pair of numbers $(\mathbf{x, y})$ that makes the equation true. Stress that there are **infinitely many solutions**.
 
-#### Systems of Linear Equations
-A system of linear equations consists of two or more linear equations involving the same variables.8 The solution to the system is the ordered pair 9$(x, y)$ that satisfies all equations simultaneously.10 Graphically, this solution is the point of intersection of the lines.
+**infinitely many solutions. means does signle variable has only one solution?**
+
+*Single variable*
+----
+
+A standard linear equation with one variable, like $x$, represents a single, specific point on a number line.
+$$2x + 5 = 11$$
+Solution: Subtract : $2x = 6$ Divide by 2: $x = 3$.
+
+The only number that makes this statement true is $3$. You are looking for a single, fixed location on a 1-dimensional number line.
+
+Some exceptions for single variable is 
+* Zero (No Solution) 
+$$2x + 4 = 2x + 7$$
+Subtract $2x$: $4 = 7$ This is false, so no value of $x$ can solve it.
+
+* Infinitely Many Solutions
+$$3x + 6 = 3(x + 2)$$
+Simplify RHS: $3x+6=3(x+2)$ This is always true, so any value of x works.
+
+*Two variable*
+----
+
+A standard linear equation with two variables, like $x$ and $y$, represents a relationship between two quantities
+
+$$y = 2x + 1$$
+
+Solutions: A solution is an ordered pair $(x, y)$
+* If $x=1$, $y=3$ Solution: $(1, 3)$
+* If $x=0$, $y=1$ Solution: $(0, 1)$
+* If $x=-5$, $y=-9$ Solution: $(-5, -9)$
+
+----
+
+#### solve
+
+$$5x + y = 10$$
+
+Let's solve x
+
+x is multiplied with 5 so
+
+$$x + \frac{y}{5} = 10$$
+
+isolate the x
+
+$$x = 10 - \frac{y}{5}$$
+
+Looks like to know x, we 1st have to find y
+
+$$5x + y = 10$$
+
+Let's solve y
+
+isolate the y
+
+$$y = 10-5x$$
+
+To find y we first solve x, What!!! again
+
+May be there is a way like this
+
+$$x = 10 - \frac{y}{5}$$
+$$y = 10-5x$$
+
+substitute y in x
+
+$$x = 10 - \frac{(10-5x)}{5}$$
+$$x = 10 - \frac{\cancel{5}(2-x)}{\cancel{5}} = 10-(2-x) = 10-2+x$$
+$$x = 8 + x$$
+Isolate x by adding -x
+$$x-x = 8$$
+$$0 = 8$$
+
+The fact that the variables canceled out and you ended up with the false statement ($\mathbf{0 = 8}$)
+
+Let's pick x = 4
+
+substiture x = 4 in equation
+
+$5x + y = 10$
+
+$$5(4) + y = 10$$
+$$20 + y = 10$$
+$$y = 10 - 20 = -10$$
+
+This may the right method, now we have both x and y, substitute in main equation
+$$x=4, y =-10$$
+$$5(4) + (-10) = 10$$
+$$20-10 = 10$$
+$$10=10$$
+
+$10=10$ is always true, it means that the equations you combined were dependent on each other (they were different forms of the same rule).
+
+This is a valid solution! It's just one of the infinitely many points on the line $5x + y = 10$.
+$$(x,y)=(4,-10)$$
+if x = 4 solution is -10, if x is different, y will be different
+
+
+**The Takeaway**
+* The goal in these problems is not to find one single number for $x$ and $y$.
+* The goal is to find the rule ($y = 10 - 5x$) and a set of points (like $(2, 0)$, $(0, 10)$, and $(4, -10)$) that satisfy that rule.
+* The only time you would find a single, unique $(x, y)$ solution is if you were solving a system of two different linear equations (two intersecting lines), which is the next major topic after graphing!
+
+
+>[!NOTE] 
+>what should we do now?  
+>The value of one variable depends on the value of the other. You can't find a single numerical value for $x$ or $y$ until you choose a value for the other variable. How to choose number wisely?  
+?Find three or more ordered pairs that satisfy the equation. The "wise choice" is simply to pick easy numbers like $x=0$, $x=1$, and $x=-1$, because they make the arithmetic simple.
+
+
+#### Systems of Equations
+
+A System of Equations is simply a collection of two or more equations that you consider at the same time.
+
+Imagine you are looking for a secret number combination $(x, y)$
+
+1. If you only have Rule 1
+* Rule 1: "The first number ($x$), when multiplied by 5 and added to the second number ($y$), must equal 10." ($5x + y = 10$)
+* Result: Many pairs work: $(2, 0)$, $(1, 5)$, $(0, 10)$, etc. You can't be sure which one is the secret combination.
+
+2. If you add Rule 2 (A System):
+* Rule 2: "The second number ($y$) must also be 2 less than the first number ($x$)." ($y = x - 2$)
+* Result: You are looking for the one pair that satisfies both rules simultaneously. This is the point of agreement between the two rules.
+
+By forcing the solution to obey two different rules, you reduce the infinite possibilities down to usually just one unique pair: $\mathbf{(2, 0)}$.
 
 #### Methods for Solving Systems of Linear Equations
 
@@ -326,7 +454,11 @@ Method,Description
 #### Inequalities
 
 #### Graph plots
-1. Cartesian plane
-2. The Slope ($m$)
+
+1. coordinate Plane
+2. Cartesian plane
+3. Intercepts
+4. The Slope ($m$)
+5. Slope-Intercept Form
 
 ### 3. n variables..
