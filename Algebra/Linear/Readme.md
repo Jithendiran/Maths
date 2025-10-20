@@ -445,9 +445,11 @@ By forcing the solution to obey two different rules, you reduce the infinite pos
 #### Methods for Solving Systems of Linear Equations
 
 Method,Description
-1. Substitution,"Solve one equation for one variable (e.g., y in terms of x), then substitute that expression into the other equation. This reduces the system to a single linear equation in one variable, which you can then solve."
-2. Elimination (or Addition),"Multiply one or both equations by a number so that when the equations are added together, one of the variables is eliminated. This leaves a single equation in the remaining variable."
-3. Graphing,Graph both lines on the same coordinate plane. The point where the two lines cross is the solution. This is often the least accurate method unless done with a graphing calculator.
+1. **Substitution**,"Solve one equation for one variable (e.g., y in terms of x), then substitute that expression into the other equation. This reduces the system to a single linear equation in one variable, which you can then solve."
+2. **Elimination** (or Addition),"Multiply one or both equations by a number so that when the equations are added together, one of the variables is eliminated. This leaves a single equation in the remaining variable."
+3. **Graphing**,Graph both lines on the same coordinate plane. The point where the two lines cross is the solution. This is often the least accurate method unless done with a graphing calculator.
+
+[Practice](./linear-double.md)
 
 #### Literal Equations
 
