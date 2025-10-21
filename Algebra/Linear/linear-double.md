@@ -2,7 +2,7 @@
 Problems is a system of two linear equations in two variables ($x$ and $y$). It is a single problem that requires you to find the unique ordered pair $(\mathbf{x, y})$ that satisfies both equtions simultaneously.
 
 
-### Problem 1: Mixed Decimals and Simple Fractions
+## Problem 1: Mixed Decimals and Simple Fractions
 
 
 $$\begin{cases} 0.25x - 0.5(y + 3) = 1.5 \\ \frac{1}{3}(2x - 1) + \frac{5}{6}y = \frac{1}{2} \end{cases}$$
@@ -87,6 +87,8 @@ $$4x+5 - 5 \cdot\frac{4x}{5} = 5$$
 
 $$4x+5-4x=5$$
 $$5=5$$
+
+### Substitution Method
 
 **Now find the system of equation**
 
@@ -319,9 +321,55 @@ $$\frac{70}{13} - 2\left(-\frac{43}{13}\right) = \frac{70}{13} + \frac{86}{13} =
 $$4\left(\frac{70}{13}\right) + 5\left(-\frac{43}{13}\right) = \frac{280}{13} - \frac{215}{13} = \frac{280 - 215}{13} = \frac{65}{13} = 5$$
 (Correct: $5 = 5$)
 
----
+### Elimination Method
 
-### Problem 2: Nested Fractions and Decimals
+#### Eliminate $x$
+
+To eliminate $x$, we need the coefficients of $x$ in both equations to be opposites (or the same, if we plan to subtract). The coefficient in Eq 1 is $1$, and in Eq 2 is $4$. We can multiply Equation 1 by $-4$.
+
+$$\begin{cases} -4(x - 2y) = -4(12) \\ 4x + 5y = 5 \end{cases}$$
+
+This gives us the modified system:
+$$\begin{cases} -4x + 8y = -48 \quad \text{(Modified Eq 1)} \\ 4x + 5y = 5 \quad \text{(Equation 2)} \end{cases}$$
+
+Add (Modified Eq 1) and (Equation 2) together:
+
+$$(-4x + 8y) + (4x + 5y) = -48 + 5$$
+$$-4x + 4x + 8y + 5y = -43$$
+$$0x + 13y = -43$$
+$$13y = -43$$
+$$\mathbf{y = -\frac{43}{13}}$$
+
+Substitute in any one of the equation to get x
+
+#### Eliminate $y$
+
+$$\begin{cases} x - 2y = 12 \quad \text{(Equation 1)} \\ 4x + 5y = 5 \quad \text{(Equation 2)} \end{cases}$$
+
+The coefficients for $y$ are $-2$ and $5$. The least common multiple (LCM) of $2$ and $5$ is $10$. We want the $y$ terms to be $-10y$ and $+10y$.
+
+1.  **Multiply Equation 1 by 5** to get $-10y$:
+    $$5 \times (x - 2y) = 5 \times 12$$
+    $$5x - 10y = 60 \quad \text{(Modified Eq 1)}$$
+
+2.  **Multiply Equation 2 by 2** to get $+10y$:
+    $$2 \times (4x + 5y) = 2 \times 5$$
+    $$8x + 10y = 10 \quad \text{(Modified Eq 2)}$$
+
+The new system is:
+$$\begin{cases} 5x - 10y = 60 \\ 8x + 10y = 10 \end{cases}$$
+
+Now, **add** the two modified equations together:
+
+$$\begin{array}{rcl} 5x - 10y &= &60 \\ + \quad 8x + 10y &= &10 \\ \hline 13x + 0y &= &70 \end{array}$$
+
+The $y$ terms have been eliminated, leaving an equation with only $x$:
+$$13x = 70$$
+
+Divide both sides by $13$:
+$$\mathbf{x = \frac{70}{13}}$$
+
+## Problem 2: Nested Fractions and Decimals
 
 This system involves complex nested fractions that must be simplified first before clearing the denominators.
 
