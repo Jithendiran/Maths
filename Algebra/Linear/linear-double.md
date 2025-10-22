@@ -434,3 +434,23 @@ $$\begin{cases} \frac{1}{4}x - 0.3y = 2 \\ \frac{5}{8}x - 0.6y = 3 \end{cases}$$
         $$\begin{cases} 5x - 12y = 40 \\ 5x - 12y = 24 \end{cases}$$
     * When you attempt to eliminate $x$ and $y$ (by subtracting the second equation from the first), you get the false statement $\mathbf{0 = 16}$.
     * This means the two equations represent **parallel lines** that never intersect, so there is **No Solution**.
+
+# Inequalties
+
+$$\begin{cases} y > 2x - 1  \\ y \le -x + 4 & \end{cases}$$
+
+Find the Intersection Point
+
+$$2x - 1 = -x + 4$$
+$$2x + x = 4 + 1$$
+$$3x = 5$$
+$$x = \frac{5}{3}$$
+
+Now, substitute $x = \frac{5}{3}$  into either equation (using $y = -x + 4$):
+$$y = -\left(\frac{5}{3}\right) + 4$$
+
+$$y = -\frac{5}{3} + \frac{12}{3}$$
+
+$$y = \frac{7}{3}$$
+
+The intersection point is $\left(\frac{5}{3}, \frac{7}{3}\right)$, which is approximately $(1.67, 2.33)$. This point is not included in the solution because the first inequality is strict ($>$).

@@ -504,11 +504,96 @@ $$4 \le 5$$
 
 Conclusion: This statement is True. Therefore, $(1, -2)$ IS a solution.
 
+##### Solv
+
+$$5x - 2y < 8$$
+
+convert `<` to `=`
+
+$$5x - 2y = 8$$
+
+
+**Solve for `x`:**
+$$5x = 8 + 2y$$
+$$x = (8 + 2y) / 5$$
+
+convert back `=` to `<`
+
+Rule for x is $x < (8 + 2y) / 5$, x must be lesser than $(8 + 2y) / 5$
+
+**Solve for `y`:**
+
+$$-2y < 8 - 5x$$
+
+convert `<` to `=`
+$$-2y = 8 - 5x$$
+
+$$\text{Divide by -2 (flip inequality): `<` to `>`}$$
+$$y = (5x - 8)/2$$
+$$y = (\frac{5x}{2}-\frac{8}{2})$$
+$$y = (\frac{5x}{2}-4)$$
+
+convert back `=` to `>(flip rule)`
+
+Rule for y is $y > (\frac{5x}{2}-4)$, y must be greater than $(\frac{5x}{2}-4)$
+
+**Substitution Attempt:**
+$$5x - 2((-4 + 5/2)x) < 8$$
+
+**Simplify:**
+$$5x + 8 - 5x < 8$$
+$$\cancel{5x} + 8 \cancel{-5x} < 8$$
+$$8 < 8$$
+Statement is false
+
+**Another expression:**
+$$5(\frac{8}{5} + \frac{2y}{5}) - 2y < 8$$
+$$\frac{40}{5} + \frac{10y}{5} - 2y < 8$$
+$$8 + \cancel{2y} - \cancel{2y} < 8$$
+$$8 < 8$$
+
+Statement is false
+
+You cannot proceed to find a single numerical value for x or y because, for every value of x you pick, there are an infinite number of y-values that will make the statement true.
+
 ### TODO
 * Graph the Boundary Line
 * Shade the Solution Region
 
 ##### System of Linear Inequalities
+
+In a system of linear inequalities, the solution is the set of all ordered pairs $(x, y)$ that satisfy every inequality simultaneously. Geometrically, this solution is the region of overlap where the individual shaded regions meet.
+
+Consider the following system:$$\begin{cases} y > 2x - 1 & \text{(Rule 1)} \\ y \le -x + 4 & \text{(Rule 2)} \end{cases}$$
+
+1. Rule 1 tells you the solution must be above the dashed line $y = 2x - 1$.
+2. Rule 2 tells you the solution must be on or below the solid line $y = -x + 4$.
+
+###### Dashed Line (Strict Inequality)
+
+A **dashed line** (or a dotted line) is used for **strict inequalities**, which are:
+
+* **Greater than** ($>$)
+* **Less than** ($<$)
+
+**Meaning:** The points that lie *exactly* on the dashed line **are not** part of the solution. The line acts as a boundary, but the solution region only includes the area strictly on one side of it.
+
+**Example:**
+* For $y > 2x - 1$, the graph of $y = 2x - 1$ is drawn as a dashed line. if $y == 2x - 1$, it is not part of the solution
+
+###### Solid Line (Non-Strict Inequality)
+
+A **solid line** is used for **non-strict inequalities**, which are:
+
+* **Greater than or equal to** ($\ge$)
+* **Less than or equal to** ($\le$)
+
+**Meaning:** The points that lie *exactly* on the solid line **are** part of the solution. The line is the boundary, and the solution region includes the line itself and the area on one side of it.
+
+**Example:**
+* For $y \le -x + 4$, the graph of $y = -x + 4$ is drawn as a solid line. if $y == -x + 4$ is also part of equation
+
+[Practice](linear-double.md#inequalties)
 
 
 #### Graph plots
