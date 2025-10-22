@@ -419,6 +419,29 @@ if x = 4 solution is -10, if x is different, y will be different
 * The goal is to find the rule ($y = 10 - 5x$) and a set of points (like $(2, 0)$, $(0, 10)$, and $(4, -10)$) that satisfy that rule.
 * The only time you would find a single, unique $(x, y)$ solution is if you were solving a system of two different linear equations (two intersecting lines), which is the next major topic after graphing!
 
+#### Solv
+
+$$5x + y = 10$$
+
+1. $x = 0$
+$$5(0) + y = 10$$
+$$y=10$$
+When x = 0, y is 10
+
+**Verify**
+
+$$5(0)+10 = 10$$
+$$10 = 10$$
+
+2. $x=1$
+$$5(1)+y=10$$
+$$5+y=10$$
+subtract by 5 both side
+$$y=5$$
+
+**verify**
+$$5(1) + 5 = 10$$
+$$10=10$$
 
 >[!NOTE] 
 >what should we do now?  
@@ -444,16 +467,49 @@ By forcing the solution to obey two different rules, you reduce the infinite pos
 
 #### Methods for Solving Systems of Linear Equations
 
-Method,Description
 1. **Substitution**,"Solve one equation for one variable (e.g., y in terms of x), then substitute that expression into the other equation. This reduces the system to a single linear equation in one variable, which you can then solve."
 2. **Elimination** (or Addition),"Multiply one or both equations by a number so that when the equations are added together, one of the variables is eliminated. This leaves a single equation in the remaining variable."
 3. **Graphing**,Graph both lines on the same coordinate plane. The point where the two lines cross is the solution. This is often the least accurate method unless done with a graphing calculator.
 
+#### Types of solutions in Systems of Linear Equations
+
+1. **One Solution**: The lines cross at a single point (the standard case).
+2. **No Solution**: The lines are parallel (same slope, different $y$-intercepts).
+3. **Infinitely Many Solutions**: The two equations describe the exact same line (dependent equations).
+
 [Practice](./linear-double.md)
 
-#### Literal Equations
-
 #### Inequalities
+
+The solution to a linear inequality like $Ax + By < C$ is not a single ordered pair $(x, y)$, but an infinite set of ordered pairs that make the inequality true.
+
+eg:
+$$2x - y \le 5$$
+
+**Question 1: Is the point $(4, 1)$ a solution?**
+1. Substitute $x=4$ and $y=1$ into the inequality:$$2(\mathbf{4}) - (\mathbf{1}) \le 5$$
+
+2. Simplify:$$8 - 1 \le 5$$
+$$7 \le 5$$
+
+Conclusion: This statement is False. Therefore, $(4, 1)$ is NOT a solution.
+
+**Question 2: Is the point $(1, -2)$ a solution?**
+
+Substitute $x=1$ and $y=-2$ into the inequality:$$2(\mathbf{1}) - (\mathbf{-2}) \le 5$$
+
+Simplify:$$2 + 2 \le 5$$
+
+$$4 \le 5$$
+
+Conclusion: This statement is True. Therefore, $(1, -2)$ IS a solution.
+
+### TODO
+* Graph the Boundary Line
+* Shade the Solution Region
+
+##### System of Linear Inequalities
+
 
 #### Graph plots
 
