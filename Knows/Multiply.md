@@ -41,6 +41,9 @@ Here division is finding the Unit of distance travel based on the denominator (H
 
 ***
 
+## TODO
+revisit with Rate of change
+
 # Question:
 
 

@@ -82,11 +82,13 @@ A rate is a comparison between two quantities that have different units. Rates a
 
     1. 
         $$\frac{120\text{ Km}}{60 \text{ min}} = 2\text{ Km per min}$$
-        What we found is kilometer covered for 1 min
+        What we found is kilometer covered for 1 min  
+        This is called as **speed**
 
     2. 
         $$\frac{60 \text{ min}}{120 \text{ Km}} = \frac{1}{2}=0.5 \text{ min per Km}$$
-        What we found is minutes required to cover 1 km
+        What we found is minutes required to cover 1 km  
+        This is called as **Pace**
 
 
 2. **Total 10 child, apple is sliced into 5 pieces, per child $\frac{4}{5}$ pieces**
@@ -99,3 +101,48 @@ A rate is a comparison between two quantities that have different units. Rates a
 how much of the first quantity corresponds to one unit of the second quantity.
 $$\text{Rate} = \frac{\text{Quantity A}}{\text{Quantity B}} \implies \text{The amount of Quantity A per single unit of Quantity B.}$$
 
+#### Rate of change
+
+**A Car travelled 360Km on 6 hours**
+
+Lets take time 6 hours as $x$ and distance 360Km as $y$
+
+* If we want to find the ditance $(y)$ covered for any amount of time $(x)$, we have to find the **Constant Rate of $y$ with respect to single unit of $x$**
+
+    $$\frac{\text{$y$}}{\text{$x$}} = \text{Constant rate of $y$ for single unit of $x$}$$
+
+    $$\frac{360 \text{ Km}}{6 \text{ Hours}} = 60 \frac{\text{Km}}{\text{Hour}} \text{or Km per Hour}$$
+
+    The finding is for every 1 hour **(Single unit of x)**, car travelled 60 Km **(Constant Rate of y)**
+
+    If we want to find for 2 hours or 0.5 hours substitute like this
+    
+    60 is always constant here
+
+    $$\text{Constant Rate of y} \times \text{Change of x} = \text{Change of y}$$
+
+    $$60 \times 0.5 = 30\text{ Km}$$
+    $$60 \times 1 = 60\text{ Km}$$
+    $$60 \times 2 = 120\text{ Km}$$
+
+    speed **AKA** Rate of Distance ($y$) with respect to Time ($x$)
+
+
+* If we want to find the time $(x)$ taken to cover any amount of distance $(y)$, we have to find the **Constant Rate of $x$ with respect to single unit of $y$**
+
+    $$\frac{\text{$x$}}{\text{$y$}} = \text{Constant rate of $x$ for single unit of $y$}$$
+
+    $$\frac{6 \text{ Hours}}{360 \text{ Km}} = 0.016666667 \frac{\text{ Hour}}{\text{ Km}} \text{or Hours per Km}$$
+
+    This finding is for every 1 KM **(Single unit of y)**, time taken is 0.016666667 Hours or $0.016666667\text{ hours }\times 60\text{ min/hour} = 1\text{ min}$
+
+    if we want to find for 2 Km or 0.5 Km  substitute like this
+
+    $0.016666667\text{ hours }$ or $1 \text{ min}$ is always constant here
+
+    $$\text{Constant Rate of x} \times \text{Change of y} = \text{Change of x}$$
+    $$0.016666667 \times 0.5 = 0.008333334\text{ Hour} \text{ or } 1 \times 0.5 = 0.5 \text{ min} $$
+    $$0.016666667 \times 2 = 0.033333334\text{ Hours} \text{ or } 1 \times 2 = 2 \text{ min}$$
+    $$0.016666667 \times 60 = 1\text{ Hour} \text{ or } 1 \times 60 = 60 \text{ min} $$
+
+    Pace **AKA** Rate of Time ($x$) with respect to Distance ($y$)

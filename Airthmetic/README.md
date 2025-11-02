@@ -996,3 +996,7 @@ Division is about finding how many times the divisor fits into the dividend, sta
     Not with the standard long division algorithm. If you started on the right with `84 ÷ 7`, you'd ask "how many times does 7 go into 4?". 
     The answer is 0 with a remainder of 4. This doesn't help you solve the problem because you haven't dealt with the `80` yet. The size of the most significant digits (`80`) is the most important factor in determining the overall size of the answer, so we must start there.
 
+
+## TODO
+why divide by 0 is undefined?
+inverse relationship between addition/subtraction multiplication/division
