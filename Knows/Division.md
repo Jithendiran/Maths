@@ -98,6 +98,8 @@ A rate is a comparison between two quantities that have different units. Rates a
 
 **Generalize**
 
+*Numerator unit **per** Denominator unit*
+
 how much of the first quantity corresponds to one unit of the second quantity.
 $$\text{Rate} = \frac{\text{Quantity A}}{\text{Quantity B}} \implies \text{The amount of Quantity A per single unit of Quantity B.}$$
 
@@ -109,40 +111,46 @@ Lets take time 6 hours as $x$ and distance 360Km as $y$
 
 * If we want to find the ditance $(y)$ covered for any amount of time $(x)$, we have to find the **Constant Rate of $y$ with respect to single unit of $x$**
 
-    $$\frac{\text{$y$}}{\text{$x$}} = \text{Constant rate of $y$ for single unit of $x$}$$
+> [!NOTE]  
+> Finding the constant rate (or unit rate) is the step that translates a specific observation into a general, predictive mathematical model.  
+> Like what is the $y$ amount at the given $x$?  
 
-    $$\frac{360 \text{ Km}}{6 \text{ Hours}} = 60 \frac{\text{Km}}{\text{Hour}} \text{or Km per Hour}$$
 
-    The finding is for every 1 hour **(Single unit of x)**, car travelled 60 Km **(Constant Rate of y)**
+$$\frac{\text{$y$}}{\text{$x$}} = \text{Constant rate of $y$ for single unit of $x$}$$
 
-    If we want to find for 2 hours or 0.5 hours substitute like this
-    
-    60 is always constant here
+$$\frac{360 \text{ Km}}{6 \text{ Hours}} = 60 \frac{\text{Km}}{\text{Hour}} \text{or Km per Hour}$$
 
-    $$\text{Constant Rate of y} \times \text{Change of x} = \text{Change of y}$$
+The finding is for every 1 hour **(Single unit of x)**, car travelled 60 Km **(Constant Rate of y)**
 
-    $$60 \times 0.5 = 30\text{ Km}$$
-    $$60 \times 1 = 60\text{ Km}$$
-    $$60 \times 2 = 120\text{ Km}$$
+If we want to find for 2 hours or 0.5 hours substitute like this
 
-    speed **AKA** Rate of Distance ($y$) with respect to Time ($x$)
+60 is always constant here
 
+$$\text{Constant Rate of y} \times \text{Change of x} = \text{Change of y}$$
+
+$$60 \times 0.5 = 30\text{ Km}$$
+$$60 \times 1 = 60\text{ Km}$$
+$$60 \times 2 = 120\text{ Km}$$
+
+speed **AKA** Rate of Distance ($y$) with respect to Time ($x$)
+
+When we have the constant rate of $y$, we can predict or find the $y$ based on changes of $x$, if rate of y is 60 for 1 hr of time, if we want to find for half and hour, reduce the constant to half, if you want to find for 2 hrs of time, increase the constant y to double
 
 * If we want to find the time $(x)$ taken to cover any amount of distance $(y)$, we have to find the **Constant Rate of $x$ with respect to single unit of $y$**
 
-    $$\frac{\text{$x$}}{\text{$y$}} = \text{Constant rate of $x$ for single unit of $y$}$$
+$$\frac{\text{$x$}}{\text{$y$}} = \text{Constant rate of $x$ for single unit of $y$}$$
 
-    $$\frac{6 \text{ Hours}}{360 \text{ Km}} = 0.016666667 \frac{\text{ Hour}}{\text{ Km}} \text{or Hours per Km}$$
+$$\frac{6 \text{ Hours}}{360 \text{ Km}} = 0.016666667 \frac{\text{ Hour}}{\text{ Km}} \text{or Hours per Km}$$
 
-    This finding is for every 1 KM **(Single unit of y)**, time taken is 0.016666667 Hours or $0.016666667\text{ hours }\times 60\text{ min/hour} = 1\text{ min}$
+This finding is for every 1 KM **(Single unit of y)**, time taken is 0.016666667 Hours or $0.016666667\text{ hours }\times 60\text{ min/hour} = 1\text{ min}$
 
-    if we want to find for 2 Km or 0.5 Km  substitute like this
+if we want to find for 2 Km or 0.5 Km  substitute like this
 
-    $0.016666667\text{ hours }$ or $1 \text{ min}$ is always constant here
+$0.016666667\text{ hours }$ or $1 \text{ min}$ is always constant here
 
-    $$\text{Constant Rate of x} \times \text{Change of y} = \text{Change of x}$$
-    $$0.016666667 \times 0.5 = 0.008333334\text{ Hour} \text{ or } 1 \times 0.5 = 0.5 \text{ min} $$
-    $$0.016666667 \times 2 = 0.033333334\text{ Hours} \text{ or } 1 \times 2 = 2 \text{ min}$$
-    $$0.016666667 \times 60 = 1\text{ Hour} \text{ or } 1 \times 60 = 60 \text{ min} $$
+$$\text{Constant Rate of x} \times \text{Change of y} = \text{Change of x}$$
+$$0.016666667 \times 0.5 = 0.008333334\text{ Hour} \text{ or } 1 \times 0.5 = 0.5 \text{ min} $$
+$$0.016666667 \times 2 = 0.033333334\text{ Hours} \text{ or } 1 \times 2 = 2 \text{ min}$$
+$$0.016666667 \times 60 = 1\text{ Hour} \text{ or } 1 \times 60 = 60 \text{ min} $$
 
-    Pace **AKA** Rate of Time ($x$) with respect to Distance ($y$)
+Pace **AKA** Rate of Time ($x$) with respect to Distance ($y$)
